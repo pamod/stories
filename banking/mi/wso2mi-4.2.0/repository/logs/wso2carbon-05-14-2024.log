@@ -1,0 +1,12 @@
+[2024-05-14 09:30:35,933]  INFO {org.apache.synapse.api.API} - {api:BankingPaymentsAPI} Initializing API: BankingPaymentsAPI
+[2024-05-14 09:30:35,934]  INFO {org.apache.synapse.core.axis2.Axis2SynapseEnvironment} - Continuation call is set to true
+[2024-05-14 09:30:35,938]  INFO {org.apache.synapse.deployers.APIDeployer} - API named 'BankingPaymentsAPI' has been deployed from file : /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/deployment/mi/wso2mi-4.2.0/tmp/carbonapps/-1234/1715659235902BankingIntegrationProjectCompositeExporter_1.0.0-SNAPSHOT.car/BankingPaymentsAPI_1.0.0/BankingPaymentsAPI-1.0.0.xml
+[2024-05-14 09:30:35,941]  INFO {org.wso2.micro.integrator.initializer.deployment.application.deployer.CappDeployer} - Successfully Deployed Carbon Application : BankingIntegrationProjectCompositeExporter_1.0.0-SNAPSHOT{super-tenant}
+[2024-05-14 09:30:35,966]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pass-through HTTP Listener started on 0.0.0.0:8290
+[2024-05-14 09:30:35,968]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pass-through HTTPS Listener started on 0.0.0.0:8253
+[2024-05-14 09:30:35,969]  INFO {org.wso2.micro.integrator.initializer.StartupFinalizer} - WSO2 Micro Integrator started in 2.76 seconds
+[2024-05-14 09:30:36,033]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pass-through EI_INTERNAL_HTTP_INBOUND_ENDPOINT Listener started on 0.0.0.0:9201
+[2024-05-14 09:30:36,047]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pass-through EI_INTERNAL_HTTPS_INBOUND_ENDPOINT Listener started on 0.0.0.0:9164
+[2024-05-14 09:34:35,474]  INFO {org.apache.synapse.mediators.builtin.LogMediator} - {api:BankingPaymentsAPI} To: /pay, MessageID: urn:uuid:fa18c074-8f31-43ab-b3aa-c8cd0e6a1782, correlation_id: fa18c074-8f31-43ab-b3aa-c8cd0e6a1782, Direction: request
+[2024-05-14 09:34:35,971]  INFO {org.apache.synapse.core.axis2.TimeoutHandler} - This engine will expire all callbacks after GLOBAL_TIMEOUT: 120 seconds, irrespective of the timeout action, after the specified or optional timeout
+[2024-05-14 09:34:59,033]  INFO {org.apache.synapse.mediators.builtin.LogMediator} - {api:BankingPaymentsAPI} To: /pay/allrecords, MessageID: urn:uuid:4f8ff79b-6292-4ecd-a79b-a2cd9cf1140d, correlation_id: 4f8ff79b-6292-4ecd-a79b-a2cd9cf1140d, Direction: request

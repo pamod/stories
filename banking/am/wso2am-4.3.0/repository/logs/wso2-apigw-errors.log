@@ -1,0 +1,32 @@
+2024-06-23T07:06:39,806 [-] [Start Level: Equinox Container: 922a83c9-817b-4f92-aa6d-1d91da559460]  WARN {org.apache.tomcat.util.digester.Digester} Match [Server/Service/Engine/Host/Valve] failed to set property [maxDays] to []
+2024-06-23T07:06:45,286 [-] [Framework Event Dispatcher: Equinox Container: 922a83c9-817b-4f92-aa6d-1d91da559460]  WARN {org.apache.axis2.description.java2wsdl.DefaultSchemaGenerator} We don't support method overloading. Ignoring [addRemoteServerConfig]
+2024-06-23T07:06:45,286 [-] [Framework Event Dispatcher: Equinox Container: 922a83c9-817b-4f92-aa6d-1d91da559460]  WARN {org.apache.axis2.description.java2wsdl.DefaultSchemaGenerator} We don't support method overloading. Ignoring [resetRemoteServerConfig]
+2024-06-23T07:06:46,638 [-] [Framework Event Dispatcher: Equinox Container: 922a83c9-817b-4f92-aa6d-1d91da559460]  WARN {org.wso2.carbon.identity.application.mgt.internal.ApplicationManagementServiceComponent} Templates directory not found at /Users/pamod/Desktop/setup/deployment/stories/banking/am/wso2am-4.3.0/repository/resources/identity/authntemplates
+2024-06-23T07:06:46,813 [-] [Framework Event Dispatcher: Equinox Container: 922a83c9-817b-4f92-aa6d-1d91da559460]  WARN {org.wso2.carbon.identity.auth.valve.internal.AuthenticationValveServiceComponent} File invalid_tenant_domain_response.html not found. The default content will be used as the error page content.
+2024-06-23T07:06:46,833 [-] [Framework Event Dispatcher: Equinox Container: 922a83c9-817b-4f92-aa6d-1d91da559460]  WARN {org.wso2.carbon.identity.auth.service.internal.AuthenticationServiceComponent} 
+
+##################################  ALERT  ##################################
+[WARNING]: Internal authentication is utilizing default credentials,
+which may expose the environment to potential security risks.
+If this is a production environment, change the credentials immediately.
+Please refer to the WSO2 security advisory: https://security.docs.wso2.com/en/latest/security-announcements/security-advisories/2023/WSO2-2023-2617/
+#############################################################################
+
+2024-06-23T07:06:48,200 [-] [Framework Event Dispatcher: Equinox Container: 922a83c9-817b-4f92-aa6d-1d91da559460]  WARN {org.wso2.carbon.identity.event.internal.IdentityEventServiceComponent} Properties for OrganizationCreationHandler is not configured. This event handler will not be activated
+2024-06-23T07:06:49,179 [-] [Framework Event Dispatcher: Equinox Container: 922a83c9-817b-4f92-aa6d-1d91da559460]  WARN {org.apache.synapse.commons.util.MiscellaneousUtil} Error loading properties from file at system defined location: /Users/pamod/Desktop/setup/deployment/stories/banking/am/wso2am-4.3.0/repository/conf/sequence-observers.xml
+2024-06-23T07:08:49,696 [-] [https-jsse-nio-9443-exec-18] ERROR {org.apache.jsp.services.refresh.refresh_jsp} org.wso2.carbon.ui.filters.cache.ContentTypeBasedCachePreventionFilter$1@22fb9a76
+2024-06-23T07:08:49,696 [-] [https-jsse-nio-9443-exec-38] ERROR {org.apache.jsp.services.refresh.refresh_jsp} org.wso2.carbon.ui.filters.cache.ContentTypeBasedCachePreventionFilter$1@475ef594
+2024-06-23T07:08:49,749 [-] [https-jsse-nio-9443-exec-29] ERROR {org.wso2.carbon.apimgt.rest.api.util.impl.OAuthOpaqueAuthenticatorImpl} Invalid OAuth Token : Invalid Access Token. ACTIVE access token is not found.
+2024-06-23T07:08:49,749 [-] [https-jsse-nio-9443-exec-24] ERROR {org.wso2.carbon.apimgt.rest.api.util.impl.OAuthOpaqueAuthenticatorImpl} Invalid OAuth Token : Invalid Access Token. ACTIVE access token is not found.
+2024-06-23T07:08:49,750 [-] [https-jsse-nio-9443-exec-29] ERROR {org.wso2.carbon.apimgt.rest.api.util.impl.OAuthOpaqueAuthenticatorImpl} Provided access token is invalid
+2024-06-23T07:08:49,750 [-] [https-jsse-nio-9443-exec-24] ERROR {org.wso2.carbon.apimgt.rest.api.util.impl.OAuthOpaqueAuthenticatorImpl} Provided access token is invalid
+2024-06-23T07:12:56,000 [-] [Framework stop]  WARN {org.apache.tomcat.util.net.NioEndpoint} Failed to unlock acceptor for [https-jsse-nio-9443] because the local address was not available
+2024-06-23T07:12:56,010 [-] [https-jsse-nio-9443-Acceptor] ERROR {org.apache.tomcat.util.net.Acceptor} Socket accept failed
+java.nio.channels.AsynchronousCloseException: null
+	at java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202) ~[?:?]
+	at sun.nio.ch.ServerSocketChannelImpl.end(ServerSocketChannelImpl.java:269) ~[?:?]
+	at sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:288) ~[?:?]
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:548) ~[tomcat_9.0.85.wso2v1.jar:?]
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:79) ~[tomcat_9.0.85.wso2v1.jar:?]
+	at org.apache.tomcat.util.net.Acceptor.run(Acceptor.java:129) ~[tomcat_9.0.85.wso2v1.jar:?]
+	at java.lang.Thread.run(Thread.java:829) ~[?:?]

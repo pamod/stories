@@ -1,0 +1,11 @@
+---
+key: "BankingPaymentsAPI-1.0.0"
+name : "BankingPaymentsAPI"
+displayName : "BankingPaymentsAPI"
+description: "Sample API"
+version: "1.0.0"
+serviceUrl: "http://localhost:8290/pay"
+definitionType: "OAS3"
+securityType: "BASIC"
+mutualSSLEnabled: false
+apiId : "null"

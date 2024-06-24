@@ -1,0 +1,29 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "inputType" : "JSON",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "root",
+  "type" : "object",
+  "properties" : {
+    "app" : {
+      "id" : "http://wso2jsonschema.org/app",
+      "type" : "string"
+    },
+    "branch" : {
+      "id" : "http://wso2jsonschema.org/branch",
+      "type" : "number"
+    },
+    "country" : {
+      "id" : "http://wso2jsonschema.org/country",
+      "type" : "string"
+    },
+    "id" : {
+      "id" : "http://wso2jsonschema.org/id",
+      "type" : "string"
+    },
+    "amount" : {
+      "id" : "http://wso2jsonschema.org/amount",
+      "type" : "number"
+    }
+  }
+}

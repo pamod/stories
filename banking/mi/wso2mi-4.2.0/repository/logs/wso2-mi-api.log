@@ -1,0 +1,31 @@
+[2024-04-24 11:55:37,080]  INFO {API_LOGGER.BankingPaymentsAPI} - Initializing API: BankingPaymentsAPI
+[2024-04-24 13:00:13,364]  INFO {API_LOGGER.BankingPaymentsAPI} - Destroying API: BankingPaymentsAPI
+[2024-05-14 09:30:35,934]  INFO {API_LOGGER.BankingPaymentsAPI} - Initializing API: BankingPaymentsAPI
+[2024-05-14 09:34:35,474]  INFO {API_LOGGER.BankingPaymentsAPI} - To: /pay, MessageID: urn:uuid:fa18c074-8f31-43ab-b3aa-c8cd0e6a1782, correlation_id: fa18c074-8f31-43ab-b3aa-c8cd0e6a1782, Direction: request
+[2024-05-14 09:34:59,033]  INFO {API_LOGGER.BankingPaymentsAPI} - To: /pay/allrecords, MessageID: urn:uuid:4f8ff79b-6292-4ecd-a79b-a2cd9cf1140d, correlation_id: 4f8ff79b-6292-4ecd-a79b-a2cd9cf1140d, Direction: request
+[2024-05-15 14:47:23,363]  INFO {API_LOGGER.BankingPaymentsAPI} - Destroying API: BankingPaymentsAPI
+[2024-06-17 11:56:13,116]  INFO {API_LOGGER.BankingPaymentsAPI} - Initializing API: BankingPaymentsAPI
+[2024-06-17 12:47:13,397]  INFO {API_LOGGER.BankingPaymentsAPI} - Destroying API: BankingPaymentsAPI
+[2024-06-17 12:48:00,792]  INFO {API_LOGGER.BankingPaymentsAPI} - Initializing API: BankingPaymentsAPI
+[2024-06-17 12:50:43,048]  INFO {API_LOGGER.BankingPaymentsAPI} - To: /pay/allrecords, MessageID: urn:uuid:ccc6b7b5-9fbe-47ef-8b25-28835283aabb, correlation_id: ccc6b7b5-9fbe-47ef-8b25-28835283aabb, Direction: request
+[2024-06-17 12:50:50,751]  INFO {API_LOGGER.BankingPaymentsAPI} - To: /pay, MessageID: urn:uuid:2f5ccd90-960b-410f-b432-e40caa92a7ae, correlation_id: 2f5ccd90-960b-410f-b432-e40caa92a7ae, Direction: request
+[2024-06-17 12:50:54,415]  INFO {API_LOGGER.BankingPaymentsAPI} - To: /pay/allrecords, MessageID: urn:uuid:e571a71a-6701-4429-968e-6b268cc89232, correlation_id: e571a71a-6701-4429-968e-6b268cc89232, Direction: request
+[2024-06-17 12:53:33,359]  INFO {API_LOGGER.BankingPaymentsAPI} - Destroying API: BankingPaymentsAPI
+[2024-06-17 13:51:19,319]  INFO {API_LOGGER.BankingPaymentsAPI} - Initializing API: BankingPaymentsAPI
+[2024-06-17 13:51:30,615]  INFO {API_LOGGER.BankingPaymentsAPI} - To: /pay/allrecords, MessageID: urn:uuid:bea6907b-9466-4c64-ab8c-988975bab3f8, correlation_id: bea6907b-9466-4c64-ab8c-988975bab3f8, Direction: request
+[2024-06-17 13:51:42,156]  INFO {API_LOGGER.BankingPaymentsAPI} - Destroying API: BankingPaymentsAPI
+[2024-06-17 13:58:00,249]  INFO {API_LOGGER.BankingPaymentsAPI} - Initializing API: BankingPaymentsAPI
+[2024-06-17 13:58:08,143]  INFO {API_LOGGER.BankingPaymentsAPI} - To: /pay/allrecords, MessageID: urn:uuid:49fe62ed-da87-4ce0-91c9-5b7201eeb6ef, correlation_id: 49fe62ed-da87-4ce0-91c9-5b7201eeb6ef, Direction: request
+[2024-06-17 14:00:13,182]  INFO {API_LOGGER.BankingPaymentsAPI} - Destroying API: BankingPaymentsAPI
+[2024-06-17 14:00:29,855]  INFO {API_LOGGER.BankingPaymentsAPI} - Initializing API: BankingPaymentsAPI
+[2024-06-17 14:00:39,638]  INFO {API_LOGGER.BankingPaymentsAPI} - To: /pay/allrecords, MessageID: urn:uuid:8d06aab7-7148-4c98-b68b-fb8186231b93, correlation_id: 8d06aab7-7148-4c98-b68b-fb8186231b93, Direction: request
+[2024-06-17 14:01:54,667]  WARN {API_LOGGER.BankingPaymentsAPI} - ERROR_CODE : 101503 ERROR_MESSAGE : Error connecting to the back end
+[2024-06-17 14:01:54,667]  WARN {API_LOGGER.BankingPaymentsAPI} - ERROR_CODE : 101503 ERROR_MESSAGE : Error connecting to the back end
+[2024-06-17 14:01:54,667]  WARN {API_LOGGER.BankingPaymentsAPI} - Executing fault sequence mediator : org.apache.synapse.mediators.base.SequenceMediator
+[2024-06-17 14:24:30,559]  INFO {API_LOGGER.BankingPaymentsAPI} - Destroying API: BankingPaymentsAPI
+[2024-06-17 14:25:00,601]  INFO {API_LOGGER.BankingPaymentsAPI} - Initializing API: BankingPaymentsAPI
+[2024-06-17 14:27:00,749]  INFO {API_LOGGER.BankingPaymentsAPI} - To: /pay/allrecords, MessageID: urn:uuid:e9b1785c-acdc-41a5-9632-b81a5af16c14, correlation_id: e9b1785c-acdc-41a5-9632-b81a5af16c14, Direction: request
+[2024-06-17 14:28:15,762]  WARN {API_LOGGER.BankingPaymentsAPI} - ERROR_CODE : 101503 ERROR_MESSAGE : Error connecting to the back end
+[2024-06-17 14:28:15,763]  WARN {API_LOGGER.BankingPaymentsAPI} - ERROR_CODE : 101503 ERROR_MESSAGE : Error connecting to the back end
+[2024-06-17 14:28:15,763]  WARN {API_LOGGER.BankingPaymentsAPI} - Executing fault sequence mediator : org.apache.synapse.mediators.base.SequenceMediator
+[2024-06-17 14:30:01,304]  INFO {API_LOGGER.BankingPaymentsAPI} - Destroying API: BankingPaymentsAPI

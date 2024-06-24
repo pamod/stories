@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: null
+  labels:
+    app: wso2mi-deployment
+  name: wso2mi-service
+spec:
+  ports:
+  - port: 8290
+    protocol: TCP
+    targetPort: 8290
+  selector:
+    app: wso2mi-deployment
+  type: NodePort
+status:
+  loadBalancer: {}

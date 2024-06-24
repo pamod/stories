@@ -1,0 +1,125 @@
+{
+    "consoleApp": {
+    },
+    "appBaseName": "myaccount",
+    "clientID": "MY_ACCOUNT",
+    "loginCallbackPath": "",
+    "logoutCallbackPath": "",
+    "routePaths": {
+            "home": "/overview",
+            "login": "",
+            "logout": "/logout"
+    },
+    "extensions": {
+    },
+    "requireSuperTenantInUrls" : false,
+    "idpConfigs": {
+            "logoutEndpointURL": "${serverOrigin}/oidc/logout",
+            "authorizeEndpointURL": "${serverOrigin}/oauth2/authorize",
+            "oidcSessionIFrameEndpointURL": "${serverOrigin}/oidc/checksession",
+            "scope": [
+                    "SYSTEM",
+                    "profile",
+                    "openid"
+            ]
+    },
+    "isSaas": false,
+    "session": {
+                "userIdleWarningTimeOut": 580.0,
+                "sessionRefreshTimeOut": 300.0,
+                "userIdleTimeOut": 600.0,
+                "checkSessionInterval": 3.0
+    },
+        "legacyAuthzRuntime": false,
+    "ui": {
+        "announcements": [
+        ],
+        "appCopyright": "WSO2 Identity Server",
+        "appTitle": "My Account | WSO2 Identity Server",
+        "appName": "My Account",
+        "appLogoPath": "/assets/images/branding/logo.svg",
+        "appWhiteLogoPath": "/assets/images/branding/logo-white.svg",
+        "authenticatorApp": {
+                "enabled": true
+        },
+        "features": {
+            "applications": {
+                "disabledFeatures": [
+                ],
+                "enabled": true,
+                "scopes": {
+                        "create": [],
+                        "read": [],
+                        "update": [],
+                        "delete": []
+                }
+            },
+            "operations": {
+                "disabledFeatures": [
+                ],
+                "enabled": true,
+                "scopes": {
+                    "create": [
+                    ],
+                    "read": [
+                            "internal_humantask_view"
+                    ],
+                    "update": [
+                    ],
+                    "delete": [
+                    ]
+                }
+            },
+            "overview": {
+                "disabledFeatures": [
+                ],
+                "enabled": true,
+                "scopes": {
+                        "create": [],
+                        "read": [],
+                        "update": [],
+                        "delete": []
+                }
+            },
+            "personalInfo": {
+                "disabledFeatures": [
+                    "profileInfo.mobileVerification"
+                ],
+                "enabled": true,
+                "scopes": {
+                        "create": [],
+                        "read": [],
+                        "update": [],
+                        "delete": []
+                }
+            },
+            "security": {
+                "disabledFeatures": [
+                    "security.loginVerifyData.typingDNA"
+                ],
+                "enabled": true,
+                "scopes": {
+                        "create": [],
+                        "read": [],
+                        "update": [],
+                        "delete": []
+                }
+            }
+        },
+        "isCookieConsentBannerEnabled": false,
+        "cookiePolicyUrl": "/authenticationendpoint/cookie_policy.do",
+        "isHeaderAvatarLabelAllowed": true,
+        "isPasswordInputValidationEnabled": true,
+        "i18nConfigs": {
+        },
+        "privacyPolicyConfigs": {
+        },
+        "productName": "WSO2 Identity Server",
+        "productVersionConfig": {
+                "versionOverride": ""
+        },
+        "theme": {
+            "name": "default"
+        }
+    }
+}

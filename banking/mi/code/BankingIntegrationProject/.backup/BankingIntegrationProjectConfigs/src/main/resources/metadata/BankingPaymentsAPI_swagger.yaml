@@ -1,0 +1,23 @@
+openapi: 3.0.1
+info:
+  title: BankingPaymentsAPI
+  description: API Definition of BankingPaymentsAPI
+  version: 1.0.0
+servers:
+- url: http://localhost:8290/pay
+paths:
+  /:
+    post:
+      responses:
+        default:
+          description: Default response
+  /allrecords:
+    get:
+      responses:
+        default:
+          description: Default response
+  /info:
+    get:
+      responses:
+        default:
+          description: Default response

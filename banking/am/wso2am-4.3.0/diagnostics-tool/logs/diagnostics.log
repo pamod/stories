@@ -1,0 +1,19 @@
+2024-06-23 07:07:05 ServerProcess [INFO] Server Process ID: 74019
+2024-06-23 07:07:05 DiagnosticsApp [INFO] Starting WSO2 Diagnostics Tool
+2024-06-23 07:07:05 DiagnosticsApp [INFO] Server name: WSO2 API Manager
+2024-06-23 07:07:05 DiagnosticsApp [INFO] Version: 4.3.0
+2024-06-23 07:07:05 DiagnosticsApp [INFO] Update Level: null
+2024-06-23 07:07:05 DiagnosticsApp [INFO] Java Version: 11.0.18
+2024-06-23 07:07:05 DiagnosticsApp [INFO] Java Home: /Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home
+2024-06-23 07:07:05 DiagnosticsApp [INFO] OS Name: Mac OS X
+2024-06-23 07:07:05 DiagnosticsApp [INFO] OS Version: 13.5
+2024-06-23 07:07:05 DiagnosticsApp [INFO] OS Architecture: aarch64
+2024-06-23 07:07:05 DiagnosticsApp [INFO] Diagnostic App Home: /Users/pamod/Desktop/setup/deployment/stories/banking/am/wso2am-4.3.0/diagnostics-tool
+2024-06-23 07:07:05 DiagnosticsApp [INFO] Listening to : ../repository/logs/wso2-apigw-errors.log
+2024-06-23 07:07:05 LogWatcher [INFO] Initiating LogWatcher for file: /Users/pamod/Desktop/setup/deployment/stories/banking/am/wso2am-4.3.0/diagnostics-tool/../repository/logs/wso2-apigw-errors.log
+2024-06-23 07:07:05 DiagnosticsApp [INFO] Initiating CPUWatcher with interval: 5 retry count: 2 threshold: 80
+2024-06-23 07:07:05 DiagnosticsApp [INFO] Initiating MemoryWatcher with interval: 5 retry count: 2 threshold: 80
+2024-06-23 07:07:05 TrafficAnalyzerInitializer [INFO] LastFifteenSecondsRequests Traffic Analyzer is enabled with window size: 100, interval: 15, delay: 4
+2024-06-23 07:07:05 TrafficAnalyzerInitializer [INFO] LastMinuteRequests Traffic Analyzer is enabled with window size: 100, interval: 60, delay: 1
+2024-06-23 07:12:50 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=http-listener,Type=PassThroughConnections
+2024-06-23 07:12:50 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=https-listener,Type=PassThroughConnections

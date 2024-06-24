@@ -1,0 +1,173 @@
+[2024-06-17 11:56:13,116]  INFO {org.apache.synapse.api.API} - {api:BankingPaymentsAPI} Initializing API: BankingPaymentsAPI
+[2024-06-17 11:56:13,116]  INFO {org.apache.synapse.core.axis2.Axis2SynapseEnvironment} - Continuation call is set to true
+[2024-06-17 11:56:13,118]  INFO {org.apache.synapse.deployers.APIDeployer} - API named 'BankingPaymentsAPI' has been deployed from file : /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/deployment/mi/wso2mi-4.2.0/tmp/carbonapps/-1234/1718605573083BankingIntegrationProject_1.0.0-SNAPSHOT.car/BankingPaymentsAPI_1.0.0/BankingPaymentsAPI-1.0.0.xml
+[2024-06-17 11:56:13,120]  INFO {org.wso2.micro.integrator.initializer.deployment.application.deployer.CappDeployer} - Successfully Deployed Carbon Application : BankingIntegrationProjectCompositeExporter_1.0.0-SNAPSHOT{super-tenant}
+[2024-06-17 11:56:13,144]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pass-through HTTP Listener started on 0.0.0.0:8290
+[2024-06-17 11:56:13,146]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pass-through HTTPS Listener started on 0.0.0.0:8253
+[2024-06-17 11:56:13,146]  INFO {org.wso2.micro.integrator.initializer.StartupFinalizer} - WSO2 Micro Integrator started in 2.76 seconds
+[2024-06-17 11:56:13,209]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pass-through EI_INTERNAL_HTTP_INBOUND_ENDPOINT Listener started on 0.0.0.0:9201
+[2024-06-17 11:56:13,217]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pass-through EI_INTERNAL_HTTPS_INBOUND_ENDPOINT Listener started on 0.0.0.0:9164
+[2024-06-17 12:47:13,368]  INFO {org.wso2.micro.integrator.core.internal.CoreServerInitializer} - Gracefully shutting down WSO2 Micro Integrator...
+[2024-06-17 12:47:13,371]  INFO {org.wso2.micro.core.ServerManagement} - Starting to switch to maintenance mode...
+[2024-06-17 12:47:13,372]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pausing  IO Reactor bind for port 8253
+[2024-06-17 12:47:13,372]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pausing  IO Reactor bind for port 8290
+[2024-06-17 12:47:13,373]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Shutting down IO Reactor bind for port 8290
+[2024-06-17 12:47:13,373]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Shutting down IO Reactor bind for port 8253
+[2024-06-17 12:47:13,375]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - HTTP-Listener I/O dispatcher Listener shutdown.
+[2024-06-17 12:47:13,375]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - HTTPS-Listener I/O dispatcher Listener shutdown.
+[2024-06-17 12:47:13,375]  INFO {org.wso2.micro.core.ServerManagement} - Stopped all transport listeners
+[2024-06-17 12:47:13,376]  INFO {org.wso2.micro.core.ServerManagement} - Waiting for request service completion...
+[2024-06-17 12:47:13,377]  INFO {org.wso2.micro.core.ServerManagement} - All requests have been served.
+[2024-06-17 12:47:13,377]  INFO {org.wso2.micro.core.ServerManagement} - Waiting for deployment completion...
+[2024-06-17 12:47:13,379]  INFO {org.wso2.micro.core.ServerManagement} - All deployment tasks have been completed.
+[2024-06-17 12:47:13,379]  INFO {org.wso2.micro.core.ServerManagement} - Waiting for server task completion...
+[2024-06-17 12:47:13,380]  INFO {org.wso2.micro.core.ServerManagement} - All server tasks have been completed.
+[2024-06-17 12:47:13,395]  INFO {org.apache.synapse.deployers.interceptor.DeploymentInterceptor} - Removing Axis2 Service: __SynapseService
+[2024-06-17 12:47:13,397]  INFO {org.apache.synapse.api.API} - {api:BankingPaymentsAPI} Destroying API: BankingPaymentsAPI
+[2024-06-17 12:47:13,398]  INFO {org.apache.synapse.core.axis2.Axis2SynapseEnvironment} - Continuation call is set to false
+[2024-06-17 12:47:13,399]  INFO {org.apache.synapse.task.SynapseTaskManager} - Shutting down the task manager
+[2024-06-17 12:48:00,792]  INFO {org.apache.synapse.api.API} - {api:BankingPaymentsAPI} Initializing API: BankingPaymentsAPI
+[2024-06-17 12:48:00,793]  INFO {org.apache.synapse.core.axis2.Axis2SynapseEnvironment} - Continuation call is set to true
+[2024-06-17 12:48:00,795]  INFO {org.apache.synapse.deployers.APIDeployer} - API named 'BankingPaymentsAPI' has been deployed from file : /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/deployment/mi/wso2mi-4.2.0/tmp/carbonapps/-1234/1718608680760BankingIntegrationProject_1.0.0-SNAPSHOT.car/BankingPaymentsAPI_1.0.0/BankingPaymentsAPI-1.0.0.xml
+[2024-06-17 12:48:00,797]  INFO {org.wso2.micro.integrator.initializer.deployment.application.deployer.CappDeployer} - Successfully Deployed Carbon Application : BankingIntegrationProjectCompositeExporter_1.0.0-SNAPSHOT{super-tenant}
+[2024-06-17 12:48:00,825]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pass-through HTTP Listener started on 0.0.0.0:8290
+[2024-06-17 12:48:00,827]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pass-through HTTPS Listener started on 0.0.0.0:8253
+[2024-06-17 12:48:00,829]  INFO {org.wso2.micro.integrator.initializer.StartupFinalizer} - WSO2 Micro Integrator started in 2.66 seconds
+[2024-06-17 12:48:00,897]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pass-through EI_INTERNAL_HTTP_INBOUND_ENDPOINT Listener started on 0.0.0.0:9201
+[2024-06-17 12:48:00,904]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pass-through EI_INTERNAL_HTTPS_INBOUND_ENDPOINT Listener started on 0.0.0.0:9164
+[2024-06-17 12:50:43,048]  INFO {org.apache.synapse.mediators.builtin.LogMediator} - {api:BankingPaymentsAPI} To: /pay/allrecords, MessageID: urn:uuid:ccc6b7b5-9fbe-47ef-8b25-28835283aabb, correlation_id: ccc6b7b5-9fbe-47ef-8b25-28835283aabb, Direction: request
+[2024-06-17 12:50:43,055]  INFO {org.apache.synapse.core.axis2.TimeoutHandler} - This engine will expire all callbacks after GLOBAL_TIMEOUT: 120 seconds, irrespective of the timeout action, after the specified or optional timeout
+[2024-06-17 12:50:50,751]  INFO {org.apache.synapse.mediators.builtin.LogMediator} - {api:BankingPaymentsAPI} To: /pay, MessageID: urn:uuid:2f5ccd90-960b-410f-b432-e40caa92a7ae, correlation_id: 2f5ccd90-960b-410f-b432-e40caa92a7ae, Direction: request
+[2024-06-17 12:50:54,415]  INFO {org.apache.synapse.mediators.builtin.LogMediator} - {api:BankingPaymentsAPI} To: /pay/allrecords, MessageID: urn:uuid:e571a71a-6701-4429-968e-6b268cc89232, correlation_id: e571a71a-6701-4429-968e-6b268cc89232, Direction: request
+[2024-06-17 12:53:33,336]  INFO {org.wso2.micro.integrator.core.internal.CoreServerInitializer} - Gracefully shutting down WSO2 Micro Integrator...
+[2024-06-17 12:53:33,339]  INFO {org.wso2.micro.core.ServerManagement} - Starting to switch to maintenance mode...
+[2024-06-17 12:53:33,340]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pausing  IO Reactor bind for port 8290
+[2024-06-17 12:53:33,340]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pausing  IO Reactor bind for port 8253
+[2024-06-17 12:53:33,341]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Shutting down IO Reactor bind for port 8290
+[2024-06-17 12:53:33,341]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Shutting down IO Reactor bind for port 8253
+[2024-06-17 12:53:33,342]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - HTTPS-Listener I/O dispatcher Listener shutdown.
+[2024-06-17 12:53:33,342]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - HTTP-Listener I/O dispatcher Listener shutdown.
+[2024-06-17 12:53:33,342]  INFO {org.wso2.micro.core.ServerManagement} - Stopped all transport listeners
+[2024-06-17 12:53:33,344]  INFO {org.wso2.micro.core.ServerManagement} - Waiting for request service completion...
+[2024-06-17 12:53:33,345]  INFO {org.wso2.micro.core.ServerManagement} - All requests have been served.
+[2024-06-17 12:53:33,345]  INFO {org.wso2.micro.core.ServerManagement} - Waiting for deployment completion...
+[2024-06-17 12:53:33,346]  INFO {org.wso2.micro.core.ServerManagement} - All deployment tasks have been completed.
+[2024-06-17 12:53:33,346]  INFO {org.wso2.micro.core.ServerManagement} - Waiting for server task completion...
+[2024-06-17 12:53:33,346]  INFO {org.wso2.micro.core.ServerManagement} - All server tasks have been completed.
+[2024-06-17 12:53:33,358]  INFO {org.apache.synapse.deployers.interceptor.DeploymentInterceptor} - Removing Axis2 Service: __SynapseService
+[2024-06-17 12:53:33,359]  INFO {org.apache.synapse.api.API} - {api:BankingPaymentsAPI} Destroying API: BankingPaymentsAPI
+[2024-06-17 12:53:33,360]  INFO {org.apache.synapse.core.axis2.Axis2SynapseEnvironment} - Continuation call is set to false
+[2024-06-17 12:53:33,360]  INFO {org.apache.synapse.task.SynapseTaskManager} - Shutting down the task manager
+[2024-06-17 13:51:19,319]  INFO {org.apache.synapse.api.API} - {api:BankingPaymentsAPI} Initializing API: BankingPaymentsAPI
+[2024-06-17 13:51:19,320]  INFO {org.apache.synapse.core.axis2.Axis2SynapseEnvironment} - Continuation call is set to true
+[2024-06-17 13:51:19,324]  INFO {org.apache.synapse.deployers.APIDeployer} - API named 'BankingPaymentsAPI' has been deployed from file : /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/deployment/mi/wso2mi-4.2.0/tmp/carbonapps/-1234/1718612479288BankingIntegrationProject_1.0.0-SNAPSHOT.car/BankingPaymentsAPI_1.0.0/BankingPaymentsAPI-1.0.0.xml
+[2024-06-17 13:51:19,326]  INFO {org.wso2.micro.integrator.initializer.deployment.application.deployer.CappDeployer} - Successfully Deployed Carbon Application : BankingIntegrationProjectCompositeExporter_1.0.0-SNAPSHOT{super-tenant}
+[2024-06-17 13:51:19,357]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pass-through HTTP Listener started on 0.0.0.0:8290
+[2024-06-17 13:51:19,359]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pass-through HTTPS Listener started on 0.0.0.0:8253
+[2024-06-17 13:51:19,360]  INFO {org.wso2.micro.integrator.initializer.StartupFinalizer} - WSO2 Micro Integrator started in 2.68 seconds
+[2024-06-17 13:51:19,438]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pass-through EI_INTERNAL_HTTP_INBOUND_ENDPOINT Listener started on 0.0.0.0:9201
+[2024-06-17 13:51:19,448]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pass-through EI_INTERNAL_HTTPS_INBOUND_ENDPOINT Listener started on 0.0.0.0:9164
+[2024-06-17 13:51:30,615]  INFO {org.apache.synapse.mediators.builtin.LogMediator} - {api:BankingPaymentsAPI} To: /pay/allrecords, MessageID: urn:uuid:bea6907b-9466-4c64-ab8c-988975bab3f8, correlation_id: bea6907b-9466-4c64-ab8c-988975bab3f8, Direction: request
+[2024-06-17 13:51:30,623]  INFO {org.apache.synapse.core.axis2.TimeoutHandler} - This engine will expire all callbacks after GLOBAL_TIMEOUT: 120 seconds, irrespective of the timeout action, after the specified or optional timeout
+[2024-06-17 13:51:42,133]  INFO {org.wso2.micro.integrator.core.internal.CoreServerInitializer} - Gracefully shutting down WSO2 Micro Integrator...
+[2024-06-17 13:51:42,135]  INFO {org.wso2.micro.core.ServerManagement} - Starting to switch to maintenance mode...
+[2024-06-17 13:51:42,136]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pausing  IO Reactor bind for port 8290
+[2024-06-17 13:51:42,136]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pausing  IO Reactor bind for port 8253
+[2024-06-17 13:51:42,137]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Shutting down IO Reactor bind for port 8253
+[2024-06-17 13:51:42,137]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Shutting down IO Reactor bind for port 8290
+[2024-06-17 13:51:42,138]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - HTTPS-Listener I/O dispatcher Listener shutdown.
+[2024-06-17 13:51:42,139]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - HTTP-Listener I/O dispatcher Listener shutdown.
+[2024-06-17 13:51:42,139]  INFO {org.wso2.micro.core.ServerManagement} - Stopped all transport listeners
+[2024-06-17 13:51:42,140]  INFO {org.wso2.micro.core.ServerManagement} - Waiting for request service completion...
+[2024-06-17 13:51:42,142]  INFO {org.wso2.micro.core.ServerManagement} - All requests have been served.
+[2024-06-17 13:51:42,142]  INFO {org.wso2.micro.core.ServerManagement} - Waiting for deployment completion...
+[2024-06-17 13:51:42,143]  INFO {org.wso2.micro.core.ServerManagement} - All deployment tasks have been completed.
+[2024-06-17 13:51:42,143]  INFO {org.wso2.micro.core.ServerManagement} - Waiting for server task completion...
+[2024-06-17 13:51:42,143]  INFO {org.wso2.micro.core.ServerManagement} - All server tasks have been completed.
+[2024-06-17 13:51:42,156]  INFO {org.apache.synapse.deployers.interceptor.DeploymentInterceptor} - Removing Axis2 Service: __SynapseService
+[2024-06-17 13:51:42,156]  INFO {org.apache.synapse.api.API} - {api:BankingPaymentsAPI} Destroying API: BankingPaymentsAPI
+[2024-06-17 13:51:42,158]  INFO {org.apache.synapse.core.axis2.Axis2SynapseEnvironment} - Continuation call is set to false
+[2024-06-17 13:51:42,158]  INFO {org.apache.synapse.task.SynapseTaskManager} - Shutting down the task manager
+[2024-06-17 13:55:45,182]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pass-through HTTP Listener started on 0.0.0.0:8290
+[2024-06-17 13:55:45,184]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pass-through HTTPS Listener started on 0.0.0.0:8253
+[2024-06-17 13:55:45,184]  INFO {org.wso2.micro.integrator.initializer.StartupFinalizer} - WSO2 Micro Integrator started in 2.60 seconds
+[2024-06-17 13:55:45,251]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pass-through EI_INTERNAL_HTTP_INBOUND_ENDPOINT Listener started on 0.0.0.0:9201
+[2024-06-17 13:55:45,261]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pass-through EI_INTERNAL_HTTPS_INBOUND_ENDPOINT Listener started on 0.0.0.0:9164
+[2024-06-17 13:56:04,387]  INFO {org.apache.synapse.mediators.builtin.LogMediator} - main sequence executed for call to non-existent = /pay/allrecords
+[2024-06-17 13:56:06,044]  INFO {org.apache.synapse.mediators.builtin.LogMediator} - main sequence executed for call to non-existent = /pay/allrecords
+[2024-06-17 13:58:00,249]  INFO {org.apache.synapse.api.API} - {api:BankingPaymentsAPI} Initializing API: BankingPaymentsAPI
+[2024-06-17 13:58:00,251]  INFO {org.apache.synapse.core.axis2.Axis2SynapseEnvironment} - Continuation call is set to true
+[2024-06-17 13:58:00,254]  INFO {org.apache.synapse.deployers.APIDeployer} - API named 'BankingPaymentsAPI' has been deployed from file : /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/deployment/mi/wso2mi-4.2.0/tmp/carbonapps/-1234/1718612880211BankingIntegrationProject_1.0.0-SNAPSHOT.car/BankingPaymentsAPI_1.0.0/BankingPaymentsAPI-1.0.0.xml
+[2024-06-17 13:58:00,255]  INFO {org.wso2.micro.integrator.initializer.deployment.application.deployer.CappDeployer} - Successfully Deployed Carbon Application : BankingIntegrationProjectCompositeExporter_1.0.0-SNAPSHOT{super-tenant}
+[2024-06-17 13:58:08,143]  INFO {org.apache.synapse.mediators.builtin.LogMediator} - {api:BankingPaymentsAPI} To: /pay/allrecords, MessageID: urn:uuid:49fe62ed-da87-4ce0-91c9-5b7201eeb6ef, correlation_id: 49fe62ed-da87-4ce0-91c9-5b7201eeb6ef, Direction: request
+[2024-06-17 13:58:08,150]  INFO {org.apache.synapse.core.axis2.TimeoutHandler} - This engine will expire all callbacks after GLOBAL_TIMEOUT: 120 seconds, irrespective of the timeout action, after the specified or optional timeout
+[2024-06-17 14:00:13,157]  INFO {org.wso2.micro.integrator.core.internal.CoreServerInitializer} - Gracefully shutting down WSO2 Micro Integrator...
+[2024-06-17 14:00:13,159]  INFO {org.wso2.micro.core.ServerManagement} - Starting to switch to maintenance mode...
+[2024-06-17 14:00:13,160]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pausing  IO Reactor bind for port 8290
+[2024-06-17 14:00:13,161]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pausing  IO Reactor bind for port 8253
+[2024-06-17 14:00:13,161]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Shutting down IO Reactor bind for port 8290
+[2024-06-17 14:00:13,161]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Shutting down IO Reactor bind for port 8253
+[2024-06-17 14:00:13,163]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - HTTPS-Listener I/O dispatcher Listener shutdown.
+[2024-06-17 14:00:13,163]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - HTTP-Listener I/O dispatcher Listener shutdown.
+[2024-06-17 14:00:13,163]  INFO {org.wso2.micro.core.ServerManagement} - Stopped all transport listeners
+[2024-06-17 14:00:13,165]  INFO {org.wso2.micro.core.ServerManagement} - Waiting for request service completion...
+[2024-06-17 14:00:13,165]  INFO {org.wso2.micro.core.ServerManagement} - All requests have been served.
+[2024-06-17 14:00:13,166]  INFO {org.wso2.micro.core.ServerManagement} - Waiting for deployment completion...
+[2024-06-17 14:00:13,167]  INFO {org.wso2.micro.core.ServerManagement} - All deployment tasks have been completed.
+[2024-06-17 14:00:13,167]  INFO {org.wso2.micro.core.ServerManagement} - Waiting for server task completion...
+[2024-06-17 14:00:13,167]  INFO {org.wso2.micro.core.ServerManagement} - All server tasks have been completed.
+[2024-06-17 14:00:13,181]  INFO {org.apache.synapse.deployers.interceptor.DeploymentInterceptor} - Removing Axis2 Service: __SynapseService
+[2024-06-17 14:00:13,182]  INFO {org.apache.synapse.api.API} - {api:BankingPaymentsAPI} Destroying API: BankingPaymentsAPI
+[2024-06-17 14:00:13,183]  INFO {org.apache.synapse.core.axis2.Axis2SynapseEnvironment} - Continuation call is set to false
+[2024-06-17 14:00:13,183]  INFO {org.apache.synapse.task.SynapseTaskManager} - Shutting down the task manager
+[2024-06-17 14:00:29,855]  INFO {org.apache.synapse.api.API} - {api:BankingPaymentsAPI} Initializing API: BankingPaymentsAPI
+[2024-06-17 14:00:29,856]  INFO {org.apache.synapse.core.axis2.Axis2SynapseEnvironment} - Continuation call is set to true
+[2024-06-17 14:00:29,859]  INFO {org.apache.synapse.deployers.APIDeployer} - API named 'BankingPaymentsAPI' has been deployed from file : /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/deployment/mi/wso2mi-4.2.0/tmp/carbonapps/-1234/1718613029824BankingIntegrationProject_1.0.0-SNAPSHOT.car/BankingPaymentsAPI_1.0.0/BankingPaymentsAPI-1.0.0.xml
+[2024-06-17 14:00:29,861]  INFO {org.wso2.micro.integrator.initializer.deployment.application.deployer.CappDeployer} - Successfully Deployed Carbon Application : BankingIntegrationProjectCompositeExporter_1.0.0-SNAPSHOT{super-tenant}
+[2024-06-17 14:00:29,877]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pass-through HTTP Listener started on 0.0.0.0:8290
+[2024-06-17 14:00:29,885]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pass-through HTTPS Listener started on 0.0.0.0:8253
+[2024-06-17 14:00:29,886]  INFO {org.wso2.micro.integrator.initializer.StartupFinalizer} - WSO2 Micro Integrator started in 2.73 seconds
+[2024-06-17 14:00:29,962]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pass-through EI_INTERNAL_HTTP_INBOUND_ENDPOINT Listener started on 0.0.0.0:9201
+[2024-06-17 14:00:29,970]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pass-through EI_INTERNAL_HTTPS_INBOUND_ENDPOINT Listener started on 0.0.0.0:9164
+[2024-06-17 14:00:39,637]  INFO {org.apache.synapse.mediators.builtin.LogMediator} - {api:BankingPaymentsAPI} To: /pay/allrecords, MessageID: urn:uuid:8d06aab7-7148-4c98-b68b-fb8186231b93, correlation_id: 8d06aab7-7148-4c98-b68b-fb8186231b93, Direction: request
+[2024-06-17 14:00:39,645]  INFO {org.apache.synapse.core.axis2.TimeoutHandler} - This engine will expire all callbacks after GLOBAL_TIMEOUT: 120 seconds, irrespective of the timeout action, after the specified or optional timeout
+[2024-06-17 14:01:54,654]  WARN {org.apache.synapse.transport.passthru.ConnectCallback} - Connection refused or failed for : /172.17.0.2:8080
+[2024-06-17 14:01:54,667]  WARN {org.apache.synapse.endpoints.EndpointContext} - Endpoint : AnonymousEndpoint with address http://172.17.0.2:8080/payment/all will be marked SUSPENDED as it failed
+[2024-06-17 14:01:54,667]  WARN {org.apache.synapse.endpoints.EndpointContext} - Suspending endpoint : AnonymousEndpoint with address http://172.17.0.2:8080/payment/all - current suspend duration is : 30000ms - Next retry after : Mon Jun 17 14:02:24 IST 2024
+[2024-06-17 14:03:39,897]  INFO {org.apache.synapse.transport.passthru.SourceHandler} - Writer null when calling informWriterError
+[2024-06-17 14:03:39,897]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - STATE_DESCRIPTION = Socket Timeout occurred after accepting the request headers and the request body, INTERNAL_STATE = REQUEST_DONE, DIRECTION = REQUEST, CAUSE_OF_ERROR = Connection between the client and the WSO2 server timeouts, HTTP_URL = /pay/allrecords, HTTP_METHOD = GET, SOCKET_TIMEOUT = 180000, CLIENT_ADDRESS = /127.0.0.1:54918, CORRELATION_ID = 8d06aab7-7148-4c98-b68b-fb8186231b93, CONNECTION = http-incoming-1
+[2024-06-17 14:24:30,556]  INFO {org.wso2.micro.integrator.initializer.deployment.application.deployer.CappDeployer} - Undeploying Carbon Application : BankingIntegrationProjectCompositeExporter_1.0.0-SNAPSHOT...
+[2024-06-17 14:24:30,559]  INFO {org.apache.synapse.deployers.APIDeployer} - API named 'BankingPaymentsAPI' has been undeployed
+[2024-06-17 14:24:30,559]  INFO {org.apache.synapse.api.API} - {api:BankingPaymentsAPI} Destroying API: BankingPaymentsAPI
+[2024-06-17 14:24:30,560]  INFO {org.apache.synapse.core.axis2.Axis2SynapseEnvironment} - Continuation call is set to false
+[2024-06-17 14:24:30,573]  INFO {org.wso2.micro.integrator.initializer.deployment.application.deployer.CappDeployer} - Successfully undeployed Carbon Application : BankingIntegrationProjectCompositeExporter_1.0.0-SNAPSHOT{super-tenant}
+[2024-06-17 14:25:00,601]  INFO {org.apache.synapse.api.API} - {api:BankingPaymentsAPI} Initializing API: BankingPaymentsAPI
+[2024-06-17 14:25:00,601]  INFO {org.apache.synapse.core.axis2.Axis2SynapseEnvironment} - Continuation call is set to true
+[2024-06-17 14:25:00,601]  INFO {org.apache.synapse.deployers.APIDeployer} - API named 'BankingPaymentsAPI' has been deployed from file : /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/deployment/mi/wso2mi-4.2.0/tmp/carbonapps/-1234/1718614500588BankingIntegrationProject_1.0.0-SNAPSHOT.car/BankingPaymentsAPI_1.0.0/BankingPaymentsAPI-1.0.0.xml
+[2024-06-17 14:25:00,601]  INFO {org.wso2.micro.integrator.initializer.deployment.application.deployer.CappDeployer} - Successfully Deployed Carbon Application : BankingIntegrationProjectCompositeExporter_1.0.0-SNAPSHOT{super-tenant}
+[2024-06-17 14:27:00,748]  INFO {org.apache.synapse.mediators.builtin.LogMediator} - {api:BankingPaymentsAPI} To: /pay/allrecords, MessageID: urn:uuid:e9b1785c-acdc-41a5-9632-b81a5af16c14, correlation_id: e9b1785c-acdc-41a5-9632-b81a5af16c14, Direction: request
+[2024-06-17 14:27:32,786]  INFO {org.wso2.micro.integrator.core.internal.CoreServerInitializer} - Gracefully shutting down WSO2 Micro Integrator...
+[2024-06-17 14:27:32,788]  INFO {org.wso2.micro.core.ServerManagement} - Starting to switch to maintenance mode...
+[2024-06-17 14:27:32,789]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pausing  IO Reactor bind for port 8290
+[2024-06-17 14:27:32,790]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pausing  IO Reactor bind for port 8253
+[2024-06-17 14:27:32,790]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Waiting to cleanup active connections on port 8290: 1
+[2024-06-17 14:27:32,790]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Shutting down IO Reactor bind for port 8253
+[2024-06-17 14:27:32,792]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - HTTPS-Listener I/O dispatcher Listener shutdown.
+[2024-06-17 14:28:15,758]  WARN {org.apache.synapse.transport.passthru.ConnectCallback} - Connection refused or failed for : /172.17.0.2:8080
+[2024-06-17 14:28:15,763]  WARN {org.apache.synapse.endpoints.EndpointContext} - Endpoint : AnonymousEndpoint with address http://172.17.0.2:8080/payment/all will be marked SUSPENDED as it failed
+[2024-06-17 14:28:15,763]  WARN {org.apache.synapse.endpoints.EndpointContext} - Suspending endpoint : AnonymousEndpoint with address http://172.17.0.2:8080/payment/all - current suspend duration is : 30000ms - Next retry after : Mon Jun 17 14:28:45 IST 2024
+[2024-06-17 14:30:00,901]  INFO {org.apache.synapse.transport.passthru.SourceHandler} - Writer null when calling informWriterError
+[2024-06-17 14:30:00,901]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - STATE_DESCRIPTION = Socket Timeout occurred after accepting the request headers and the request body, INTERNAL_STATE = REQUEST_DONE, DIRECTION = REQUEST, CAUSE_OF_ERROR = Connection between the client and the WSO2 server timeouts, HTTP_URL = /pay/allrecords, HTTP_METHOD = GET, SOCKET_TIMEOUT = 180000, CLIENT_ADDRESS = /127.0.0.1:55455, CORRELATION_ID = e9b1785c-acdc-41a5-9632-b81a5af16c14, CONNECTION = http-incoming-2
+[2024-06-17 14:30:01,268]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Shutting down IO Reactor bind for port 8290
+[2024-06-17 14:30:01,270]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - HTTP-Listener I/O dispatcher Listener shutdown.
+[2024-06-17 14:30:01,271]  INFO {org.wso2.micro.core.ServerManagement} - Stopped all transport listeners
+[2024-06-17 14:30:01,286]  INFO {org.wso2.micro.core.ServerManagement} - Waiting for request service completion...
+[2024-06-17 14:30:01,288]  INFO {org.wso2.micro.core.ServerManagement} - All requests have been served.
+[2024-06-17 14:30:01,288]  INFO {org.wso2.micro.core.ServerManagement} - Waiting for deployment completion...
+[2024-06-17 14:30:01,290]  INFO {org.wso2.micro.core.ServerManagement} - All deployment tasks have been completed.
+[2024-06-17 14:30:01,290]  INFO {org.wso2.micro.core.ServerManagement} - Waiting for server task completion...
+[2024-06-17 14:30:01,290]  INFO {org.wso2.micro.core.ServerManagement} - All server tasks have been completed.
+[2024-06-17 14:30:01,303]  INFO {org.apache.synapse.deployers.interceptor.DeploymentInterceptor} - Removing Axis2 Service: __SynapseService
+[2024-06-17 14:30:01,304]  INFO {org.apache.synapse.api.API} - {api:BankingPaymentsAPI} Destroying API: BankingPaymentsAPI
+[2024-06-17 14:30:01,305]  INFO {org.apache.synapse.core.axis2.Axis2SynapseEnvironment} - Continuation call is set to false
+[2024-06-17 14:30:01,305]  INFO {org.apache.synapse.task.SynapseTaskManager} - Shutting down the task manager

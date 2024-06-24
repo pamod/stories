@@ -1,0 +1,176 @@
+2024-06-22 14:03:38 ServerProcess [INFO] Server Process ID: 65233
+2024-06-22 14:03:38 DiagnosticsApp [INFO] Starting WSO2 Diagnostics Tool
+2024-06-22 14:03:38 DiagnosticsApp [INFO] Server name: WSO2 API Manager
+2024-06-22 14:03:38 DiagnosticsApp [INFO] Version: 4.3.0
+2024-06-22 14:03:38 DiagnosticsApp [INFO] Update Level: null
+2024-06-22 14:03:38 DiagnosticsApp [INFO] Java Version: 11.0.18
+2024-06-22 14:03:38 DiagnosticsApp [INFO] Java Home: /Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home
+2024-06-22 14:03:38 DiagnosticsApp [INFO] OS Name: Mac OS X
+2024-06-22 14:03:38 DiagnosticsApp [INFO] OS Version: 13.5
+2024-06-22 14:03:38 DiagnosticsApp [INFO] OS Architecture: aarch64
+2024-06-22 14:03:38 DiagnosticsApp [INFO] Diagnostic App Home: /Users/pamod/Desktop/setup/deployment/stories/banking/am/wso2am-4.3.0/diagnostics-tool
+2024-06-22 14:03:38 DiagnosticsApp [INFO] Listening to : ../repository/logs/wso2-apigw-errors.log
+2024-06-22 14:03:38 LogWatcher [INFO] Initiating LogWatcher for file: /Users/pamod/Desktop/setup/deployment/stories/banking/am/wso2am-4.3.0/diagnostics-tool/../repository/logs/wso2-apigw-errors.log
+2024-06-22 14:03:38 DiagnosticsApp [INFO] Initiating CPUWatcher with interval: 5 retry count: 2 threshold: 80
+2024-06-22 14:03:38 DiagnosticsApp [INFO] Initiating MemoryWatcher with interval: 5 retry count: 2 threshold: 80
+2024-06-22 14:03:38 TrafficAnalyzerInitializer [INFO] LastFifteenSecondsRequests Traffic Analyzer is enabled with window size: 100, interval: 15, delay: 4
+2024-06-22 14:03:38 TrafficAnalyzerInitializer [INFO] LastMinuteRequests Traffic Analyzer is enabled with window size: 100, interval: 60, delay: 1
+2024-06-22 14:05:08 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=http-listener,Type=PassThroughConnections
+2024-06-22 14:05:08 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=https-listener,Type=PassThroughConnections
+2024-06-22 14:07:12 ServerProcess [INFO] Server Process ID: 65456
+2024-06-22 14:07:12 DiagnosticsApp [INFO] Starting WSO2 Diagnostics Tool
+2024-06-22 14:07:12 DiagnosticsApp [INFO] Server name: WSO2 API Manager
+2024-06-22 14:07:12 DiagnosticsApp [INFO] Version: 4.3.0
+2024-06-22 14:07:12 DiagnosticsApp [INFO] Update Level: null
+2024-06-22 14:07:12 DiagnosticsApp [INFO] Java Version: 11.0.18
+2024-06-22 14:07:12 DiagnosticsApp [INFO] Java Home: /Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home
+2024-06-22 14:07:12 DiagnosticsApp [INFO] OS Name: Mac OS X
+2024-06-22 14:07:12 DiagnosticsApp [INFO] OS Version: 13.5
+2024-06-22 14:07:12 DiagnosticsApp [INFO] OS Architecture: aarch64
+2024-06-22 14:07:12 DiagnosticsApp [INFO] Diagnostic App Home: /Users/pamod/Desktop/setup/deployment/stories/banking/am/wso2am-4.3.0/diagnostics-tool
+2024-06-22 14:07:12 DiagnosticsApp [INFO] Listening to : ../repository/logs/wso2-apigw-errors.log
+2024-06-22 14:07:12 LogWatcher [INFO] Initiating LogWatcher for file: /Users/pamod/Desktop/setup/deployment/stories/banking/am/wso2am-4.3.0/diagnostics-tool/../repository/logs/wso2-apigw-errors.log
+2024-06-22 14:07:12 DiagnosticsApp [INFO] Initiating CPUWatcher with interval: 5 retry count: 2 threshold: 80
+2024-06-22 14:07:12 DiagnosticsApp [INFO] Initiating MemoryWatcher with interval: 5 retry count: 2 threshold: 80
+2024-06-22 14:07:12 TrafficAnalyzerInitializer [INFO] LastFifteenSecondsRequests Traffic Analyzer is enabled with window size: 100, interval: 15, delay: 4
+2024-06-22 14:07:12 TrafficAnalyzerInitializer [INFO] LastMinuteRequests Traffic Analyzer is enabled with window size: 100, interval: 60, delay: 1
+2024-06-22 14:09:04 ServerProcess [INFO] Server Process ID: 65595
+2024-06-22 14:09:04 DiagnosticsApp [INFO] Starting WSO2 Diagnostics Tool
+2024-06-22 14:09:04 DiagnosticsApp [INFO] Server name: WSO2 API Manager
+2024-06-22 14:09:04 DiagnosticsApp [INFO] Version: 4.3.0
+2024-06-22 14:09:04 DiagnosticsApp [INFO] Update Level: null
+2024-06-22 14:09:04 DiagnosticsApp [INFO] Java Version: 11.0.18
+2024-06-22 14:09:04 DiagnosticsApp [INFO] Java Home: /Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home
+2024-06-22 14:09:04 DiagnosticsApp [INFO] OS Name: Mac OS X
+2024-06-22 14:09:04 DiagnosticsApp [INFO] OS Version: 13.5
+2024-06-22 14:09:04 DiagnosticsApp [INFO] OS Architecture: aarch64
+2024-06-22 14:09:04 DiagnosticsApp [INFO] Diagnostic App Home: /Users/pamod/Desktop/setup/deployment/stories/banking/am/wso2am-4.3.0/diagnostics-tool
+2024-06-22 14:09:04 DiagnosticsApp [INFO] Listening to : ../repository/logs/wso2-apigw-errors.log
+2024-06-22 14:09:04 LogWatcher [INFO] Initiating LogWatcher for file: /Users/pamod/Desktop/setup/deployment/stories/banking/am/wso2am-4.3.0/diagnostics-tool/../repository/logs/wso2-apigw-errors.log
+2024-06-22 14:09:04 DiagnosticsApp [INFO] Initiating CPUWatcher with interval: 5 retry count: 2 threshold: 80
+2024-06-22 14:09:04 DiagnosticsApp [INFO] Initiating MemoryWatcher with interval: 5 retry count: 2 threshold: 80
+2024-06-22 14:09:04 TrafficAnalyzerInitializer [INFO] LastFifteenSecondsRequests Traffic Analyzer is enabled with window size: 100, interval: 15, delay: 4
+2024-06-22 14:09:04 TrafficAnalyzerInitializer [INFO] LastMinuteRequests Traffic Analyzer is enabled with window size: 100, interval: 60, delay: 1
+2024-06-22 14:12:34 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=http-listener,Type=PassThroughConnections
+2024-06-22 14:12:34 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=https-listener,Type=PassThroughConnections
+2024-06-22 14:12:40 JMXDataRetriever [ERROR] Error while getting JMX data
+java.rmi.ConnectException: Connection refused to host: 192.168.1.5; nested exception is: 
+	java.net.ConnectException: Connection refused (Connection refused)
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:623) ~[?:?]
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:209) ~[?:?]
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:196) ~[?:?]
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:132) ~[?:?]
+	at jdk.jmx.remote.internal.rmi.PRef.invoke(Unknown Source) ~[?:?]
+	at javax.management.remote.rmi.RMIConnectionImpl_Stub.getAttribute(Unknown Source) ~[?:?]
+	at javax.management.remote.rmi.RMIConnector$RemoteMBeanServerConnection.getAttribute(RMIConnector.java:904) ~[?:?]
+	at org.wso2.diagnostics.utils.JMXDataRetriever.getJmxData(JMXDataRetriever.java:95) [runtime-diagnostics-tool-1.0.16.jar:1.0.16]
+	at org.wso2.diagnostics.utils.JMXDataRetriever.getMemoryUsage(JMXDataRetriever.java:56) [runtime-diagnostics-tool-1.0.16.jar:1.0.16]
+	at org.wso2.diagnostics.watchers.MemoryWatcher.run(MemoryWatcher.java:58) [runtime-diagnostics-tool-1.0.16.jar:1.0.16]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:?]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412) ~[?:?]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255) ~[?:?]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237) ~[?:?]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:?]
+	at java.net.Socket.connect(Socket.java:609) ~[?:?]
+	at java.net.Socket.connect(Socket.java:558) ~[?:?]
+	at java.net.Socket.<init>(Socket.java:454) ~[?:?]
+	at java.net.Socket.<init>(Socket.java:231) ~[?:?]
+	at sun.rmi.transport.tcp.TCPDirectSocketFactory.createSocket(TCPDirectSocketFactory.java:40) ~[?:?]
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:617) ~[?:?]
+	... 15 more
+2024-06-22 14:12:40 JMXDataRetriever [ERROR] Error while getting JMX data
+java.rmi.ConnectException: Connection refused to host: 192.168.1.5; nested exception is: 
+	java.net.ConnectException: Connection refused (Connection refused)
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:623) ~[?:?]
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:209) ~[?:?]
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:196) ~[?:?]
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:132) ~[?:?]
+	at jdk.jmx.remote.internal.rmi.PRef.invoke(Unknown Source) ~[?:?]
+	at javax.management.remote.rmi.RMIConnectionImpl_Stub.getAttribute(Unknown Source) ~[?:?]
+	at javax.management.remote.rmi.RMIConnector$RemoteMBeanServerConnection.getAttribute(RMIConnector.java:904) ~[?:?]
+	at org.wso2.diagnostics.utils.JMXDataRetriever.getJmxData(JMXDataRetriever.java:95) [runtime-diagnostics-tool-1.0.16.jar:1.0.16]
+	at org.wso2.diagnostics.utils.JMXDataRetriever.getCpuUsage(JMXDataRetriever.java:51) [runtime-diagnostics-tool-1.0.16.jar:1.0.16]
+	at org.wso2.diagnostics.watchers.CPUWatcher.run(CPUWatcher.java:58) [runtime-diagnostics-tool-1.0.16.jar:1.0.16]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:?]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412) ~[?:?]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255) ~[?:?]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237) ~[?:?]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:?]
+	at java.net.Socket.connect(Socket.java:609) ~[?:?]
+	at java.net.Socket.connect(Socket.java:558) ~[?:?]
+	at java.net.Socket.<init>(Socket.java:454) ~[?:?]
+	at java.net.Socket.<init>(Socket.java:231) ~[?:?]
+	at sun.rmi.transport.tcp.TCPDirectSocketFactory.createSocket(TCPDirectSocketFactory.java:40) ~[?:?]
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:617) ~[?:?]
+	... 15 more
+2024-06-22 14:26:40 ServerProcess [INFO] Server Process ID: 66814
+2024-06-22 14:26:40 DiagnosticsApp [INFO] Starting WSO2 Diagnostics Tool
+2024-06-22 14:26:40 DiagnosticsApp [INFO] Server name: WSO2 API Manager
+2024-06-22 14:26:40 DiagnosticsApp [INFO] Version: 4.3.0
+2024-06-22 14:26:40 DiagnosticsApp [INFO] Update Level: null
+2024-06-22 14:26:40 DiagnosticsApp [INFO] Java Version: 11.0.18
+2024-06-22 14:26:40 DiagnosticsApp [INFO] Java Home: /Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home
+2024-06-22 14:26:40 DiagnosticsApp [INFO] OS Name: Mac OS X
+2024-06-22 14:26:40 DiagnosticsApp [INFO] OS Version: 13.5
+2024-06-22 14:26:40 DiagnosticsApp [INFO] OS Architecture: aarch64
+2024-06-22 14:26:40 DiagnosticsApp [INFO] Diagnostic App Home: /Users/pamod/Desktop/setup/deployment/stories/banking/am/wso2am-4.3.0/diagnostics-tool
+2024-06-22 14:26:40 DiagnosticsApp [INFO] Listening to : ../repository/logs/wso2-apigw-errors.log
+2024-06-22 14:26:40 LogWatcher [INFO] Initiating LogWatcher for file: /Users/pamod/Desktop/setup/deployment/stories/banking/am/wso2am-4.3.0/diagnostics-tool/../repository/logs/wso2-apigw-errors.log
+2024-06-22 14:26:40 DiagnosticsApp [INFO] Initiating CPUWatcher with interval: 5 retry count: 2 threshold: 80
+2024-06-22 14:26:40 DiagnosticsApp [INFO] Initiating MemoryWatcher with interval: 5 retry count: 2 threshold: 80
+2024-06-22 14:26:40 TrafficAnalyzerInitializer [INFO] LastFifteenSecondsRequests Traffic Analyzer is enabled with window size: 100, interval: 15, delay: 4
+2024-06-22 14:26:40 TrafficAnalyzerInitializer [INFO] LastMinuteRequests Traffic Analyzer is enabled with window size: 100, interval: 60, delay: 1
+2024-06-22 14:28:55 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=http-listener,Type=PassThroughConnections
+2024-06-22 14:28:55 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=https-listener,Type=PassThroughConnections
+2024-06-22 16:43:52 ServerProcess [INFO] Server Process ID: 67974
+2024-06-22 16:43:53 DiagnosticsApp [INFO] Starting WSO2 Diagnostics Tool
+2024-06-22 16:43:53 DiagnosticsApp [INFO] Server name: WSO2 API Manager
+2024-06-22 16:43:53 DiagnosticsApp [INFO] Version: 4.3.0
+2024-06-22 16:43:53 DiagnosticsApp [INFO] Update Level: null
+2024-06-22 16:43:53 DiagnosticsApp [INFO] Java Version: 11.0.18
+2024-06-22 16:43:53 DiagnosticsApp [INFO] Java Home: /Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home
+2024-06-22 16:43:53 DiagnosticsApp [INFO] OS Name: Mac OS X
+2024-06-22 16:43:53 DiagnosticsApp [INFO] OS Version: 13.5
+2024-06-22 16:43:53 DiagnosticsApp [INFO] OS Architecture: aarch64
+2024-06-22 16:43:53 DiagnosticsApp [INFO] Diagnostic App Home: /Users/pamod/Desktop/setup/deployment/stories/banking/am/wso2am-4.3.0/diagnostics-tool
+2024-06-22 16:43:53 DiagnosticsApp [INFO] Listening to : ../repository/logs/wso2-apigw-errors.log
+2024-06-22 16:43:53 LogWatcher [INFO] Initiating LogWatcher for file: /Users/pamod/Desktop/setup/deployment/stories/banking/am/wso2am-4.3.0/diagnostics-tool/../repository/logs/wso2-apigw-errors.log
+2024-06-22 16:43:53 DiagnosticsApp [INFO] Initiating CPUWatcher with interval: 5 retry count: 2 threshold: 80
+2024-06-22 16:43:53 DiagnosticsApp [INFO] Initiating MemoryWatcher with interval: 5 retry count: 2 threshold: 80
+2024-06-22 16:43:53 TrafficAnalyzerInitializer [INFO] LastFifteenSecondsRequests Traffic Analyzer is enabled with window size: 100, interval: 15, delay: 4
+2024-06-22 16:43:53 TrafficAnalyzerInitializer [INFO] LastMinuteRequests Traffic Analyzer is enabled with window size: 100, interval: 60, delay: 1
+2024-06-22 16:45:53 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=http-listener,Type=PassThroughConnections
+2024-06-22 16:45:53 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=https-listener,Type=PassThroughConnections
+2024-06-22 16:45:53 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=http-listener,Type=PassThroughConnections
+2024-06-22 16:45:53 JMXDataRetriever [ERROR] Error while getting JMX data, org.apache.synapse:Name=https-listener,Type=PassThroughConnections
+2024-06-22 16:46:59 ServerProcess [INFO] Server Process ID: 68305
+2024-06-22 16:46:59 DiagnosticsApp [INFO] Starting WSO2 Diagnostics Tool
+2024-06-22 16:46:59 DiagnosticsApp [INFO] Server name: WSO2 API Manager
+2024-06-22 16:46:59 DiagnosticsApp [INFO] Version: 4.3.0
+2024-06-22 16:46:59 DiagnosticsApp [INFO] Update Level: null
+2024-06-22 16:46:59 DiagnosticsApp [INFO] Java Version: 11.0.18
+2024-06-22 16:46:59 DiagnosticsApp [INFO] Java Home: /Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home
+2024-06-22 16:46:59 DiagnosticsApp [INFO] OS Name: Mac OS X
+2024-06-22 16:46:59 DiagnosticsApp [INFO] OS Version: 13.5
+2024-06-22 16:46:59 DiagnosticsApp [INFO] OS Architecture: aarch64
+2024-06-22 16:46:59 DiagnosticsApp [INFO] Diagnostic App Home: /Users/pamod/Desktop/setup/deployment/stories/banking/am/wso2am-4.3.0/diagnostics-tool
+2024-06-22 16:46:59 DiagnosticsApp [INFO] Listening to : ../repository/logs/wso2-apigw-errors.log
+2024-06-22 16:46:59 LogWatcher [INFO] Initiating LogWatcher for file: /Users/pamod/Desktop/setup/deployment/stories/banking/am/wso2am-4.3.0/diagnostics-tool/../repository/logs/wso2-apigw-errors.log
+2024-06-22 16:46:59 DiagnosticsApp [INFO] Initiating CPUWatcher with interval: 5 retry count: 2 threshold: 80
+2024-06-22 16:46:59 DiagnosticsApp [INFO] Initiating MemoryWatcher with interval: 5 retry count: 2 threshold: 80
+2024-06-22 16:46:59 TrafficAnalyzerInitializer [INFO] LastFifteenSecondsRequests Traffic Analyzer is enabled with window size: 100, interval: 15, delay: 4
+2024-06-22 16:46:59 TrafficAnalyzerInitializer [INFO] LastMinuteRequests Traffic Analyzer is enabled with window size: 100, interval: 60, delay: 1

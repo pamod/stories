@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/pay" name="BankingPaymentsAPI" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="POST">
+        <inSequence>
+            <log/>
+            <datamapper config="gov:datamapper/paymentconfig.dmc" inputSchema="gov:datamapper/paymentconfig_inputSchema.json" inputType="JSON" outputSchema="gov:datamapper/paymentconfig_outputSchema.json" outputType="JSON" xsltStyleSheet="gov:datamapper/paymentconfig_xsltStyleSheet.xml"/>
+            <call>
+				<endpoint>
+					<http method="post" statistics="disable" trace="disable"
+						uri-template="http://paymentsvc:8080/payment">
+
+
+					</http>
+
+				</endpoint>
+            </call>
+            <respond/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+    <resource methods="GET" url-mapping="/allrecords">
+        <inSequence>
+            <log/>
+            <call>
+				<endpoint>
+					<http method="get" statistics="disable" trace="disable"
+						uri-template="http://paymentsvc:8080/payment/all">
+
+
+					</http>
+
+				</endpoint>
+            </call>
+            <respond/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+    <resource methods="GET" url-mapping="/info">
+        <inSequence>
+            <log/>
+            <call>
+				<endpoint>
+					<http method="get" statistics="disable" trace="disable"
+						uri-template="http://paymentsvc:8080/payment?id={query.param.id}">
+
+
+					</http>
+
+				</endpoint>
+            </call>
+            <respond/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+</api>

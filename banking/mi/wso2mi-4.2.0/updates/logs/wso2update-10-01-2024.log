@@ -1,0 +1,714 @@
+[10-01-2024 04:32:10] DEBUG - wso2update version: 1.7.2
+[10-01-2024 04:32:10] DEBUG - Executed wso2update on Wed, 10 Jan 2024 04:32:10 +0530
+
+[10-01-2024 04:32:10] DEBUG - Product Directory : /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0
+[10-01-2024 04:32:10] DEBUG - Product Updates Directory : /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/updates
+[10-01-2024 04:32:10] DEBUG - Updates configurations written to /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/updates/config.json
+[10-01-2024 04:32:10] DEBUG - Updates configurations written to /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/updates/config.json
+[10-01-2024 04:32:10] DEBUG - Backup directory has been set to default
+[10-01-2024 04:32:10] INFO - Initializing updates with credentials
+[10-01-2024 04:32:19] INFO - Authenticating
+[10-01-2024 04:32:19] DEBUG - Invoking WSO2 Update token API
+[10-01-2024 04:32:21] DEBUG - Token invoked with status code 200.
+[10-01-2024 04:32:21] DEBUG - Updates configurations written to /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/updates/config.json
+[10-01-2024 04:32:21] INFO - Authenticated user pamod@wso2.com
+[10-01-2024 04:32:21] INFO - Checking for latest update tool version
+[10-01-2024 04:32:21] DEBUG - Checking for the latest update tool client completed successfully
+[10-01-2024 04:32:21] DEBUG - Validating update levels
+[10-01-2024 04:32:21] DEBUG - Update level not defined. Requested update level set to 0. Attempting to fetch latest update.
+[10-01-2024 04:32:21] INFO - Checking for updates
+[10-01-2024 04:32:21] DEBUG - Check updates API URL: https://api.updates.wso2.com/updates/1.0.0/check-updates
+[10-01-2024 04:32:22] INFO - The latest update level is 'wso2mi-4.2.0.51'. 
+This consists of 25 updates applied on top of 'wso2mi-4.2.0.30'
+[10-01-2024 04:32:22] INFO - [WARNING] 
+ The update level 'wso2mi-4.2.0.51' consists of 8 critical security updates applied on top of 'wso2mi-4.2.0.30'. 
+WSO2 strongly recommends to use 'wso2mi-4.2.0.51' distribution in production as soon as possible.
+[10-01-2024 04:32:22] INFO - Creating a backup of '/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0'
+[10-01-2024 04:32:22] DEBUG - Backing up product directory to /Users/pamod/.wso2-updates/backup/wso2mi-4.2.0-b2b39c72-2309-4a6d-9570-ad82540214e8
+[10-01-2024 04:32:22] DEBUG - Validating backup...
+[10-01-2024 04:32:22] DEBUG - Size of product directory: 218801169
+[10-01-2024 04:32:22] DEBUG - Size of backup directory: 218801169
+[10-01-2024 04:32:22] DEBUG - Updates configurations written to /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/updates/config.json
+[10-01-2024 04:32:22] INFO - Successfully created the backup at : /Users/pamod/.wso2-updates/backup/wso2mi-4.2.0-b2b39c72-2309-4a6d-9570-ad82540214e8
+[10-01-2024 04:32:22] DEBUG - Fetching update files
+[10-01-2024 04:32:22] DEBUG - Update file list API URL: https://api.updates.wso2.com/updates/1.0.0/list-updates
+[10-01-2024 04:32:23] DEBUG - Creating update directory
+[10-01-2024 04:32:23] DEBUG - Update download directory: /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51
+[10-01-2024 04:32:23] DEBUG - Update info file: /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/update.json
+[10-01-2024 04:32:23] DEBUG - Applied updates: 8350, 8376, 8316, 8405, 8415, 8409, 8475, 8531, 8387, 8580, 8579, 8697, 8819, 8849, 8909, 8933, 8905, 8914, 8995, 8937, 9052, 9198, 9192, 9237, 9235
+[10-01-2024 04:32:23] DEBUG - Update information written to /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/update.json
+[10-01-2024 04:32:23] INFO - Downloading updates
+[10-01-2024 04:32:23] DEBUG - Reading update information from file /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/update.json
+[10-01-2024 04:32:23] DEBUG - Normalizing update file paths to OS specific paths
+[10-01-2024 04:32:23] DEBUG - Attempt: 1
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/org.wso2.carbon.rule.kernel_5.0.0.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/lib/jackson-databind-2.16.0.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/org.yaml.snakeyaml_2.2.0.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/bin/tomcat-juli-9.0.82.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/com.rabbitmq.client_5.20.0.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/swagger-parser_2.0.30.wso2v2.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/io.netty.codec-http_4.1.100.Final.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/lib/jackson-annotations-2.16.0.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/tomcat-jsp-api_9.0.82.wso2v1.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/lib/stax2-api-3.1.4.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/opencensus_0.30.0.wso2v2.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/com.fasterxml.jackson.datatype.jackson-datatype-jsr310_2.16.0.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/tomcat-el-api_9.0.82.wso2v1.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/drools_7.74.1.wso2v1.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/com.fasterxml.jackson.core.jackson-databind_2.16.0.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/com.google.guava_32.1.3.jre.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/tomcat_9.0.82.wso2v1.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/json-schema-validator-all_2.2.6.wso2v9.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/opensaml_3.3.1.wso2v9.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/org.wso2.carbon.rule.common_5.0.0.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/io.netty.codec_4.1.100.Final.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/io.netty.transport-native-unix-common_4.1.100.Final.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/io.netty.resolver_4.1.100.Final.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/io.netty.transport_4.1.100.Final.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/lib/guava-32.1.3-jre.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/com.fasterxml.jackson.core.jackson-core_2.16.0.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/tomcat-servlet-api_9.0.82.wso2v1.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/org.wso2.carbon.rule.mediation_5.0.0.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/com.fasterxml.jackson.core.jackson-annotations_2.16.0.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/com.fasterxml.jackson.dataformat.jackson-dataformat-yaml_2.16.0.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/lib/failureaccess-1.0.1.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/io.netty.handler_4.1.100.Final.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/bcprov-jdk18on_1.77.0.wso2v1.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/io.netty.codec-socks_4.1.100.Final.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/org.wso2.carbon.rule.backend_5.0.0.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/opentelemetry-all_1.11.0.wso2v5.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/lib/jackson-dataformat-yaml-2.16.0.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/io.netty.codec-http2_4.1.100.Final.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/lib/jackson-core-2.16.0.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/io.netty.handler-proxy_4.1.100.Final.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/grpc-context_1.59.0.wso2v1.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/io.netty.common_4.1.100.Final.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/io.netty.buffer_4.1.100.Final.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/org.wso2.micro.integrator.transport.handlers_4.2.0.37.jar
+[10-01-2024 04:32:52] DEBUG - Expected SHA256 value of file did not match. Validating with SHA1 and MD5
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/synapse-vfs-transport_4.0.0.wso2v20_22.jar
+[10-01-2024 04:32:52] DEBUG - Expected SHA256 value of file did not match. Validating with SHA1 and MD5
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/org.wso2.carbon.connector.core_4.7.175.10.jar
+[10-01-2024 04:32:52] DEBUG - Expected SHA256 value of file did not match. Validating with SHA1 and MD5
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/org.wso2.carbon.mediator.cache_4.2.0.39.jar
+[10-01-2024 04:32:52] DEBUG - Expected SHA256 value of file did not match. Validating with SHA1 and MD5
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/dbscripts/mssql/mssql_cluster.sql
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/original/dbscripts/mssql/mssql_cluster.sql
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/org.wso2.micro.integrator.registry_4.2.0.42.jar
+[10-01-2024 04:32:52] DEBUG - Expected SHA256 value of file did not match. Validating with SHA1 and MD5
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/synapse-core_4.0.0.wso2v20_29.jar
+[10-01-2024 04:32:52] DEBUG - Expected SHA256 value of file did not match. Validating with SHA1 and MD5
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/lib/org.wso2.ciphertool-1.1.15.8.jar
+[10-01-2024 04:32:52] DEBUG - Expected SHA256 value of file did not match. Validating with SHA1 and MD5
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/org.wso2.micro.integrator.websocket.transport_4.2.0.46.jar
+[10-01-2024 04:32:52] DEBUG - Expected SHA256 value of file did not match. Validating with SHA1 and MD5
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/axis2-transport-jms_2.0.0.wso2v67_4.jar
+[10-01-2024 04:32:52] DEBUG - Expected SHA256 value of file did not match. Validating with SHA1 and MD5
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/org.wso2.micro.integrator.security_4.2.0.36.jar
+[10-01-2024 04:32:52] DEBUG - Expected SHA256 value of file did not match. Validating with SHA1 and MD5
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/bin/micro-integrator.bat
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/original/bin/micro-integrator.bat
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/commons-vfs2_2.2.0.wso2v15_6.jar
+[10-01-2024 04:32:52] DEBUG - Expected SHA256 value of file did not match. Validating with SHA1 and MD5
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/axis2-transport-rabbitmq-amqp_2.0.0.wso2v67_5.jar
+[10-01-2024 04:32:52] DEBUG - Expected SHA256 value of file did not match. Validating with SHA1 and MD5
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/bin/micro-integrator.sh
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/original/bin/micro-integrator.sh
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/org.wso2.micro.integrator.initializer_4.2.0.45.jar
+[10-01-2024 04:32:52] DEBUG - Expected SHA256 value of file did not match. Validating with SHA1 and MD5
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/synapse-commons_4.0.0.wso2v20_23.jar
+[10-01-2024 04:32:52] DEBUG - Expected SHA256 value of file did not match. Validating with SHA1 and MD5
+[10-01-2024 04:32:52] DEBUG - Verification for downloaded files passed.
+[10-01-2024 04:32:52] DEBUG - Applying updates to product at /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0 from updates at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51
+[10-01-2024 04:32:52] INFO - Updating product
+[10-01-2024 04:32:52] DEBUG - Checking for similar added and removed components
+[10-01-2024 04:32:52] DEBUG - Identified added component wso2/components/plugins/org.wso2.carbon.rule.kernel_5.0.0.jar is similar to removed component wso2/components/plugins/org.wso2.carbon.rule.kernel_4.5.6.jar
+[10-01-2024 04:32:52] DEBUG - Identified added component wso2/components/plugins/org.yaml.snakeyaml_2.2.0.jar is similar to removed component wso2/components/plugins/org.yaml.snakeyaml_1.33.0.jar
+[10-01-2024 04:32:52] DEBUG - Identified added component wso2/components/plugins/com.rabbitmq.client_5.20.0.jar is similar to removed component wso2/components/plugins/com.rabbitmq.client_5.8.0.jar
+[10-01-2024 04:32:52] DEBUG - Identified added component wso2/components/plugins/swagger-parser_2.0.30.wso2v2.jar is similar to removed component wso2/components/plugins/swagger-parser_2.0.30.wso2v1.jar
+[10-01-2024 04:32:52] DEBUG - Identified added component wso2/components/plugins/io.netty.codec-http_4.1.100.Final.jar is similar to removed component wso2/components/plugins/io.netty.codec-http_4.1.95.Final.jar
+[10-01-2024 04:32:52] DEBUG - Identified added component wso2/components/plugins/tomcat-jsp-api_9.0.82.wso2v1.jar is similar to removed component wso2/components/plugins/tomcat-jsp-api_9.0.70.wso2v1.jar
+[10-01-2024 04:32:52] DEBUG - Identified added component wso2/components/plugins/opencensus_0.30.0.wso2v2.jar is similar to removed component wso2/components/plugins/opencensus_0.30.0.wso2v1.jar
+[10-01-2024 04:32:52] DEBUG - Identified added component wso2/components/plugins/com.fasterxml.jackson.datatype.jackson-datatype-jsr310_2.16.0.jar is similar to removed component wso2/components/plugins/com.fasterxml.jackson.datatype.jackson-datatype-jsr310_2.13.5.jar
+[10-01-2024 04:32:52] DEBUG - Identified added component wso2/components/plugins/tomcat-el-api_9.0.82.wso2v1.jar is similar to removed component wso2/components/plugins/tomcat-el-api_9.0.70.wso2v1.jar
+[10-01-2024 04:32:52] DEBUG - Identified added component wso2/components/plugins/drools_7.74.1.wso2v1.jar is similar to removed component wso2/components/plugins/drools_6.3.0.wso2v1.jar
+[10-01-2024 04:32:52] DEBUG - Identified added component wso2/components/plugins/com.fasterxml.jackson.core.jackson-databind_2.16.0.jar is similar to removed component wso2/components/plugins/com.fasterxml.jackson.core.jackson-databind_2.13.5.jar
+[10-01-2024 04:32:52] DEBUG - Identified added component wso2/components/plugins/com.google.guava_32.1.3.jre.jar is similar to removed component wso2/components/plugins/com.google.guava_31.0.1.jre.jar
+[10-01-2024 04:32:52] DEBUG - Identified added component wso2/components/plugins/tomcat_9.0.82.wso2v1.jar is similar to removed component wso2/components/plugins/tomcat_9.0.70.wso2v1.jar
+[10-01-2024 04:32:52] DEBUG - Identified added component wso2/components/plugins/json-schema-validator-all_2.2.6.wso2v9.jar is similar to removed component wso2/components/plugins/json-schema-validator-all_2.2.6.wso2v8.jar
+[10-01-2024 04:32:52] DEBUG - Identified added component wso2/components/plugins/opensaml_3.3.1.wso2v9.jar is similar to removed component wso2/components/plugins/opensaml_3.3.1.wso2v8.jar
+[10-01-2024 04:32:52] DEBUG - Identified added component wso2/components/plugins/org.wso2.carbon.rule.common_5.0.0.jar is similar to removed component wso2/components/plugins/org.wso2.carbon.rule.common_4.5.6.jar
+[10-01-2024 04:32:52] DEBUG - Identified added component wso2/components/plugins/io.netty.codec_4.1.100.Final.jar is similar to removed component wso2/components/plugins/io.netty.codec_4.1.95.Final.jar
+[10-01-2024 04:32:52] DEBUG - Identified added component wso2/components/plugins/io.netty.transport-native-unix-common_4.1.100.Final.jar is similar to removed component wso2/components/plugins/io.netty.transport-native-unix-common_4.1.95.Final.jar
+[10-01-2024 04:32:52] DEBUG - Identified added component wso2/components/plugins/io.netty.resolver_4.1.100.Final.jar is similar to removed component wso2/components/plugins/io.netty.resolver_4.1.95.Final.jar
+[10-01-2024 04:32:52] DEBUG - Identified added component wso2/components/plugins/io.netty.transport_4.1.100.Final.jar is similar to removed component wso2/components/plugins/io.netty.transport_4.1.95.Final.jar
+[10-01-2024 04:32:52] DEBUG - Identified added component wso2/components/plugins/com.fasterxml.jackson.core.jackson-core_2.16.0.jar is similar to removed component wso2/components/plugins/com.fasterxml.jackson.core.jackson-core_2.13.5.jar
+[10-01-2024 04:32:52] DEBUG - Identified added component wso2/components/plugins/tomcat-servlet-api_9.0.82.wso2v1.jar is similar to removed component wso2/components/plugins/tomcat-servlet-api_9.0.70.wso2v1.jar
+[10-01-2024 04:32:52] DEBUG - Identified added component wso2/components/plugins/org.wso2.carbon.rule.mediation_5.0.0.jar is similar to removed component wso2/components/plugins/org.wso2.carbon.rule.mediation_4.5.6.jar
+[10-01-2024 04:32:52] DEBUG - Identified added component wso2/components/plugins/com.fasterxml.jackson.core.jackson-annotations_2.16.0.jar is similar to removed component wso2/components/plugins/com.fasterxml.jackson.core.jackson-annotations_2.13.5.jar
+[10-01-2024 04:32:52] DEBUG - Identified added component wso2/components/plugins/com.fasterxml.jackson.dataformat.jackson-dataformat-yaml_2.16.0.jar is similar to removed component wso2/components/plugins/com.fasterxml.jackson.dataformat.jackson-dataformat-yaml_2.13.5.jar
+[10-01-2024 04:32:52] DEBUG - Identified added component wso2/components/plugins/io.netty.handler_4.1.100.Final.jar is similar to removed component wso2/components/plugins/io.netty.handler_4.1.95.Final.jar
+[10-01-2024 04:32:52] DEBUG - Identified added component wso2/components/plugins/io.netty.codec-socks_4.1.100.Final.jar is similar to removed component wso2/components/plugins/io.netty.codec-socks_4.1.95.Final.jar
+[10-01-2024 04:32:52] DEBUG - Identified added component wso2/components/plugins/org.wso2.carbon.rule.backend_5.0.0.jar is similar to removed component wso2/components/plugins/org.wso2.carbon.rule.backend_4.5.6.jar
+[10-01-2024 04:32:52] DEBUG - Identified added component wso2/components/plugins/opentelemetry-all_1.11.0.wso2v5.jar is similar to removed component wso2/components/plugins/opentelemetry-all_1.11.0.wso2v3.jar
+[10-01-2024 04:32:52] DEBUG - Identified added component wso2/components/plugins/io.netty.codec-http2_4.1.100.Final.jar is similar to removed component wso2/components/plugins/io.netty.codec-http2_4.1.95.Final.jar
+[10-01-2024 04:32:52] DEBUG - Identified added component wso2/components/plugins/io.netty.handler-proxy_4.1.100.Final.jar is similar to removed component wso2/components/plugins/io.netty.handler-proxy_4.1.95.Final.jar
+[10-01-2024 04:32:52] DEBUG - Identified added component wso2/components/plugins/grpc-context_1.59.0.wso2v1.jar is similar to removed component wso2/components/plugins/grpc-context_1.27.2.wso2v1.jar
+[10-01-2024 04:32:52] DEBUG - Identified added component wso2/components/plugins/io.netty.common_4.1.100.Final.jar is similar to removed component wso2/components/plugins/io.netty.common_4.1.95.Final.jar
+[10-01-2024 04:32:52] DEBUG - Identified added component wso2/components/plugins/io.netty.buffer_4.1.100.Final.jar is similar to removed component wso2/components/plugins/io.netty.buffer_4.1.95.Final.jar
+[10-01-2024 04:32:52] DEBUG - Removing files from product
+[10-01-2024 04:32:52] DEBUG - Removing jar by abstract file name for /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/bin/tomcat-juli-9.0.78.jar
+[10-01-2024 04:32:52] DEBUG - Removing jar by abstract file name for /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/lib/guava-31.0.1-jre.jar
+[10-01-2024 04:32:52] DEBUG - Removing jar by abstract file name for /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/lib/jackson-dataformat-yaml-2.13.5.jar
+[10-01-2024 04:32:52] DEBUG - Removing jar by abstract file name for /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/lib/jackson-databind-2.13.5.jar
+[10-01-2024 04:32:52] DEBUG - Removing jar by abstract file name for /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/lib/jackson-core-2.13.5.jar
+[10-01-2024 04:32:52] DEBUG - Removing jar by abstract file name for /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/lib/jackson-annotations-2.13.5.jar
+[10-01-2024 04:32:52] DEBUG - Following files have been removed successfully:
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/snakeyaml_1.33.0.wso2v1.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/bin/tomcat-juli-9.0.78.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/io.swagger.annotations_1.6.5.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/io.swagger.core_1.6.5.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/io.swagger.models_1.6.5.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/lib/guava-31.0.1-jre.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/lib/jackson-dataformat-yaml-2.13.5.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/lib/jackson-databind-2.13.5.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/lib/jackson-core-2.13.5.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/bcprov-jdk15on_1.70.0.wso2v1.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/lib/jackson-annotations-2.13.5.jar
+
+[10-01-2024 04:32:52] DEBUG - Adding new files to product
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/lib/jackson-databind-2.16.0.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/bin/tomcat-juli-9.0.82.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/lib/jackson-annotations-2.16.0.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/lib/stax2-api-3.1.4.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/lib/guava-32.1.3-jre.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/lib/failureaccess-1.0.1.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/bcprov-jdk18on_1.77.0.wso2v1.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/lib/jackson-dataformat-yaml-2.16.0.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/lib/jackson-core-2.16.0.jar
+[10-01-2024 04:32:52] DEBUG - Following files have been added successfully:
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/lib/jackson-databind-2.16.0.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/bin/tomcat-juli-9.0.82.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/lib/jackson-annotations-2.16.0.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/lib/stax2-api-3.1.4.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/lib/guava-32.1.3-jre.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/lib/failureaccess-1.0.1.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/bcprov-jdk18on_1.77.0.wso2v1.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/lib/jackson-dataformat-yaml-2.16.0.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/lib/jackson-core-2.16.0.jar
+
+[10-01-2024 04:32:52] DEBUG - Modifying files
+[10-01-2024 04:32:52] DEBUG - The following bundles.info files have been identified:
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+
+[10-01-2024 04:32:52] DEBUG - Replacing existing wso2/components/plugins/org.wso2.micro.integrator.transport.handlers_4.2.0.jar with new wso2/components/plugins/org.wso2.micro.integrator.transport.handlers_4.2.0.37.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/org.wso2.micro.integrator.transport.handlers_4.2.0.37.jar
+[10-01-2024 04:32:52] DEBUG - Expected SHA256 value of file did not match. Validating with SHA1 and MD5
+[10-01-2024 04:32:52] DEBUG - Updating jar file version of org.wso2.micro.integrator.transport.handlers_4.2.0.jar from 4.2.0 to 4.2.0.37 in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:52] DEBUG - Replacing bundles info entry: 
+[10-01-2024 04:32:52] DEBUG - Original bundles entry: org.wso2.micro.integrator.transport.handlers,4.2.0,../plugins/org.wso2.micro.integrator.transport.handlers_4.2.0.jar,4,true
+[10-01-2024 04:32:52] DEBUG - New bundles entry: org.wso2.micro.integrator.transport.handlers,4.2.0.37,../plugins/org.wso2.micro.integrator.transport.handlers_4.2.0.37.jar,4,true
+[10-01-2024 04:32:52] DEBUG - Replacing existing wso2/components/plugins/synapse-vfs-transport_4.0.0.wso2v20_10.jar with new wso2/components/plugins/synapse-vfs-transport_4.0.0.wso2v20_22.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/synapse-vfs-transport_4.0.0.wso2v20_22.jar
+[10-01-2024 04:32:52] DEBUG - Expected SHA256 value of file did not match. Validating with SHA1 and MD5
+[10-01-2024 04:32:52] DEBUG - Updating jar file version of synapse-vfs-transport_4.0.0.wso2v20_10.jar from 4.0.0.wso2v20_10 to 4.0.0.wso2v20_22 in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:52] DEBUG - Replacing bundles info entry: 
+[10-01-2024 04:32:52] DEBUG - Original bundles entry: synapse-vfs-transport,4.0.0.wso2v20_10,../plugins/synapse-vfs-transport_4.0.0.wso2v20_10.jar,4,true
+[10-01-2024 04:32:52] DEBUG - New bundles entry: synapse-vfs-transport,4.0.0.wso2v20_22,../plugins/synapse-vfs-transport_4.0.0.wso2v20_22.jar,4,true
+[10-01-2024 04:32:52] DEBUG - Replacing existing wso2/components/plugins/org.wso2.carbon.connector.core_4.7.175.1.jar with new wso2/components/plugins/org.wso2.carbon.connector.core_4.7.175.10.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/org.wso2.carbon.connector.core_4.7.175.10.jar
+[10-01-2024 04:32:52] DEBUG - Expected SHA256 value of file did not match. Validating with SHA1 and MD5
+[10-01-2024 04:32:52] DEBUG - Updating jar file version of org.wso2.carbon.connector.core_4.7.175.1.jar from 4.7.175.1 to 4.7.175.10 in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:52] DEBUG - Replacing bundles info entry: 
+[10-01-2024 04:32:52] DEBUG - Original bundles entry: org.wso2.carbon.connector.core,4.7.175.1,../plugins/org.wso2.carbon.connector.core_4.7.175.1.jar,4,true
+[10-01-2024 04:32:52] DEBUG - New bundles entry: org.wso2.carbon.connector.core,4.7.175.10,../plugins/org.wso2.carbon.connector.core_4.7.175.10.jar,4,true
+[10-01-2024 04:32:52] DEBUG - Replacing existing wso2/components/plugins/org.wso2.carbon.mediator.cache_4.2.0.jar with new wso2/components/plugins/org.wso2.carbon.mediator.cache_4.2.0.39.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/org.wso2.carbon.mediator.cache_4.2.0.39.jar
+[10-01-2024 04:32:52] DEBUG - Expected SHA256 value of file did not match. Validating with SHA1 and MD5
+[10-01-2024 04:32:52] DEBUG - Updating jar file version of org.wso2.carbon.mediator.cache_4.2.0.jar from 4.2.0 to 4.2.0.39 in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:52] DEBUG - Replacing bundles info entry: 
+[10-01-2024 04:32:52] DEBUG - Original bundles entry: org.wso2.carbon.mediator.cache,4.2.0,../plugins/org.wso2.carbon.mediator.cache_4.2.0.jar,4,true
+[10-01-2024 04:32:52] DEBUG - New bundles entry: org.wso2.carbon.mediator.cache,4.2.0.39,../plugins/org.wso2.carbon.mediator.cache_4.2.0.39.jar,4,true
+[10-01-2024 04:32:52] DEBUG - Modifying dbscripts/mssql/mssql_cluster.sql as diffApply
+[10-01-2024 04:32:52] DEBUG - File path in product: /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/dbscripts/mssql/mssql_cluster.sql
+[10-01-2024 04:32:52] DEBUG - Original file path: /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/original/dbscripts/mssql/mssql_cluster.sql
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/original/dbscripts/mssql/mssql_cluster.sql
+[10-01-2024 04:32:52] DEBUG - New file path: /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/dbscripts/mssql/mssql_cluster.sql
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/dbscripts/mssql/mssql_cluster.sql
+[10-01-2024 04:32:52] DEBUG - Applying diff-match-patch to file
+[10-01-2024 04:32:52] DEBUG - Product file '/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/dbscripts/mssql/mssql_cluster.sql' modified successfully
+[10-01-2024 04:32:52] DEBUG - Replacing existing wso2/components/plugins/org.wso2.micro.integrator.registry_4.2.0.jar with new wso2/components/plugins/org.wso2.micro.integrator.registry_4.2.0.42.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/org.wso2.micro.integrator.registry_4.2.0.42.jar
+[10-01-2024 04:32:52] DEBUG - Expected SHA256 value of file did not match. Validating with SHA1 and MD5
+[10-01-2024 04:32:52] DEBUG - Updating jar file version of org.wso2.micro.integrator.registry_4.2.0.jar from 4.2.0 to 4.2.0.42 in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:52] DEBUG - Replacing bundles info entry: 
+[10-01-2024 04:32:52] DEBUG - Original bundles entry: org.wso2.micro.integrator.registry,4.2.0,../plugins/org.wso2.micro.integrator.registry_4.2.0.jar,4,true
+[10-01-2024 04:32:52] DEBUG - New bundles entry: org.wso2.micro.integrator.registry,4.2.0.42,../plugins/org.wso2.micro.integrator.registry_4.2.0.42.jar,4,true
+[10-01-2024 04:32:52] DEBUG - Replacing existing wso2/components/plugins/synapse-core_4.0.0.wso2v20_20.jar with new wso2/components/plugins/synapse-core_4.0.0.wso2v20_29.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/synapse-core_4.0.0.wso2v20_29.jar
+[10-01-2024 04:32:52] DEBUG - Expected SHA256 value of file did not match. Validating with SHA1 and MD5
+[10-01-2024 04:32:52] DEBUG - Updating jar file version of synapse-core_4.0.0.wso2v20_20.jar from 4.0.0.wso2v20_20 to 4.0.0.wso2v20_29 in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:52] DEBUG - Replacing bundles info entry: 
+[10-01-2024 04:32:52] DEBUG - Original bundles entry: synapse-core,4.0.0.wso2v20_20,../plugins/synapse-core_4.0.0.wso2v20_20.jar,4,true
+[10-01-2024 04:32:52] DEBUG - New bundles entry: synapse-core,4.0.0.wso2v20_29,../plugins/synapse-core_4.0.0.wso2v20_29.jar,4,true
+[10-01-2024 04:32:52] DEBUG - Replacing existing wso2/lib/org.wso2.ciphertool-1.1.15.6.jar with new wso2/lib/org.wso2.ciphertool-1.1.15.8.jar
+[10-01-2024 04:32:52] DEBUG - Removing dropins bundle of /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/lib/org.wso2.ciphertool-1.1.15.6.jar
+[10-01-2024 04:32:52] DEBUG - Removing all versions of jar file at /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/lib/org.wso2.ciphertool-1.1.15.6.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/lib/org.wso2.ciphertool-1.1.15.8.jar
+[10-01-2024 04:32:52] DEBUG - Expected SHA256 value of file did not match. Validating with SHA1 and MD5
+[10-01-2024 04:32:52] DEBUG - Replacing existing wso2/components/plugins/org.wso2.micro.integrator.websocket.transport_4.2.0.jar with new wso2/components/plugins/org.wso2.micro.integrator.websocket.transport_4.2.0.46.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/org.wso2.micro.integrator.websocket.transport_4.2.0.46.jar
+[10-01-2024 04:32:52] DEBUG - Expected SHA256 value of file did not match. Validating with SHA1 and MD5
+[10-01-2024 04:32:52] DEBUG - Updating jar file version of org.wso2.micro.integrator.websocket.transport_4.2.0.jar from 4.2.0 to 4.2.0.46 in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:52] DEBUG - Replacing bundles info entry: 
+[10-01-2024 04:32:52] DEBUG - Original bundles entry: org.wso2.micro.integrator.websocket.transport,4.2.0,../plugins/org.wso2.micro.integrator.websocket.transport_4.2.0.jar,4,true
+[10-01-2024 04:32:52] DEBUG - New bundles entry: org.wso2.micro.integrator.websocket.transport,4.2.0.46,../plugins/org.wso2.micro.integrator.websocket.transport_4.2.0.46.jar,4,true
+[10-01-2024 04:32:52] DEBUG - Replacing existing wso2/components/plugins/axis2-transport-jms_2.0.0.wso2v67_2.jar with new wso2/components/plugins/axis2-transport-jms_2.0.0.wso2v67_4.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/axis2-transport-jms_2.0.0.wso2v67_4.jar
+[10-01-2024 04:32:52] DEBUG - Expected SHA256 value of file did not match. Validating with SHA1 and MD5
+[10-01-2024 04:32:52] DEBUG - Updating jar file version of axis2-transport-jms_2.0.0.wso2v67_2.jar from 2.0.0.wso2v67_2 to 2.0.0.wso2v67_4 in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:52] DEBUG - Replacing bundles info entry: 
+[10-01-2024 04:32:52] DEBUG - Original bundles entry: axis2-transport-jms,2.0.0.wso2v67_2,../plugins/axis2-transport-jms_2.0.0.wso2v67_2.jar,4,true
+[10-01-2024 04:32:52] DEBUG - New bundles entry: axis2-transport-jms,2.0.0.wso2v67_4,../plugins/axis2-transport-jms_2.0.0.wso2v67_4.jar,4,true
+[10-01-2024 04:32:52] DEBUG - Replacing existing wso2/components/plugins/org.wso2.micro.integrator.security_4.2.0.8.jar with new wso2/components/plugins/org.wso2.micro.integrator.security_4.2.0.36.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/org.wso2.micro.integrator.security_4.2.0.36.jar
+[10-01-2024 04:32:52] DEBUG - Expected SHA256 value of file did not match. Validating with SHA1 and MD5
+[10-01-2024 04:32:52] DEBUG - Updating jar file version of org.wso2.micro.integrator.security_4.2.0.8.jar from 4.2.0.8 to 4.2.0.36 in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:52] DEBUG - Replacing bundles info entry: 
+[10-01-2024 04:32:52] DEBUG - Original bundles entry: org.wso2.micro.integrator.security,4.2.0.8,../plugins/org.wso2.micro.integrator.security_4.2.0.8.jar,4,true
+[10-01-2024 04:32:52] DEBUG - New bundles entry: org.wso2.micro.integrator.security,4.2.0.36,../plugins/org.wso2.micro.integrator.security_4.2.0.36.jar,4,true
+[10-01-2024 04:32:52] DEBUG - Modifying bin/micro-integrator.bat as diffApply
+[10-01-2024 04:32:52] DEBUG - File path in product: /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/bin/micro-integrator.bat
+[10-01-2024 04:32:52] DEBUG - Original file path: /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/original/bin/micro-integrator.bat
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/original/bin/micro-integrator.bat
+[10-01-2024 04:32:52] DEBUG - New file path: /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/bin/micro-integrator.bat
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/bin/micro-integrator.bat
+[10-01-2024 04:32:52] DEBUG - Applying diff-match-patch to file
+[10-01-2024 04:32:52] DEBUG - Product file '/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/bin/micro-integrator.bat' modified successfully
+[10-01-2024 04:32:52] DEBUG - Replacing existing wso2/components/plugins/commons-vfs2_2.2.0.wso2v15_5.jar with new wso2/components/plugins/commons-vfs2_2.2.0.wso2v15_6.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/commons-vfs2_2.2.0.wso2v15_6.jar
+[10-01-2024 04:32:52] DEBUG - Expected SHA256 value of file did not match. Validating with SHA1 and MD5
+[10-01-2024 04:32:52] DEBUG - Updating jar file version of commons-vfs2_2.2.0.wso2v15_5.jar from 2.2.0.wso2v15_5 to 2.2.0.wso2v15_6 in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:52] DEBUG - Replacing bundles info entry: 
+[10-01-2024 04:32:52] DEBUG - Original bundles entry: commons-vfs2,2.2.0.wso2v15_5,../plugins/commons-vfs2_2.2.0.wso2v15_5.jar,4,true
+[10-01-2024 04:32:52] DEBUG - New bundles entry: commons-vfs2,2.2.0.wso2v15_6,../plugins/commons-vfs2_2.2.0.wso2v15_6.jar,4,true
+[10-01-2024 04:32:52] DEBUG - Replacing existing wso2/components/plugins/axis2-transport-rabbitmq-amqp_2.0.0.wso2v67_1.jar with new wso2/components/plugins/axis2-transport-rabbitmq-amqp_2.0.0.wso2v67_5.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/axis2-transport-rabbitmq-amqp_2.0.0.wso2v67_5.jar
+[10-01-2024 04:32:52] DEBUG - Expected SHA256 value of file did not match. Validating with SHA1 and MD5
+[10-01-2024 04:32:52] DEBUG - Updating jar file version of axis2-transport-rabbitmq-amqp_2.0.0.wso2v67_1.jar from 2.0.0.wso2v67_1 to 2.0.0.wso2v67_5 in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:52] DEBUG - Replacing bundles info entry: 
+[10-01-2024 04:32:52] DEBUG - Original bundles entry: axis2-transport-rabbitmq-amqp,2.0.0.wso2v67_1,../plugins/axis2-transport-rabbitmq-amqp_2.0.0.wso2v67_1.jar,4,true
+[10-01-2024 04:32:52] DEBUG - New bundles entry: axis2-transport-rabbitmq-amqp,2.0.0.wso2v67_5,../plugins/axis2-transport-rabbitmq-amqp_2.0.0.wso2v67_5.jar,4,true
+[10-01-2024 04:32:52] DEBUG - Modifying bin/micro-integrator.sh as diffApply
+[10-01-2024 04:32:52] DEBUG - File path in product: /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/bin/micro-integrator.sh
+[10-01-2024 04:32:52] DEBUG - Original file path: /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/original/bin/micro-integrator.sh
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/original/bin/micro-integrator.sh
+[10-01-2024 04:32:52] DEBUG - New file path: /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/bin/micro-integrator.sh
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/bin/micro-integrator.sh
+[10-01-2024 04:32:52] DEBUG - Applying diff-match-patch to file
+[10-01-2024 04:32:52] DEBUG - Product file '/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/bin/micro-integrator.sh' modified successfully
+[10-01-2024 04:32:52] DEBUG - Replacing existing wso2/components/plugins/org.wso2.micro.integrator.initializer_4.2.0.27.jar with new wso2/components/plugins/org.wso2.micro.integrator.initializer_4.2.0.45.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/org.wso2.micro.integrator.initializer_4.2.0.45.jar
+[10-01-2024 04:32:52] DEBUG - Expected SHA256 value of file did not match. Validating with SHA1 and MD5
+[10-01-2024 04:32:52] DEBUG - Updating jar file version of org.wso2.micro.integrator.initializer_4.2.0.27.jar from 4.2.0.27 to 4.2.0.45 in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:52] DEBUG - Replacing bundles info entry: 
+[10-01-2024 04:32:52] DEBUG - Original bundles entry: org.wso2.micro.integrator.initializer,4.2.0.27,../plugins/org.wso2.micro.integrator.initializer_4.2.0.27.jar,4,true
+[10-01-2024 04:32:52] DEBUG - New bundles entry: org.wso2.micro.integrator.initializer,4.2.0.45,../plugins/org.wso2.micro.integrator.initializer_4.2.0.45.jar,4,true
+[10-01-2024 04:32:52] DEBUG - Replacing existing wso2/components/plugins/synapse-commons_4.0.0.wso2v20_18.jar with new wso2/components/plugins/synapse-commons_4.0.0.wso2v20_23.jar
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/synapse-commons_4.0.0.wso2v20_23.jar
+[10-01-2024 04:32:52] DEBUG - Expected SHA256 value of file did not match. Validating with SHA1 and MD5
+[10-01-2024 04:32:52] DEBUG - Updating jar file version of synapse-commons_4.0.0.wso2v20_18.jar from 4.0.0.wso2v20_18 to 4.0.0.wso2v20_23 in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:52] DEBUG - Replacing bundles info entry: 
+[10-01-2024 04:32:52] DEBUG - Original bundles entry: synapse-commons,4.0.0.wso2v20_18,../plugins/synapse-commons_4.0.0.wso2v20_18.jar,4,true
+[10-01-2024 04:32:52] DEBUG - New bundles entry: synapse-commons,4.0.0.wso2v20_23,../plugins/synapse-commons_4.0.0.wso2v20_23.jar,4,true
+[10-01-2024 04:32:52] DEBUG - Replacing existing wso2/components/plugins/org.wso2.carbon.rule.kernel_4.5.6.jar with new wso2/components/plugins/org.wso2.carbon.rule.kernel_5.0.0.jar
+[10-01-2024 04:32:52] DEBUG - Modified file /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/org.wso2.carbon.rule.kernel_5.0.0.jar does not exist in modified directory. Checking added files.
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/org.wso2.carbon.rule.kernel_5.0.0.jar
+[10-01-2024 04:32:52] DEBUG - Updating jar file version of org.wso2.carbon.rule.kernel_4.5.6.jar from 4.5.6 to 5.0.0 in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:52] DEBUG - Replacing bundles info entry: 
+[10-01-2024 04:32:52] DEBUG - Original bundles entry: org.wso2.carbon.rule.kernel,4.5.6,../plugins/org.wso2.carbon.rule.kernel_4.5.6.jar,4,true
+[10-01-2024 04:32:52] DEBUG - New bundles entry: org.wso2.carbon.rule.kernel,5.0.0,../plugins/org.wso2.carbon.rule.kernel_5.0.0.jar,4,true
+[10-01-2024 04:32:52] DEBUG - Replacing existing wso2/components/plugins/org.yaml.snakeyaml_1.33.0.jar with new wso2/components/plugins/org.yaml.snakeyaml_2.2.0.jar
+[10-01-2024 04:32:52] DEBUG - Modified file /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/org.yaml.snakeyaml_2.2.0.jar does not exist in modified directory. Checking added files.
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/org.yaml.snakeyaml_2.2.0.jar
+[10-01-2024 04:32:52] DEBUG - Updating jar file version of org.yaml.snakeyaml_1.33.0.jar from 1.33.0 to 2.2.0 in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:52] DEBUG - Replacing bundles info entry: 
+[10-01-2024 04:32:52] DEBUG - Original bundles entry: org.yaml.snakeyaml,1.33.0,../plugins/org.yaml.snakeyaml_1.33.0.jar,4,true
+[10-01-2024 04:32:52] DEBUG - New bundles entry: org.yaml.snakeyaml,2.2.0,../plugins/org.yaml.snakeyaml_2.2.0.jar,4,true
+[10-01-2024 04:32:52] DEBUG - Replacing existing wso2/components/plugins/com.rabbitmq.client_5.8.0.jar with new wso2/components/plugins/com.rabbitmq.client_5.20.0.jar
+[10-01-2024 04:32:52] DEBUG - Modified file /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/com.rabbitmq.client_5.20.0.jar does not exist in modified directory. Checking added files.
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/com.rabbitmq.client_5.20.0.jar
+[10-01-2024 04:32:52] DEBUG - Updating jar file version of com.rabbitmq.client_5.8.0.jar from 5.8.0 to 5.20.0 in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:52] DEBUG - Replacing bundles info entry: 
+[10-01-2024 04:32:52] DEBUG - Original bundles entry: com.rabbitmq.client,5.8.0,../plugins/com.rabbitmq.client_5.8.0.jar,4,true
+[10-01-2024 04:32:52] DEBUG - New bundles entry: com.rabbitmq.client,5.20.0,../plugins/com.rabbitmq.client_5.20.0.jar,4,true
+[10-01-2024 04:32:52] DEBUG - Replacing existing wso2/components/plugins/swagger-parser_2.0.30.wso2v1.jar with new wso2/components/plugins/swagger-parser_2.0.30.wso2v2.jar
+[10-01-2024 04:32:52] DEBUG - Modified file /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/swagger-parser_2.0.30.wso2v2.jar does not exist in modified directory. Checking added files.
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/swagger-parser_2.0.30.wso2v2.jar
+[10-01-2024 04:32:52] DEBUG - Updating jar file version of swagger-parser_2.0.30.wso2v1.jar from 2.0.30.wso2v1 to 2.0.30.wso2v2 in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:52] DEBUG - Replacing bundles info entry: 
+[10-01-2024 04:32:52] DEBUG - Original bundles entry: swagger-parser,2.0.30.wso2v1,../plugins/swagger-parser_2.0.30.wso2v1.jar,4,true
+[10-01-2024 04:32:52] DEBUG - New bundles entry: swagger-parser,2.0.30.wso2v2,../plugins/swagger-parser_2.0.30.wso2v2.jar,4,true
+[10-01-2024 04:32:52] DEBUG - Replacing existing wso2/components/plugins/io.netty.codec-http_4.1.95.Final.jar with new wso2/components/plugins/io.netty.codec-http_4.1.100.Final.jar
+[10-01-2024 04:32:52] DEBUG - Modified file /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/io.netty.codec-http_4.1.100.Final.jar does not exist in modified directory. Checking added files.
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/io.netty.codec-http_4.1.100.Final.jar
+[10-01-2024 04:32:52] DEBUG - Updating jar file version of io.netty.codec-http_4.1.95.Final.jar from 4.1.95.Final to 4.1.100.Final in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:52] DEBUG - Replacing bundles info entry: 
+[10-01-2024 04:32:52] DEBUG - Original bundles entry: io.netty.codec-http,4.1.95.Final,../plugins/io.netty.codec-http_4.1.95.Final.jar,4,true
+[10-01-2024 04:32:52] DEBUG - New bundles entry: io.netty.codec-http,4.1.100.Final,../plugins/io.netty.codec-http_4.1.100.Final.jar,4,true
+[10-01-2024 04:32:52] DEBUG - Replacing existing wso2/components/plugins/tomcat-jsp-api_9.0.70.wso2v1.jar with new wso2/components/plugins/tomcat-jsp-api_9.0.82.wso2v1.jar
+[10-01-2024 04:32:52] DEBUG - Modified file /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/tomcat-jsp-api_9.0.82.wso2v1.jar does not exist in modified directory. Checking added files.
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/tomcat-jsp-api_9.0.82.wso2v1.jar
+[10-01-2024 04:32:52] DEBUG - Updating jar file version of tomcat-jsp-api_9.0.70.wso2v1.jar from 9.0.70.wso2v1 to 9.0.82.wso2v1 in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:52] DEBUG - Replacing bundles info entry: 
+[10-01-2024 04:32:52] DEBUG - Original bundles entry: tomcat-jsp-api,9.0.70.wso2v1,../plugins/tomcat-jsp-api_9.0.70.wso2v1.jar,4,true
+[10-01-2024 04:32:52] DEBUG - New bundles entry: tomcat-jsp-api,9.0.82.wso2v1,../plugins/tomcat-jsp-api_9.0.82.wso2v1.jar,4,true
+[10-01-2024 04:32:52] DEBUG - Replacing existing wso2/components/plugins/opencensus_0.30.0.wso2v1.jar with new wso2/components/plugins/opencensus_0.30.0.wso2v2.jar
+[10-01-2024 04:32:52] DEBUG - Modified file /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/opencensus_0.30.0.wso2v2.jar does not exist in modified directory. Checking added files.
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/opencensus_0.30.0.wso2v2.jar
+[10-01-2024 04:32:52] DEBUG - Updating jar file version of opencensus_0.30.0.wso2v1.jar from 0.30.0.wso2v1 to 0.30.0.wso2v2 in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:52] DEBUG - Replacing bundles info entry: 
+[10-01-2024 04:32:52] DEBUG - Original bundles entry: opencensus,0.30.0.wso2v1,../plugins/opencensus_0.30.0.wso2v1.jar,4,true
+[10-01-2024 04:32:52] DEBUG - New bundles entry: opencensus,0.30.0.wso2v2,../plugins/opencensus_0.30.0.wso2v2.jar,4,true
+[10-01-2024 04:32:52] DEBUG - Replacing existing wso2/components/plugins/com.fasterxml.jackson.datatype.jackson-datatype-jsr310_2.13.5.jar with new wso2/components/plugins/com.fasterxml.jackson.datatype.jackson-datatype-jsr310_2.16.0.jar
+[10-01-2024 04:32:52] DEBUG - Modified file /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/com.fasterxml.jackson.datatype.jackson-datatype-jsr310_2.16.0.jar does not exist in modified directory. Checking added files.
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/com.fasterxml.jackson.datatype.jackson-datatype-jsr310_2.16.0.jar
+[10-01-2024 04:32:52] DEBUG - Updating jar file version of com.fasterxml.jackson.datatype.jackson-datatype-jsr310_2.13.5.jar from 2.13.5 to 2.16.0 in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:52] DEBUG - Replacing bundles info entry: 
+[10-01-2024 04:32:52] DEBUG - Original bundles entry: com.fasterxml.jackson.datatype.jackson-datatype-jsr310,2.13.5,../plugins/com.fasterxml.jackson.datatype.jackson-datatype-jsr310_2.13.5.jar,4,true
+[10-01-2024 04:32:52] DEBUG - New bundles entry: com.fasterxml.jackson.datatype.jackson-datatype-jsr310,2.16.0,../plugins/com.fasterxml.jackson.datatype.jackson-datatype-jsr310_2.16.0.jar,4,true
+[10-01-2024 04:32:52] DEBUG - Replacing existing wso2/components/plugins/tomcat-el-api_9.0.70.wso2v1.jar with new wso2/components/plugins/tomcat-el-api_9.0.82.wso2v1.jar
+[10-01-2024 04:32:52] DEBUG - Modified file /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/tomcat-el-api_9.0.82.wso2v1.jar does not exist in modified directory. Checking added files.
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/tomcat-el-api_9.0.82.wso2v1.jar
+[10-01-2024 04:32:52] DEBUG - Updating jar file version of tomcat-el-api_9.0.70.wso2v1.jar from 9.0.70.wso2v1 to 9.0.82.wso2v1 in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:52] DEBUG - Replacing bundles info entry: 
+[10-01-2024 04:32:52] DEBUG - Original bundles entry: tomcat-el-api,9.0.70.wso2v1,../plugins/tomcat-el-api_9.0.70.wso2v1.jar,4,true
+[10-01-2024 04:32:52] DEBUG - New bundles entry: tomcat-el-api,9.0.82.wso2v1,../plugins/tomcat-el-api_9.0.82.wso2v1.jar,4,true
+[10-01-2024 04:32:52] DEBUG - Replacing existing wso2/components/plugins/drools_6.3.0.wso2v1.jar with new wso2/components/plugins/drools_7.74.1.wso2v1.jar
+[10-01-2024 04:32:52] DEBUG - Modified file /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/drools_7.74.1.wso2v1.jar does not exist in modified directory. Checking added files.
+[10-01-2024 04:32:52] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/drools_7.74.1.wso2v1.jar
+[10-01-2024 04:32:53] DEBUG - Updating jar file version of drools_6.3.0.wso2v1.jar from 6.3.0.wso2v1 to 7.74.1.wso2v1 in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Replacing bundles info entry: 
+[10-01-2024 04:32:53] DEBUG - Original bundles entry: drools,6.3.0.wso2v1,../plugins/drools_6.3.0.wso2v1.jar,4,true
+[10-01-2024 04:32:53] DEBUG - New bundles entry: drools,7.74.1.wso2v1,../plugins/drools_7.74.1.wso2v1.jar,4,true
+[10-01-2024 04:32:53] DEBUG - Replacing existing wso2/components/plugins/com.fasterxml.jackson.core.jackson-databind_2.13.5.jar with new wso2/components/plugins/com.fasterxml.jackson.core.jackson-databind_2.16.0.jar
+[10-01-2024 04:32:53] DEBUG - Modified file /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/com.fasterxml.jackson.core.jackson-databind_2.16.0.jar does not exist in modified directory. Checking added files.
+[10-01-2024 04:32:53] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/com.fasterxml.jackson.core.jackson-databind_2.16.0.jar
+[10-01-2024 04:32:53] DEBUG - Updating jar file version of com.fasterxml.jackson.core.jackson-databind_2.13.5.jar from 2.13.5 to 2.16.0 in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Replacing bundles info entry: 
+[10-01-2024 04:32:53] DEBUG - Original bundles entry: com.fasterxml.jackson.core.jackson-databind,2.13.5,../plugins/com.fasterxml.jackson.core.jackson-databind_2.13.5.jar,4,true
+[10-01-2024 04:32:53] DEBUG - New bundles entry: com.fasterxml.jackson.core.jackson-databind,2.16.0,../plugins/com.fasterxml.jackson.core.jackson-databind_2.16.0.jar,4,true
+[10-01-2024 04:32:53] DEBUG - Replacing existing wso2/components/plugins/com.google.guava_31.0.1.jre.jar with new wso2/components/plugins/com.google.guava_32.1.3.jre.jar
+[10-01-2024 04:32:53] DEBUG - Modified file /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/com.google.guava_32.1.3.jre.jar does not exist in modified directory. Checking added files.
+[10-01-2024 04:32:53] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/com.google.guava_32.1.3.jre.jar
+[10-01-2024 04:32:53] DEBUG - Updating jar file version of com.google.guava_31.0.1.jre.jar from 31.0.1.jre to 32.1.3.jre in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Replacing bundles info entry: 
+[10-01-2024 04:32:53] DEBUG - Original bundles entry: com.google.guava,31.0.1.jre,../plugins/com.google.guava_31.0.1.jre.jar,4,true
+[10-01-2024 04:32:53] DEBUG - New bundles entry: com.google.guava,32.1.3.jre,../plugins/com.google.guava_32.1.3.jre.jar,4,true
+[10-01-2024 04:32:53] DEBUG - Replacing existing wso2/components/plugins/tomcat_9.0.70.wso2v1.jar with new wso2/components/plugins/tomcat_9.0.82.wso2v1.jar
+[10-01-2024 04:32:53] DEBUG - Modified file /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/tomcat_9.0.82.wso2v1.jar does not exist in modified directory. Checking added files.
+[10-01-2024 04:32:53] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/tomcat_9.0.82.wso2v1.jar
+[10-01-2024 04:32:53] DEBUG - Updating jar file version of tomcat_9.0.70.wso2v1.jar from 9.0.70.wso2v1 to 9.0.82.wso2v1 in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Replacing bundles info entry: 
+[10-01-2024 04:32:53] DEBUG - Original bundles entry: tomcat,9.0.70.wso2v1,../plugins/tomcat_9.0.70.wso2v1.jar,4,true
+[10-01-2024 04:32:53] DEBUG - New bundles entry: tomcat,9.0.82.wso2v1,../plugins/tomcat_9.0.82.wso2v1.jar,4,true
+[10-01-2024 04:32:53] DEBUG - Replacing existing wso2/components/plugins/json-schema-validator-all_2.2.6.wso2v8.jar with new wso2/components/plugins/json-schema-validator-all_2.2.6.wso2v9.jar
+[10-01-2024 04:32:53] DEBUG - Modified file /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/json-schema-validator-all_2.2.6.wso2v9.jar does not exist in modified directory. Checking added files.
+[10-01-2024 04:32:53] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/json-schema-validator-all_2.2.6.wso2v9.jar
+[10-01-2024 04:32:53] DEBUG - Updating jar file version of json-schema-validator-all_2.2.6.wso2v8.jar from 2.2.6.wso2v8 to 2.2.6.wso2v9 in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Replacing bundles info entry: 
+[10-01-2024 04:32:53] DEBUG - Original bundles entry: json-schema-validator-all,2.2.6.wso2v8,../plugins/json-schema-validator-all_2.2.6.wso2v8.jar,4,true
+[10-01-2024 04:32:53] DEBUG - New bundles entry: json-schema-validator-all,2.2.6.wso2v9,../plugins/json-schema-validator-all_2.2.6.wso2v9.jar,4,true
+[10-01-2024 04:32:53] DEBUG - Replacing existing wso2/components/plugins/opensaml_3.3.1.wso2v8.jar with new wso2/components/plugins/opensaml_3.3.1.wso2v9.jar
+[10-01-2024 04:32:53] DEBUG - Modified file /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/opensaml_3.3.1.wso2v9.jar does not exist in modified directory. Checking added files.
+[10-01-2024 04:32:53] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/opensaml_3.3.1.wso2v9.jar
+[10-01-2024 04:32:53] DEBUG - Updating jar file version of opensaml_3.3.1.wso2v8.jar from 3.3.1.wso2v8 to 3.3.1.wso2v9 in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Replacing bundles info entry: 
+[10-01-2024 04:32:53] DEBUG - Original bundles entry: opensaml,3.3.1.wso2v8,../plugins/opensaml_3.3.1.wso2v8.jar,4,true
+[10-01-2024 04:32:53] DEBUG - New bundles entry: opensaml,3.3.1.wso2v9,../plugins/opensaml_3.3.1.wso2v9.jar,4,true
+[10-01-2024 04:32:53] DEBUG - Replacing existing wso2/components/plugins/org.wso2.carbon.rule.common_4.5.6.jar with new wso2/components/plugins/org.wso2.carbon.rule.common_5.0.0.jar
+[10-01-2024 04:32:53] DEBUG - Modified file /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/org.wso2.carbon.rule.common_5.0.0.jar does not exist in modified directory. Checking added files.
+[10-01-2024 04:32:53] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/org.wso2.carbon.rule.common_5.0.0.jar
+[10-01-2024 04:32:53] DEBUG - Updating jar file version of org.wso2.carbon.rule.common_4.5.6.jar from 4.5.6 to 5.0.0 in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Replacing bundles info entry: 
+[10-01-2024 04:32:53] DEBUG - Original bundles entry: org.wso2.carbon.rule.common,4.5.6,../plugins/org.wso2.carbon.rule.common_4.5.6.jar,4,true
+[10-01-2024 04:32:53] DEBUG - New bundles entry: org.wso2.carbon.rule.common,5.0.0,../plugins/org.wso2.carbon.rule.common_5.0.0.jar,4,true
+[10-01-2024 04:32:53] DEBUG - Replacing existing wso2/components/plugins/io.netty.codec_4.1.95.Final.jar with new wso2/components/plugins/io.netty.codec_4.1.100.Final.jar
+[10-01-2024 04:32:53] DEBUG - Modified file /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/io.netty.codec_4.1.100.Final.jar does not exist in modified directory. Checking added files.
+[10-01-2024 04:32:53] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/io.netty.codec_4.1.100.Final.jar
+[10-01-2024 04:32:53] DEBUG - Updating jar file version of io.netty.codec_4.1.95.Final.jar from 4.1.95.Final to 4.1.100.Final in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Replacing bundles info entry: 
+[10-01-2024 04:32:53] DEBUG - Original bundles entry: io.netty.codec,4.1.95.Final,../plugins/io.netty.codec_4.1.95.Final.jar,4,true
+[10-01-2024 04:32:53] DEBUG - New bundles entry: io.netty.codec,4.1.100.Final,../plugins/io.netty.codec_4.1.100.Final.jar,4,true
+[10-01-2024 04:32:53] DEBUG - Replacing existing wso2/components/plugins/io.netty.transport-native-unix-common_4.1.95.Final.jar with new wso2/components/plugins/io.netty.transport-native-unix-common_4.1.100.Final.jar
+[10-01-2024 04:32:53] DEBUG - Modified file /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/io.netty.transport-native-unix-common_4.1.100.Final.jar does not exist in modified directory. Checking added files.
+[10-01-2024 04:32:53] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/io.netty.transport-native-unix-common_4.1.100.Final.jar
+[10-01-2024 04:32:53] DEBUG - Updating jar file version of io.netty.transport-native-unix-common_4.1.95.Final.jar from 4.1.95.Final to 4.1.100.Final in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Replacing bundles info entry: 
+[10-01-2024 04:32:53] DEBUG - Original bundles entry: io.netty.transport-native-unix-common,4.1.95.Final,../plugins/io.netty.transport-native-unix-common_4.1.95.Final.jar,4,true
+[10-01-2024 04:32:53] DEBUG - New bundles entry: io.netty.transport-native-unix-common,4.1.100.Final,../plugins/io.netty.transport-native-unix-common_4.1.100.Final.jar,4,true
+[10-01-2024 04:32:53] DEBUG - Replacing existing wso2/components/plugins/io.netty.resolver_4.1.95.Final.jar with new wso2/components/plugins/io.netty.resolver_4.1.100.Final.jar
+[10-01-2024 04:32:53] DEBUG - Modified file /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/io.netty.resolver_4.1.100.Final.jar does not exist in modified directory. Checking added files.
+[10-01-2024 04:32:53] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/io.netty.resolver_4.1.100.Final.jar
+[10-01-2024 04:32:53] DEBUG - Updating jar file version of io.netty.resolver_4.1.95.Final.jar from 4.1.95.Final to 4.1.100.Final in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Replacing bundles info entry: 
+[10-01-2024 04:32:53] DEBUG - Original bundles entry: io.netty.resolver,4.1.95.Final,../plugins/io.netty.resolver_4.1.95.Final.jar,4,true
+[10-01-2024 04:32:53] DEBUG - New bundles entry: io.netty.resolver,4.1.100.Final,../plugins/io.netty.resolver_4.1.100.Final.jar,4,true
+[10-01-2024 04:32:53] DEBUG - Replacing existing wso2/components/plugins/io.netty.transport_4.1.95.Final.jar with new wso2/components/plugins/io.netty.transport_4.1.100.Final.jar
+[10-01-2024 04:32:53] DEBUG - Modified file /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/io.netty.transport_4.1.100.Final.jar does not exist in modified directory. Checking added files.
+[10-01-2024 04:32:53] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/io.netty.transport_4.1.100.Final.jar
+[10-01-2024 04:32:53] DEBUG - Updating jar file version of io.netty.transport_4.1.95.Final.jar from 4.1.95.Final to 4.1.100.Final in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Replacing bundles info entry: 
+[10-01-2024 04:32:53] DEBUG - Original bundles entry: io.netty.transport,4.1.95.Final,../plugins/io.netty.transport_4.1.95.Final.jar,4,true
+[10-01-2024 04:32:53] DEBUG - New bundles entry: io.netty.transport,4.1.100.Final,../plugins/io.netty.transport_4.1.100.Final.jar,4,true
+[10-01-2024 04:32:53] DEBUG - Replacing existing wso2/components/plugins/com.fasterxml.jackson.core.jackson-core_2.13.5.jar with new wso2/components/plugins/com.fasterxml.jackson.core.jackson-core_2.16.0.jar
+[10-01-2024 04:32:53] DEBUG - Modified file /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/com.fasterxml.jackson.core.jackson-core_2.16.0.jar does not exist in modified directory. Checking added files.
+[10-01-2024 04:32:53] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/com.fasterxml.jackson.core.jackson-core_2.16.0.jar
+[10-01-2024 04:32:53] DEBUG - Updating jar file version of com.fasterxml.jackson.core.jackson-core_2.13.5.jar from 2.13.5 to 2.16.0 in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Replacing bundles info entry: 
+[10-01-2024 04:32:53] DEBUG - Original bundles entry: com.fasterxml.jackson.core.jackson-core,2.13.5,../plugins/com.fasterxml.jackson.core.jackson-core_2.13.5.jar,4,true
+[10-01-2024 04:32:53] DEBUG - New bundles entry: com.fasterxml.jackson.core.jackson-core,2.16.0,../plugins/com.fasterxml.jackson.core.jackson-core_2.16.0.jar,4,true
+[10-01-2024 04:32:53] DEBUG - Replacing existing wso2/components/plugins/tomcat-servlet-api_9.0.70.wso2v1.jar with new wso2/components/plugins/tomcat-servlet-api_9.0.82.wso2v1.jar
+[10-01-2024 04:32:53] DEBUG - Modified file /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/tomcat-servlet-api_9.0.82.wso2v1.jar does not exist in modified directory. Checking added files.
+[10-01-2024 04:32:53] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/tomcat-servlet-api_9.0.82.wso2v1.jar
+[10-01-2024 04:32:53] DEBUG - Updating jar file version of tomcat-servlet-api_9.0.70.wso2v1.jar from 9.0.70.wso2v1 to 9.0.82.wso2v1 in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Replacing bundles info entry: 
+[10-01-2024 04:32:53] DEBUG - Original bundles entry: tomcat-servlet-api,9.0.70.wso2v1,../plugins/tomcat-servlet-api_9.0.70.wso2v1.jar,4,true
+[10-01-2024 04:32:53] DEBUG - New bundles entry: tomcat-servlet-api,9.0.82.wso2v1,../plugins/tomcat-servlet-api_9.0.82.wso2v1.jar,4,true
+[10-01-2024 04:32:53] DEBUG - Replacing existing wso2/components/plugins/org.wso2.carbon.rule.mediation_4.5.6.jar with new wso2/components/plugins/org.wso2.carbon.rule.mediation_5.0.0.jar
+[10-01-2024 04:32:53] DEBUG - Modified file /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/org.wso2.carbon.rule.mediation_5.0.0.jar does not exist in modified directory. Checking added files.
+[10-01-2024 04:32:53] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/org.wso2.carbon.rule.mediation_5.0.0.jar
+[10-01-2024 04:32:53] DEBUG - Updating jar file version of org.wso2.carbon.rule.mediation_4.5.6.jar from 4.5.6 to 5.0.0 in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Replacing bundles info entry: 
+[10-01-2024 04:32:53] DEBUG - Original bundles entry: org.wso2.carbon.rule.mediation,4.5.6,../plugins/org.wso2.carbon.rule.mediation_4.5.6.jar,4,true
+[10-01-2024 04:32:53] DEBUG - New bundles entry: org.wso2.carbon.rule.mediation,5.0.0,../plugins/org.wso2.carbon.rule.mediation_5.0.0.jar,4,true
+[10-01-2024 04:32:53] DEBUG - Replacing existing wso2/components/plugins/com.fasterxml.jackson.core.jackson-annotations_2.13.5.jar with new wso2/components/plugins/com.fasterxml.jackson.core.jackson-annotations_2.16.0.jar
+[10-01-2024 04:32:53] DEBUG - Modified file /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/com.fasterxml.jackson.core.jackson-annotations_2.16.0.jar does not exist in modified directory. Checking added files.
+[10-01-2024 04:32:53] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/com.fasterxml.jackson.core.jackson-annotations_2.16.0.jar
+[10-01-2024 04:32:53] DEBUG - Updating jar file version of com.fasterxml.jackson.core.jackson-annotations_2.13.5.jar from 2.13.5 to 2.16.0 in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Replacing bundles info entry: 
+[10-01-2024 04:32:53] DEBUG - Original bundles entry: com.fasterxml.jackson.core.jackson-annotations,2.13.5,../plugins/com.fasterxml.jackson.core.jackson-annotations_2.13.5.jar,4,true
+[10-01-2024 04:32:53] DEBUG - New bundles entry: com.fasterxml.jackson.core.jackson-annotations,2.16.0,../plugins/com.fasterxml.jackson.core.jackson-annotations_2.16.0.jar,4,true
+[10-01-2024 04:32:53] DEBUG - Replacing existing wso2/components/plugins/com.fasterxml.jackson.dataformat.jackson-dataformat-yaml_2.13.5.jar with new wso2/components/plugins/com.fasterxml.jackson.dataformat.jackson-dataformat-yaml_2.16.0.jar
+[10-01-2024 04:32:53] DEBUG - Modified file /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/com.fasterxml.jackson.dataformat.jackson-dataformat-yaml_2.16.0.jar does not exist in modified directory. Checking added files.
+[10-01-2024 04:32:53] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/com.fasterxml.jackson.dataformat.jackson-dataformat-yaml_2.16.0.jar
+[10-01-2024 04:32:53] DEBUG - Updating jar file version of com.fasterxml.jackson.dataformat.jackson-dataformat-yaml_2.13.5.jar from 2.13.5 to 2.16.0 in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Replacing bundles info entry: 
+[10-01-2024 04:32:53] DEBUG - Original bundles entry: com.fasterxml.jackson.dataformat.jackson-dataformat-yaml,2.13.5,../plugins/com.fasterxml.jackson.dataformat.jackson-dataformat-yaml_2.13.5.jar,4,true
+[10-01-2024 04:32:53] DEBUG - New bundles entry: com.fasterxml.jackson.dataformat.jackson-dataformat-yaml,2.16.0,../plugins/com.fasterxml.jackson.dataformat.jackson-dataformat-yaml_2.16.0.jar,4,true
+[10-01-2024 04:32:53] DEBUG - Replacing existing wso2/components/plugins/io.netty.handler_4.1.95.Final.jar with new wso2/components/plugins/io.netty.handler_4.1.100.Final.jar
+[10-01-2024 04:32:53] DEBUG - Modified file /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/io.netty.handler_4.1.100.Final.jar does not exist in modified directory. Checking added files.
+[10-01-2024 04:32:53] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/io.netty.handler_4.1.100.Final.jar
+[10-01-2024 04:32:53] DEBUG - Updating jar file version of io.netty.handler_4.1.95.Final.jar from 4.1.95.Final to 4.1.100.Final in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Replacing bundles info entry: 
+[10-01-2024 04:32:53] DEBUG - Original bundles entry: io.netty.handler,4.1.95.Final,../plugins/io.netty.handler_4.1.95.Final.jar,4,true
+[10-01-2024 04:32:53] DEBUG - New bundles entry: io.netty.handler,4.1.100.Final,../plugins/io.netty.handler_4.1.100.Final.jar,4,true
+[10-01-2024 04:32:53] DEBUG - Replacing existing wso2/components/plugins/io.netty.codec-socks_4.1.95.Final.jar with new wso2/components/plugins/io.netty.codec-socks_4.1.100.Final.jar
+[10-01-2024 04:32:53] DEBUG - Modified file /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/io.netty.codec-socks_4.1.100.Final.jar does not exist in modified directory. Checking added files.
+[10-01-2024 04:32:53] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/io.netty.codec-socks_4.1.100.Final.jar
+[10-01-2024 04:32:53] DEBUG - Updating jar file version of io.netty.codec-socks_4.1.95.Final.jar from 4.1.95.Final to 4.1.100.Final in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Replacing bundles info entry: 
+[10-01-2024 04:32:53] DEBUG - Original bundles entry: io.netty.codec-socks,4.1.95.Final,../plugins/io.netty.codec-socks_4.1.95.Final.jar,4,true
+[10-01-2024 04:32:53] DEBUG - New bundles entry: io.netty.codec-socks,4.1.100.Final,../plugins/io.netty.codec-socks_4.1.100.Final.jar,4,true
+[10-01-2024 04:32:53] DEBUG - Replacing existing wso2/components/plugins/org.wso2.carbon.rule.backend_4.5.6.jar with new wso2/components/plugins/org.wso2.carbon.rule.backend_5.0.0.jar
+[10-01-2024 04:32:53] DEBUG - Modified file /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/org.wso2.carbon.rule.backend_5.0.0.jar does not exist in modified directory. Checking added files.
+[10-01-2024 04:32:53] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/org.wso2.carbon.rule.backend_5.0.0.jar
+[10-01-2024 04:32:53] DEBUG - Updating jar file version of org.wso2.carbon.rule.backend_4.5.6.jar from 4.5.6 to 5.0.0 in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Replacing bundles info entry: 
+[10-01-2024 04:32:53] DEBUG - Original bundles entry: org.wso2.carbon.rule.backend,4.5.6,../plugins/org.wso2.carbon.rule.backend_4.5.6.jar,4,true
+[10-01-2024 04:32:53] DEBUG - New bundles entry: org.wso2.carbon.rule.backend,5.0.0,../plugins/org.wso2.carbon.rule.backend_5.0.0.jar,4,true
+[10-01-2024 04:32:53] DEBUG - Replacing existing wso2/components/plugins/opentelemetry-all_1.11.0.wso2v3.jar with new wso2/components/plugins/opentelemetry-all_1.11.0.wso2v5.jar
+[10-01-2024 04:32:53] DEBUG - Modified file /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/opentelemetry-all_1.11.0.wso2v5.jar does not exist in modified directory. Checking added files.
+[10-01-2024 04:32:53] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/opentelemetry-all_1.11.0.wso2v5.jar
+[10-01-2024 04:32:53] DEBUG - Updating jar file version of opentelemetry-all_1.11.0.wso2v3.jar from 1.11.0.wso2v3 to 1.11.0.wso2v5 in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Replacing bundles info entry: 
+[10-01-2024 04:32:53] DEBUG - Original bundles entry: opentelemetry-all,1.11.0.wso2v3,../plugins/opentelemetry-all_1.11.0.wso2v3.jar,4,true
+[10-01-2024 04:32:53] DEBUG - New bundles entry: opentelemetry-all,1.11.0.wso2v5,../plugins/opentelemetry-all_1.11.0.wso2v5.jar,4,true
+[10-01-2024 04:32:53] DEBUG - Replacing existing wso2/components/plugins/io.netty.codec-http2_4.1.95.Final.jar with new wso2/components/plugins/io.netty.codec-http2_4.1.100.Final.jar
+[10-01-2024 04:32:53] DEBUG - Modified file /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/io.netty.codec-http2_4.1.100.Final.jar does not exist in modified directory. Checking added files.
+[10-01-2024 04:32:53] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/io.netty.codec-http2_4.1.100.Final.jar
+[10-01-2024 04:32:53] DEBUG - Updating jar file version of io.netty.codec-http2_4.1.95.Final.jar from 4.1.95.Final to 4.1.100.Final in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Replacing bundles info entry: 
+[10-01-2024 04:32:53] DEBUG - Original bundles entry: io.netty.codec-http2,4.1.95.Final,../plugins/io.netty.codec-http2_4.1.95.Final.jar,4,true
+[10-01-2024 04:32:53] DEBUG - New bundles entry: io.netty.codec-http2,4.1.100.Final,../plugins/io.netty.codec-http2_4.1.100.Final.jar,4,true
+[10-01-2024 04:32:53] DEBUG - Replacing existing wso2/components/plugins/io.netty.handler-proxy_4.1.95.Final.jar with new wso2/components/plugins/io.netty.handler-proxy_4.1.100.Final.jar
+[10-01-2024 04:32:53] DEBUG - Modified file /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/io.netty.handler-proxy_4.1.100.Final.jar does not exist in modified directory. Checking added files.
+[10-01-2024 04:32:53] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/io.netty.handler-proxy_4.1.100.Final.jar
+[10-01-2024 04:32:53] DEBUG - Updating jar file version of io.netty.handler-proxy_4.1.95.Final.jar from 4.1.95.Final to 4.1.100.Final in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Replacing bundles info entry: 
+[10-01-2024 04:32:53] DEBUG - Original bundles entry: io.netty.handler-proxy,4.1.95.Final,../plugins/io.netty.handler-proxy_4.1.95.Final.jar,4,true
+[10-01-2024 04:32:53] DEBUG - New bundles entry: io.netty.handler-proxy,4.1.100.Final,../plugins/io.netty.handler-proxy_4.1.100.Final.jar,4,true
+[10-01-2024 04:32:53] DEBUG - Replacing existing wso2/components/plugins/grpc-context_1.27.2.wso2v1.jar with new wso2/components/plugins/grpc-context_1.59.0.wso2v1.jar
+[10-01-2024 04:32:53] DEBUG - Modified file /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/grpc-context_1.59.0.wso2v1.jar does not exist in modified directory. Checking added files.
+[10-01-2024 04:32:53] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/grpc-context_1.59.0.wso2v1.jar
+[10-01-2024 04:32:53] DEBUG - Updating jar file version of grpc-context_1.27.2.wso2v1.jar from 1.27.2.wso2v1 to 1.59.0.wso2v1 in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Replacing bundles info entry: 
+[10-01-2024 04:32:53] DEBUG - Original bundles entry: grpc-context,1.27.2.wso2v1,../plugins/grpc-context_1.27.2.wso2v1.jar,4,true
+[10-01-2024 04:32:53] DEBUG - New bundles entry: grpc-context,1.59.0.wso2v1,../plugins/grpc-context_1.59.0.wso2v1.jar,4,true
+[10-01-2024 04:32:53] DEBUG - Replacing existing wso2/components/plugins/io.netty.common_4.1.95.Final.jar with new wso2/components/plugins/io.netty.common_4.1.100.Final.jar
+[10-01-2024 04:32:53] DEBUG - Modified file /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/io.netty.common_4.1.100.Final.jar does not exist in modified directory. Checking added files.
+[10-01-2024 04:32:53] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/io.netty.common_4.1.100.Final.jar
+[10-01-2024 04:32:53] DEBUG - Updating jar file version of io.netty.common_4.1.95.Final.jar from 4.1.95.Final to 4.1.100.Final in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Replacing bundles info entry: 
+[10-01-2024 04:32:53] DEBUG - Original bundles entry: io.netty.common,4.1.95.Final,../plugins/io.netty.common_4.1.95.Final.jar,4,true
+[10-01-2024 04:32:53] DEBUG - New bundles entry: io.netty.common,4.1.100.Final,../plugins/io.netty.common_4.1.100.Final.jar,4,true
+[10-01-2024 04:32:53] DEBUG - Replacing existing wso2/components/plugins/io.netty.buffer_4.1.95.Final.jar with new wso2/components/plugins/io.netty.buffer_4.1.100.Final.jar
+[10-01-2024 04:32:53] DEBUG - Modified file /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/modify/new/wso2/components/plugins/io.netty.buffer_4.1.100.Final.jar does not exist in modified directory. Checking added files.
+[10-01-2024 04:32:53] DEBUG - Validating updated file with SHA256 at /Users/pamod/.wso2-updates/updates/wso2mi-4.2.0.30-4.2.0.51/add/wso2/components/plugins/io.netty.buffer_4.1.100.Final.jar
+[10-01-2024 04:32:53] DEBUG - Updating jar file version of io.netty.buffer_4.1.95.Final.jar from 4.1.95.Final to 4.1.100.Final in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Replacing bundles info entry: 
+[10-01-2024 04:32:53] DEBUG - Original bundles entry: io.netty.buffer,4.1.95.Final,../plugins/io.netty.buffer_4.1.95.Final.jar,4,true
+[10-01-2024 04:32:53] DEBUG - New bundles entry: io.netty.buffer,4.1.100.Final,../plugins/io.netty.buffer_4.1.100.Final.jar,4,true
+[10-01-2024 04:32:53] DEBUG - Following files have been modified successfully:
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/org.wso2.micro.integrator.transport.handlers_4.2.0.37.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/synapse-vfs-transport_4.0.0.wso2v20_22.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/org.wso2.carbon.connector.core_4.7.175.10.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/org.wso2.carbon.mediator.cache_4.2.0.39.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/dbscripts/mssql/mssql_cluster.sql
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/org.wso2.micro.integrator.registry_4.2.0.42.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/synapse-core_4.0.0.wso2v20_29.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/lib/org.wso2.ciphertool-1.1.15.8.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/org.wso2.micro.integrator.websocket.transport_4.2.0.46.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/axis2-transport-jms_2.0.0.wso2v67_4.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/org.wso2.micro.integrator.security_4.2.0.36.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/bin/micro-integrator.bat
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/commons-vfs2_2.2.0.wso2v15_6.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/axis2-transport-rabbitmq-amqp_2.0.0.wso2v67_5.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/bin/micro-integrator.sh
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/org.wso2.micro.integrator.initializer_4.2.0.45.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/synapse-commons_4.0.0.wso2v20_23.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/org.wso2.carbon.rule.kernel_5.0.0.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/org.yaml.snakeyaml_2.2.0.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/com.rabbitmq.client_5.20.0.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/swagger-parser_2.0.30.wso2v2.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/io.netty.codec-http_4.1.100.Final.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/tomcat-jsp-api_9.0.82.wso2v1.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/opencensus_0.30.0.wso2v2.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/com.fasterxml.jackson.datatype.jackson-datatype-jsr310_2.16.0.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/tomcat-el-api_9.0.82.wso2v1.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/drools_7.74.1.wso2v1.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/com.fasterxml.jackson.core.jackson-databind_2.16.0.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/com.google.guava_32.1.3.jre.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/tomcat_9.0.82.wso2v1.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/json-schema-validator-all_2.2.6.wso2v9.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/opensaml_3.3.1.wso2v9.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/org.wso2.carbon.rule.common_5.0.0.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/io.netty.codec_4.1.100.Final.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/io.netty.transport-native-unix-common_4.1.100.Final.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/io.netty.resolver_4.1.100.Final.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/io.netty.transport_4.1.100.Final.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/com.fasterxml.jackson.core.jackson-core_2.16.0.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/tomcat-servlet-api_9.0.82.wso2v1.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/org.wso2.carbon.rule.mediation_5.0.0.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/com.fasterxml.jackson.core.jackson-annotations_2.16.0.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/com.fasterxml.jackson.dataformat.jackson-dataformat-yaml_2.16.0.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/io.netty.handler_4.1.100.Final.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/io.netty.codec-socks_4.1.100.Final.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/org.wso2.carbon.rule.backend_5.0.0.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/opentelemetry-all_1.11.0.wso2v5.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/io.netty.codec-http2_4.1.100.Final.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/io.netty.handler-proxy_4.1.100.Final.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/grpc-context_1.59.0.wso2v1.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/io.netty.common_4.1.100.Final.jar
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/plugins/io.netty.buffer_4.1.100.Final.jar
+
+[10-01-2024 04:32:53] DEBUG - Following files have been merged successfully:
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/dbscripts/mssql/mssql_cluster.sql
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/bin/micro-integrator.bat
+/Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/bin/micro-integrator.sh
+
+[10-01-2024 04:32:53] DEBUG - Modifying bundles.info entries
+[10-01-2024 04:32:53] DEBUG - Applying bundles.info changes
+[10-01-2024 04:32:53] DEBUG - Getting unique ordered Changes
+[10-01-2024 04:32:53] DEBUG - Removing bundles.info entry org.yaml.snakeyaml,1.33.0,../plugins/org.yaml.snakeyaml_1.33.0.jar,4,true from file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Ignoring removed bundles.info entry org.yaml.snakeyaml,1.33.0,../plugins/org.yaml.snakeyaml_1.33.0.jar,4,true since it does not exist in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Removing bundles.info entry drools,6.3.0.wso2v1,../plugins/drools_6.3.0.wso2v1.jar,4,true from file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Ignoring removed bundles.info entry drools,6.3.0.wso2v1,../plugins/drools_6.3.0.wso2v1.jar,4,true since it does not exist in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Removing bundles.info entry drools,7.74.1.wso2v1,../plugins/drools_7.74.1.wso2v1.jar,4,true from file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Adding bundles.info entry com.google.guava,32.1.3.jre,../plugins/com.google.guava_32.1.3.jre.jar,4,true to file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Ignoring added bundles.info entry com.google.guava,32.1.3.jre,../plugins/com.google.guava_32.1.3.jre.jar,4,true since it already exists in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Adding bundles.info entry bcprov-jdk18on,1.77.0.wso2v1,../plugins/bcprov-jdk18on_1.77.0.wso2v1.jar,4,true to file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Removing bundles.info entry snakeyaml,1.33.0.wso2v1,../plugins/snakeyaml_1.33.0.wso2v1.jar,4,true from file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Removing bundles.info entry org.wso2.carbon.rule.backend,4.5.6,../plugins/org.wso2.carbon.rule.backend_4.5.6.jar,4,true from file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Ignoring removed bundles.info entry org.wso2.carbon.rule.backend,4.5.6,../plugins/org.wso2.carbon.rule.backend_4.5.6.jar,4,true since it does not exist in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Adding bundles.info entry swagger-parser,2.0.30.wso2v2,../plugins/swagger-parser_2.0.30.wso2v2.jar,4,true to file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Ignoring added bundles.info entry swagger-parser,2.0.30.wso2v2,../plugins/swagger-parser_2.0.30.wso2v2.jar,4,true since it already exists in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Adding bundles.info entry drools,7.74.1.wso2v1,../plugins/drools_7.74.1.wso2v1.jar,4,true to file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Adding bundles.info entry com.fasterxml.jackson.core.jackson-annotations,2.16.0,../plugins/com.fasterxml.jackson.core.jackson-annotations_2.16.0.jar,4,true to file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Ignoring added bundles.info entry com.fasterxml.jackson.core.jackson-annotations,2.16.0,../plugins/com.fasterxml.jackson.core.jackson-annotations_2.16.0.jar,4,true since it already exists in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Removing bundles.info entry com.fasterxml.jackson.core.jackson-annotations,2.13.5,../plugins/com.fasterxml.jackson.core.jackson-annotations_2.13.5.jar,4,true from file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Ignoring removed bundles.info entry com.fasterxml.jackson.core.jackson-annotations,2.13.5,../plugins/com.fasterxml.jackson.core.jackson-annotations_2.13.5.jar,4,true since it does not exist in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Removing bundles.info entry org.wso2.carbon.rule.common,4.5.6,../plugins/org.wso2.carbon.rule.common_4.5.6.jar,4,true from file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Ignoring removed bundles.info entry org.wso2.carbon.rule.common,4.5.6,../plugins/org.wso2.carbon.rule.common_4.5.6.jar,4,true since it does not exist in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Adding bundles.info entry opencensus,0.30.0.wso2v2,../plugins/opencensus_0.30.0.wso2v2.jar,4,true to file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Ignoring added bundles.info entry opencensus,0.30.0.wso2v2,../plugins/opencensus_0.30.0.wso2v2.jar,4,true since it already exists in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Adding bundles.info entry com.fasterxml.jackson.core.jackson-core,2.16.0,../plugins/com.fasterxml.jackson.core.jackson-core_2.16.0.jar,4,true to file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Ignoring added bundles.info entry com.fasterxml.jackson.core.jackson-core,2.16.0,../plugins/com.fasterxml.jackson.core.jackson-core_2.16.0.jar,4,true since it already exists in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Removing bundles.info entry com.fasterxml.jackson.core.jackson-core,2.13.5,../plugins/com.fasterxml.jackson.core.jackson-core_2.13.5.jar,4,true from file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Ignoring removed bundles.info entry com.fasterxml.jackson.core.jackson-core,2.13.5,../plugins/com.fasterxml.jackson.core.jackson-core_2.13.5.jar,4,true since it does not exist in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Removing bundles.info entry org.wso2.carbon.rule.kernel,4.5.6,../plugins/org.wso2.carbon.rule.kernel_4.5.6.jar,4,true from file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Ignoring removed bundles.info entry org.wso2.carbon.rule.kernel,4.5.6,../plugins/org.wso2.carbon.rule.kernel_4.5.6.jar,4,true since it does not exist in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Adding bundles.info entry opentelemetry-all,1.11.0.wso2v5,../plugins/opentelemetry-all_1.11.0.wso2v5.jar,4,true to file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Ignoring added bundles.info entry opentelemetry-all,1.11.0.wso2v5,../plugins/opentelemetry-all_1.11.0.wso2v5.jar,4,true since it already exists in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Adding bundles.info entry com.fasterxml.jackson.core.jackson-databind,2.16.0,../plugins/com.fasterxml.jackson.core.jackson-databind_2.16.0.jar,4,true to file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Ignoring added bundles.info entry com.fasterxml.jackson.core.jackson-databind,2.16.0,../plugins/com.fasterxml.jackson.core.jackson-databind_2.16.0.jar,4,true since it already exists in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Removing bundles.info entry com.fasterxml.jackson.core.jackson-databind,2.13.5,../plugins/com.fasterxml.jackson.core.jackson-databind_2.13.5.jar,4,true from file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Ignoring removed bundles.info entry com.fasterxml.jackson.core.jackson-databind,2.13.5,../plugins/com.fasterxml.jackson.core.jackson-databind_2.13.5.jar,4,true since it does not exist in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Removing bundles.info entry org.wso2.carbon.rule.mediation,4.5.6,../plugins/org.wso2.carbon.rule.mediation_4.5.6.jar,4,true from file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Ignoring removed bundles.info entry org.wso2.carbon.rule.mediation,4.5.6,../plugins/org.wso2.carbon.rule.mediation_4.5.6.jar,4,true since it does not exist in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Adding bundles.info entry json-schema-validator-all,2.2.6.wso2v9,../plugins/json-schema-validator-all_2.2.6.wso2v9.jar,4,true to file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Ignoring added bundles.info entry json-schema-validator-all,2.2.6.wso2v9,../plugins/json-schema-validator-all_2.2.6.wso2v9.jar,4,true since it already exists in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Adding bundles.info entry com.rabbitmq.client,5.20.0,../plugins/com.rabbitmq.client_5.20.0.jar,4,true to file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Ignoring added bundles.info entry com.rabbitmq.client,5.20.0,../plugins/com.rabbitmq.client_5.20.0.jar,4,true since it already exists in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Removing bundles.info entry com.fasterxml.jackson.dataformat.jackson-dataformat-yaml,2.13.5,../plugins/com.fasterxml.jackson.dataformat.jackson-dataformat-yaml_2.13.5.jar,4,true from file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Ignoring removed bundles.info entry com.fasterxml.jackson.dataformat.jackson-dataformat-yaml,2.13.5,../plugins/com.fasterxml.jackson.dataformat.jackson-dataformat-yaml_2.13.5.jar,4,true since it does not exist in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Removing bundles.info entry com.google.guava,31.0.1.jre,../plugins/com.google.guava_31.0.1.jre.jar,4,true from file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Ignoring removed bundles.info entry com.google.guava,31.0.1.jre,../plugins/com.google.guava_31.0.1.jre.jar,4,true since it does not exist in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Adding bundles.info entry drools,7.74.1.wso2v1,../plugins/drools_7.74.1.wso2v1.jar,4,true to file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Ignoring added bundles.info entry drools,7.74.1.wso2v1,../plugins/drools_7.74.1.wso2v1.jar,4,true since it already exists in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Adding bundles.info entry com.fasterxml.jackson.datatype.jackson-datatype-jsr310,2.16.0,../plugins/com.fasterxml.jackson.datatype.jackson-datatype-jsr310_2.16.0.jar,4,true to file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Ignoring added bundles.info entry com.fasterxml.jackson.datatype.jackson-datatype-jsr310,2.16.0,../plugins/com.fasterxml.jackson.datatype.jackson-datatype-jsr310_2.16.0.jar,4,true since it already exists in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Removing bundles.info entry com.fasterxml.jackson.datatype.jackson-datatype-jsr310,2.13.5,../plugins/com.fasterxml.jackson.datatype.jackson-datatype-jsr310_2.13.5.jar,4,true from file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Ignoring removed bundles.info entry com.fasterxml.jackson.datatype.jackson-datatype-jsr310,2.13.5,../plugins/com.fasterxml.jackson.datatype.jackson-datatype-jsr310_2.13.5.jar,4,true since it does not exist in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Removing bundles.info entry swagger-parser,2.0.30.wso2v1,../plugins/swagger-parser_2.0.30.wso2v1.jar,4,true from file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Ignoring removed bundles.info entry swagger-parser,2.0.30.wso2v1,../plugins/swagger-parser_2.0.30.wso2v1.jar,4,true since it does not exist in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Adding bundles.info entry org.wso2.carbon.rule.backend,5.0.0,../plugins/org.wso2.carbon.rule.backend_5.0.0.jar,4,true to file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Ignoring added bundles.info entry org.wso2.carbon.rule.backend,5.0.0,../plugins/org.wso2.carbon.rule.backend_5.0.0.jar,4,true since it already exists in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Adding bundles.info entry com.fasterxml.jackson.dataformat.jackson-dataformat-yaml,2.16.0,../plugins/com.fasterxml.jackson.dataformat.jackson-dataformat-yaml_2.16.0.jar,4,true to file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Ignoring added bundles.info entry com.fasterxml.jackson.dataformat.jackson-dataformat-yaml,2.16.0,../plugins/com.fasterxml.jackson.dataformat.jackson-dataformat-yaml_2.16.0.jar,4,true since it already exists in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Removing bundles.info entry opencensus,0.30.0.wso2v1,../plugins/opencensus_0.30.0.wso2v1.jar,4,true from file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Ignoring removed bundles.info entry opencensus,0.30.0.wso2v1,../plugins/opencensus_0.30.0.wso2v1.jar,4,true since it does not exist in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Removing bundles.info entry bcprov-jdk15on,1.70.0.wso2v1,../plugins/bcprov-jdk15on_1.70.0.wso2v1.jar,4,true from file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Adding bundles.info entry org.yaml.snakeyaml,2.2.0,../plugins/org.yaml.snakeyaml_2.2.0.jar,4,true to file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Ignoring added bundles.info entry org.yaml.snakeyaml,2.2.0,../plugins/org.yaml.snakeyaml_2.2.0.jar,4,true since it already exists in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Adding bundles.info entry org.wso2.carbon.rule.common,5.0.0,../plugins/org.wso2.carbon.rule.common_5.0.0.jar,4,true to file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Ignoring added bundles.info entry org.wso2.carbon.rule.common,5.0.0,../plugins/org.wso2.carbon.rule.common_5.0.0.jar,4,true since it already exists in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Removing bundles.info entry opentelemetry-all,1.11.0.wso2v3,../plugins/opentelemetry-all_1.11.0.wso2v3.jar,4,true from file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Ignoring removed bundles.info entry opentelemetry-all,1.11.0.wso2v3,../plugins/opentelemetry-all_1.11.0.wso2v3.jar,4,true since it does not exist in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Removing bundles.info entry com.fasterxml.jackson.core.jackson-annotations,2.15.2,../plugins/com.fasterxml.jackson.core.jackson-annotations_2.15.2.jar,4,true from file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Ignoring removed bundles.info entry com.fasterxml.jackson.core.jackson-annotations,2.15.2,../plugins/com.fasterxml.jackson.core.jackson-annotations_2.15.2.jar,4,true since it does not exist in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Adding bundles.info entry com.fasterxml.jackson.core.jackson-annotations,2.15.2,../plugins/com.fasterxml.jackson.core.jackson-annotations_2.15.2.jar,4,true to file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Adding bundles.info entry org.wso2.carbon.rule.kernel,5.0.0,../plugins/org.wso2.carbon.rule.kernel_5.0.0.jar,4,true to file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Ignoring added bundles.info entry org.wso2.carbon.rule.kernel,5.0.0,../plugins/org.wso2.carbon.rule.kernel_5.0.0.jar,4,true since it already exists in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Removing bundles.info entry io.swagger.annotations,1.6.5,../plugins/io.swagger.annotations_1.6.5.jar,4,true from file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Removing bundles.info entry com.fasterxml.jackson.core.jackson-core,2.15.2,../plugins/com.fasterxml.jackson.core.jackson-core_2.15.2.jar,4,true from file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Ignoring removed bundles.info entry com.fasterxml.jackson.core.jackson-core,2.15.2,../plugins/com.fasterxml.jackson.core.jackson-core_2.15.2.jar,4,true since it does not exist in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Adding bundles.info entry com.fasterxml.jackson.core.jackson-core,2.15.2,../plugins/com.fasterxml.jackson.core.jackson-core_2.15.2.jar,4,true to file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Adding bundles.info entry org.wso2.carbon.rule.mediation,5.0.0,../plugins/org.wso2.carbon.rule.mediation_5.0.0.jar,4,true to file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Ignoring added bundles.info entry org.wso2.carbon.rule.mediation,5.0.0,../plugins/org.wso2.carbon.rule.mediation_5.0.0.jar,4,true since it already exists in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Removing bundles.info entry io.swagger.core,1.6.5,../plugins/io.swagger.core_1.6.5.jar,4,true from file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Removing bundles.info entry com.fasterxml.jackson.core.jackson-databind,2.15.2,../plugins/com.fasterxml.jackson.core.jackson-databind_2.15.2.jar,4,true from file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Ignoring removed bundles.info entry com.fasterxml.jackson.core.jackson-databind,2.15.2,../plugins/com.fasterxml.jackson.core.jackson-databind_2.15.2.jar,4,true since it does not exist in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Adding bundles.info entry com.fasterxml.jackson.core.jackson-databind,2.15.2,../plugins/com.fasterxml.jackson.core.jackson-databind_2.15.2.jar,4,true to file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Removing bundles.info entry io.swagger.models,1.6.5,../plugins/io.swagger.models_1.6.5.jar,4,true from file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Removing bundles.info entry com.rabbitmq.client,2.15.2,../plugins/com.rabbitmq.client_2.15.2.jar,4,true from file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Ignoring removed bundles.info entry com.rabbitmq.client,2.15.2,../plugins/com.rabbitmq.client_2.15.2.jar,4,true since it does not exist in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Adding bundles.info entry com.fasterxml.jackson.dataformat.jackson-dataformat-yaml,2.15.2,../plugins/com.fasterxml.jackson.dataformat.jackson-dataformat-yaml_2.15.2.jar,4,true to file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Removing bundles.info entry json-schema-validator-all,2.2.6.wso2v8,../plugins/json-schema-validator-all_2.2.6.wso2v8.jar,4,true from file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Ignoring removed bundles.info entry json-schema-validator-all,2.2.6.wso2v8,../plugins/json-schema-validator-all_2.2.6.wso2v8.jar,4,true since it does not exist in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Removing bundles.info entry com.fasterxml.jackson.datatype.jackson-datatype-jsr310,2.15.2,../plugins/com.fasterxml.jackson.datatype.jackson-datatype-jsr310_2.15.2.jar,4,true from file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Ignoring removed bundles.info entry com.fasterxml.jackson.datatype.jackson-datatype-jsr310,2.15.2,../plugins/com.fasterxml.jackson.datatype.jackson-datatype-jsr310_2.15.2.jar,4,true since it does not exist in /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Adding bundles.info entry com.fasterxml.jackson.datatype.jackson-datatype-jsr310,2.15.2,../plugins/com.fasterxml.jackson.datatype.jackson-datatype-jsr310_2.15.2.jar,4,true to file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] DEBUG - Removing bundles.info entry com.fasterxml.jackson.dataformat.jackson-dataformat-yaml,2.15.2,../plugins/com.fasterxml.jackson.dataformat.jackson-dataformat-yaml_2.15.2.jar,4,true from file /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+[10-01-2024 04:32:53] INFO - wso2mi-4.2.0 updated successfully
+[10-01-2024 04:32:53] DEBUG - Updates configurations written to /Users/pamod/Desktop/SA/Bootcamp/SA_Bootcamp_2024/setup/wso2mi-4.2.0/updates/config.json

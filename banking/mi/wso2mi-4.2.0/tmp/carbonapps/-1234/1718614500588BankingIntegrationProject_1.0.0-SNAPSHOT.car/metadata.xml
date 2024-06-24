@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="BankingIntegrationProjectCompositeExporter" version="1.0.0-SNAPSHOT" type="carbon/application">
+        <dependency artifact="BankingPaymentsAPI" version="1.0.0" include="true" serverRole="EnterpriseIntegrator"/>
+        <dependency artifact="paymentconfig" version="1.0.0" include="true" serverRole="EnterpriseIntegrator"/>
+        <dependency artifact="paymentconfig_inputSchema" version="1.0.0" include="true" serverRole="EnterpriseIntegrator"/>
+        <dependency artifact="paymentconfig_outputSchema" version="1.0.0" include="true" serverRole="EnterpriseIntegrator"/>
+        <dependency artifact="paymentconfig_xsltStyleSheet" version="1.0.0" include="true" serverRole="EnterpriseIntegrator"/>
+        <dependency artifact="BankingPaymentsAPI_metadata" version="1.0.0" include="true" serverRole="EnterpriseIntegrator"/>
+        <dependency artifact="BankingPaymentsAPI_swagger" version="1.0.0" include="true" serverRole="EnterpriseIntegrator"/>
+    </artifact>
+</artifacts>

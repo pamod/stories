@@ -1,0 +1,189 @@
+TID: [-1234] [devportal] [2024-06-21 05:07:33,559] ERROR {org.apache.jsp.services.refresh.refresh_jsp} - org.wso2.carbon.ui.filters.cache.ContentTypeBasedCachePreventionFilter$1@c780266
+TID: [-1234] [api/am/devportal] [2024-06-21 05:07:33,590] ERROR {org.wso2.carbon.apimgt.rest.api.util.impl.OAuthOpaqueAuthenticatorImpl} - Invalid OAuth Token : Invalid Access Token. ACTIVE access token is not found.
+TID: [-1234] [api/am/devportal] [2024-06-21 05:07:33,590] ERROR {org.wso2.carbon.apimgt.rest.api.util.impl.OAuthOpaqueAuthenticatorImpl} - Provided access token is invalid
+TID: [-1234] [] [2024-06-21 05:07:40,188]  WARN {org.wso2.carbon.identity.oidc.session.OIDCInboundSessionContextMgtListener} - No session state found for the received Session ID : c0c3ddfa-a032-4bdf-ad09-743d54e92a8a-v2
+TID: [] [] [2024-06-21 05:07:52,265]  INFO {org.wso2.carbon.databridge.core.DataBridge} - user admin connected
+TID: [] [] [2024-06-21 07:08:58,583]  INFO {org.wso2.carbon.identity.application.authentication.framework.store.SessionCleanUpService} - Session Data cleanup task is running successfully for removing expired Data
+TID: [-1234] [] [2024-06-21 08:01:24,174]  WARN {org.wso2.carbon.identity.oidc.session.OIDCInboundSessionContextMgtListener} - No session state found for the received Session ID : d500aae0-ac36-4bfb-a9a8-85ab092f0383-v2
+TID: [-1234] [publisher] [2024-06-21 08:03:10,372] ERROR {org.apache.jsp.services.refresh.refresh_jsp} - org.wso2.carbon.ui.filters.cache.ContentTypeBasedCachePreventionFilter$1@28edbc59
+TID: [-1234] [publisher] [2024-06-21 08:03:10,372] ERROR {org.apache.jsp.services.refresh.refresh_jsp} - org.wso2.carbon.ui.filters.cache.ContentTypeBasedCachePreventionFilter$1@57128b65
+TID: [-1234] [api/am/publisher] [2024-06-21 08:03:10,377] ERROR {org.wso2.carbon.apimgt.rest.api.util.impl.OAuthOpaqueAuthenticatorImpl} - Invalid OAuth Token : Invalid Access Token. ACTIVE access token is not found.
+TID: [-1234] [api/am/publisher] [2024-06-21 08:03:10,377] ERROR {org.wso2.carbon.apimgt.rest.api.util.impl.OAuthOpaqueAuthenticatorImpl} - Provided access token is invalid
+TID: [-1234] [api/am/publisher] [2024-06-21 08:03:10,377] ERROR {org.wso2.carbon.apimgt.rest.api.util.impl.OAuthOpaqueAuthenticatorImpl} - Invalid OAuth Token : Invalid Access Token. ACTIVE access token is not found.
+TID: [-1234] [api/am/publisher] [2024-06-21 08:03:10,377] ERROR {org.wso2.carbon.apimgt.rest.api.util.impl.OAuthOpaqueAuthenticatorImpl} - Provided access token is invalid
+TID: [] [] [2024-06-21 08:05:39,834]  INFO {org.wso2.carbon.databridge.core.DataBridge} - user admin connected
+TID: [] [] [2024-06-21 08:06:45,888]  INFO {org.apache.synapse.api.API} - {api:BankingPaymentsAPI:v1.0.0} Destroying API: BankingPaymentsAPI:v1.0.0
+TID: [] [] [2024-06-21 08:06:45,889]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - API : BankingPaymentsAPI:v1.0.0 was removed from the Synapse configuration successfully
+TID: [] [] [2024-06-21 08:06:45,890]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Local entry : e586890e-0885-482e-9234-6dc5b0a821df was removed from the Synapse configuration successfully
+TID: [-1234] [internal/data/v1] [2024-06-21 08:07:20,977]  INFO {org.wso2.carbon.apimgt.impl.importexport.utils.CommonUtil} - Creation of folder is successful. Directory Name : BankingPaymentsAPI-1.0.0
+TID: [-1234] [internal/data/v1] [2024-06-21 08:07:20,977]  INFO {org.wso2.carbon.apimgt.impl.importexport.utils.CommonUtil} - Creation of folder is successful. Directory Name : Definitions
+TID: [] [] [2024-06-21 08:07:21,021]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Local entry : d8bad82f-5a29-4ee4-87a9-70dd90fcfc48 was added to the Synapse configuration successfully
+TID: [] [] [2024-06-21 08:07:21,022]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Endpoint : BankingPaymentsAPI--v1.0.0_APIproductionEndpoint was added to the Synapse configuration successfully
+TID: [] [] [2024-06-21 08:07:21,022]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Endpoint : BankingPaymentsAPI--v1.0.0_APIsandboxEndpoint was added to the Synapse configuration successfully
+TID: [] [] [2024-06-21 08:07:21,024]  INFO {org.apache.synapse.api.API} - {api:BankingPaymentsAPI:v1.0.0} Initializing API: BankingPaymentsAPI:v1.0.0
+TID: [] [] [2024-06-21 08:07:21,024]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - API : BankingPaymentsAPI:v1.0.0 was added to the Synapse configuration successfully
+TID: [] [] [2024-06-21 08:08:26,011]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Received fatal alert: certificate_unknown
+TID: [] [] [2024-06-21 08:08:26,011]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Received fatal alert: certificate_unknown
+TID: [] [] [2024-06-21 08:08:26,066]  WARN {org.apache.synapse.transport.http.access.AccessConfiguration} - Error loading properties from file: access-log.properties
+TID: [] [] [2024-06-21 08:08:26,069]  WARN {org.apache.synapse.commons.util.MiscellaneousUtil} - Error loading properties from a file at from the System defined location: access-log.properties
+TID: [] [] [2024-06-21 08:08:26,069]  WARN {org.apache.synapse.commons.util.MiscellaneousUtil} - Error loading properties from a file at from the System defined location: access-log.properties
+TID: [] [] [2024-06-21 08:08:26,069]  WARN {org.apache.synapse.commons.util.MiscellaneousUtil} - Error loading properties from a file at from the System defined location: access-log.properties
+TID: [] [] [2024-06-21 08:08:26,265]  INFO {org.wso2.carbon.apimgt.keymgt.handlers.DefaultKeyValidationHandler} - org.wso2.carbon.apimgt.keymgt.handlers.DefaultKeyValidationHandler Initialised
+TID: [] [] [2024-06-21 08:08:26,286]  INFO {org.wso2.carbon.databridge.core.DataBridge} - user admin connected
+TID: [] [] [2024-06-21 08:08:26,290]  INFO {org.apache.synapse.core.axis2.TimeoutHandler} - This engine will expire all callbacks after GLOBAL_TIMEOUT: 120 seconds, irrespective of the timeout action, after the specified or optional timeout
+TID: [] [] [2024-06-21 08:08:26,314]  INFO {org.wso2.carbon.event.output.adapter.jms.internal.util.JMSConnectionFactory} - JMS ConnectionFactory : jmsEventPublisher initialized
+TID: [] [] [2024-06-21 08:18:30,743]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Received fatal alert: certificate_unknown
+TID: [] [] [2024-06-21 08:18:30,744]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Received fatal alert: certificate_unknown
+TID: [] [] [2024-06-21 08:21:00,578]  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutdown hook triggered....
+TID: [] [] [2024-06-21 08:21:00,578]  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Gracefully shutting down WSO2 API Manager...
+TID: [] [] [2024-06-21 08:21:00,582]  INFO {org.wso2.carbon.core.ServerManagement} - Starting to switch to maintenance mode...
+TID: [] [] [2024-06-21 08:21:00,583]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpListener} - Stopping Pass-through HTTP Listener..
+TID: [] [] [2024-06-21 08:21:00,583]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pausing  IO Reactor bind for port 8282
+TID: [] [] [2024-06-21 08:21:00,583]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpMultiSSLListener} - Stopping Pass-through HTTPS Listener..
+TID: [] [] [2024-06-21 08:21:00,583]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pausing  IO Reactor bind for port 8245
+TID: [] [] [2024-06-21 08:21:00,583]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Shutting down IO Reactor bind for port 8245
+TID: [] [] [2024-06-21 08:21:00,584]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Shutting down IO Reactor bind for port 8282
+TID: [] [] [2024-06-21 08:21:00,585]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - HTTPS-Listener I/O dispatcher Listener shutdown.
+TID: [] [] [2024-06-21 08:21:00,585]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - HTTP-Listener I/O dispatcher Listener shutdown.
+TID: [] [] [2024-06-21 08:21:00,585]  INFO {org.wso2.carbon.core.ServerManagement} - Stopped all transport listeners
+TID: [] [] [2024-06-21 08:21:00,586]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpListener} - Destroying PassThroughHttpListener
+TID: [] [] [2024-06-21 08:21:00,587]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpMultiSSLListener} - Destroying PassThroughHttpListener
+TID: [] [] [2024-06-21 08:21:00,587]  INFO {org.wso2.carbon.core.ServerManagement} - Waiting for request service completion...
+TID: [] [] [2024-06-21 08:21:00,590]  INFO {org.wso2.carbon.core.ServerManagement} - All requests have been served.
+TID: [] [] [2024-06-21 08:21:00,590]  INFO {org.wso2.carbon.core.ServerManagement} - Waiting for deployment completion...
+TID: [] [] [2024-06-21 08:21:00,683]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/authenticationendpoint]
+TID: [] [] [2024-06-21 08:21:00,695]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/devportal]
+TID: [] [] [2024-06-21 08:21:00,709]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/accountrecoveryendpoint]
+TID: [] [] [2024-06-21 08:21:00,720]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/publisher]
+TID: [] [] [2024-06-21 08:21:00,730]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/admin]
+TID: [] [] [2024-06-21 08:21:00,757]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/am/publisher]
+TID: [] [] [2024-06-21 08:21:00,772]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/identity/oauth2/dcr/v1.1]
+TID: [] [] [2024-06-21 08:21:00,784]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/oauth2]
+TID: [] [] [2024-06-21 08:21:00,799]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/keymanager-operations]
+TID: [] [] [2024-06-21 08:21:00,811]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/am/service-catalog/v1]
+TID: [] [] [2024-06-21 08:21:00,828]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/identity/consent-mgt/v1.0]
+TID: [] [] [2024-06-21 08:21:00,835]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/am/sample/calculator/v1]
+TID: [] [] [2024-06-21 08:21:00,849]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/am/devportal]
+TID: [] [] [2024-06-21 08:21:00,863]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/am/gateway/v2]
+TID: [] [] [2024-06-21 08:21:00,869]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/am/sample/pizzashack/v1]
+TID: [] [] [2024-06-21 08:21:00,884]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/identity/oauth2/v1.0]
+TID: [] [] [2024-06-21 08:21:00,899]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/am/admin]
+TID: [] [] [2024-06-21 08:21:00,912]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/identity/recovery/v0.9]
+TID: [] [] [2024-06-21 08:21:00,925]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/client-registration/v0.17]
+TID: [] [] [2024-06-21 08:21:00,948]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/am/devops/v0]
+TID: [] [] [2024-06-21 08:21:00,959]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/identity/auth/v1.1]
+TID: [] [] [2024-06-21 08:21:00,966]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/internal/data/v1]
+TID: [] [] [2024-06-21 08:21:00,975]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/identity/user/v1.0]
+TID: [] [] [2024-06-21 08:21:00,975]  INFO {org.wso2.carbon.core.ServerManagement} - All deployment tasks have been completed.
+TID: [] [] [2024-06-21 08:21:00,975]  INFO {org.wso2.carbon.core.ServerManagement} - Waiting for server task completion...
+TID: [] [] [2024-06-21 08:21:00,978]  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} - Writing logs 
+TID: [] [] [2024-06-21 08:21:00,978]  INFO {org.wso2.carbon.core.ServerManagement} - All server tasks have been completed.
+TID: [] [] [2024-06-21 08:21:00,978]  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutting down WSO2 API Manager...
+TID: [] [] [2024-06-21 08:21:00,978]  INFO {org.wso2.carbon.apimgt.common.jms.JMSTransportHandler} - Starting to Shutdown the Listener...
+TID: [] [] [2024-06-21 08:21:01,984]  INFO {org.wso2.carbon.apimgt.common.jms.JMSTaskManager} - Task manager for jms consumer 1000 shutdown
+TID: [] [] [2024-06-21 08:21:01,984]  INFO {org.wso2.carbon.apimgt.common.jms.JMSListener} - Stopped listening for JMS messages to listener : Siddhi-JMS-Consumer#notification
+TID: [] [] [2024-06-21 08:21:01,984]  INFO {org.wso2.carbon.apimgt.common.jms.JMSTransportHandler} - Starting to Shutdown the Listener...
+TID: [] [] [2024-06-21 08:21:02,992]  INFO {org.wso2.carbon.apimgt.common.jms.JMSTaskManager} - Task manager for jms consumer 1000 shutdown
+TID: [] [] [2024-06-21 08:21:02,992]  INFO {org.wso2.carbon.apimgt.common.jms.JMSListener} - Stopped listening for JMS messages to listener : Siddhi-JMS-Consumer#keyManager
+TID: [] [] [2024-06-21 08:21:03,993]  INFO {org.wso2.carbon.apimgt.common.jms.JMSTaskManager} - Task manager for jms consumer 1000 shutdown
+TID: [] [] [2024-06-21 08:21:03,993]  INFO {org.wso2.carbon.apimgt.common.jms.JMSListener} - Stopped listening for JMS messages to listener : Siddhi-JMS-Consumer#notification
+TID: [] [] [2024-06-21 08:21:03,993]  INFO {org.wso2.carbon.apimgt.common.jms.JMSTransportHandler} - Starting to Shutdown the Listener...
+TID: [] [] [2024-06-21 08:21:04,999]  INFO {org.wso2.carbon.apimgt.common.jms.JMSTaskManager} - Task manager for jms consumer 1000 shutdown
+TID: [] [] [2024-06-21 08:21:04,999]  INFO {org.wso2.carbon.apimgt.common.jms.JMSListener} - Stopped listening for JMS messages to listener : Siddhi-JMS-Consumer#throttleData
+TID: [] [] [2024-06-21 08:21:04,999]  INFO {org.wso2.carbon.apimgt.common.jms.JMSTransportHandler} - Starting to Shutdown the Listener...
+TID: [] [] [2024-06-21 08:21:06,006]  INFO {org.wso2.carbon.apimgt.common.jms.JMSTaskManager} - Task manager for jms consumer 1000 shutdown
+TID: [] [] [2024-06-21 08:21:06,006]  INFO {org.wso2.carbon.apimgt.common.jms.JMSListener} - Stopped listening for JMS messages to listener : Siddhi-JMS-Consumer#tokenRevocation
+TID: [] [] [2024-06-21 08:21:07,013]  INFO {org.wso2.carbon.apimgt.common.jms.JMSTaskManager} - Task manager for jms consumer 1000 shutdown
+TID: [] [] [2024-06-21 08:21:07,013]  INFO {org.wso2.carbon.apimgt.common.jms.JMSListener} - Stopped listening for JMS messages to listener : Siddhi-JMS-Consumer#cacheInvalidation
+TID: [] [] [2024-06-21 08:21:08,019]  INFO {org.wso2.carbon.apimgt.common.jms.JMSTaskManager} - Task manager for jms consumer 1000 shutdown
+TID: [] [] [2024-06-21 08:21:08,019]  INFO {org.wso2.carbon.apimgt.common.jms.JMSListener} - Stopped listening for JMS messages to listener : Siddhi-JMS-Consumer#notification
+TID: [] [] [2024-06-21 08:21:09,026]  INFO {org.wso2.carbon.apimgt.common.jms.JMSTaskManager} - Task manager for jms consumer 1000 shutdown
+TID: [] [] [2024-06-21 08:21:09,026]  INFO {org.wso2.carbon.apimgt.common.jms.JMSListener} - Stopped listening for JMS messages to listener : Siddhi-JMS-Consumer#throttleData
+TID: [] [] [2024-06-21 08:21:10,035]  INFO {org.wso2.carbon.apimgt.common.jms.JMSTaskManager} - Task manager for jms consumer 1000 shutdown
+TID: [] [] [2024-06-21 08:21:10,035]  INFO {org.wso2.carbon.apimgt.common.jms.JMSListener} - Stopped listening for JMS messages to listener : Siddhi-JMS-Consumer#asyncWebhooksData
+TID: [] [] [2024-06-21 08:21:10,035]  INFO {org.wso2.carbon.apimgt.common.jms.JMSTransportHandler} - Starting to Shutdown the Listener...
+TID: [] [] [2024-06-21 08:21:10,035]  INFO {org.wso2.carbon.apimgt.common.jms.JMSTransportHandler} - Starting to Shutdown the Listener...
+TID: [] [] [2024-06-21 08:21:10,036]  INFO {org.wso2.carbon.apimgt.common.jms.JMSTransportHandler} - Starting to Shutdown the Listener...
+TID: [] [] [2024-06-21 08:21:10,036]  INFO {org.wso2.carbon.apimgt.common.jms.JMSTransportHandler} - Starting to Shutdown the Listener...
+TID: [] [] [2024-06-21 08:21:10,044]  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutting down OSGi framework...
+TID: [] [] [2024-06-21 08:21:10,067]  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Stopping CarbonServerManager...
+TID: [] [] [2024-06-21 08:21:10,068]  INFO {org.wso2.carbon.websocket.transport.WebsocketTransportSender} - WSS Sender Shutdown
+TID: [] [] [2024-06-21 08:21:10,068]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSender} - HTTP Sender shutdown
+TID: [] [] [2024-06-21 08:21:10,068]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLSender} - HTTPS Sender shutdown
+TID: [] [] [2024-06-21 08:21:10,069]  INFO {org.wso2.carbon.websocket.transport.WebsocketTransportSender} - WS Sender Shutdown
+TID: [] [] [2024-06-21 08:21:10,069]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpListener} - Destroying PassThroughHttpListener
+TID: [] [] [2024-06-21 08:21:10,069]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpMultiSSLListener} - Destroying PassThroughHttpListener
+TID: [] [] [2024-06-21 08:21:10,088]  INFO {org.wso2.carbon.event.processor.core.internal.CarbonEventProcessorService} - Successfully shutdown ExecutionPlans
+TID: [] [] [2024-06-21 08:21:10,136]  INFO {org.apache.synapse.Axis2SynapseController} - Undeploying the Synapse service...
+TID: [] [] [2024-06-21 08:21:10,136]  INFO {org.apache.synapse.Axis2SynapseController} - Undeploying Proxy services...
+TID: [] [] [2024-06-21 08:21:10,136]  INFO {org.apache.synapse.Axis2SynapseController} - Undeploying EventSources...
+TID: [] [] [2024-06-21 08:21:10,146]  INFO {org.apache.synapse.inbound.InboundEndpoint} - Destroying Inbound Endpoint: WebSocketInboundEndpoint
+TID: [] [] [2024-06-21 08:21:10,148]  INFO {org.apache.synapse.inbound.InboundEndpoint} - Destroying Inbound Endpoint: SecureWebSocketEP
+TID: [] [] [2024-06-21 08:21:10,150]  INFO {org.apache.synapse.inbound.InboundEndpoint} - Destroying Inbound Endpoint: WebhookServer
+TID: [] [] [2024-06-21 08:21:10,150]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Closing Endpoint Listener for port 9023
+TID: [] [] [2024-06-21 08:21:11,155]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Successfully closed Endpoint Listener for port 9023
+TID: [] [] [2024-06-21 08:21:11,155]  INFO {org.apache.synapse.inbound.InboundEndpoint} - Destroying Inbound Endpoint: SecureWebhookServer
+TID: [] [] [2024-06-21 08:21:11,156]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Closing Endpoint Listener for port 8023
+TID: [] [] [2024-06-21 08:21:12,158]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Successfully closed Endpoint Listener for port 8023
+TID: [] [] [2024-06-21 08:21:12,159]  INFO {org.apache.synapse.api.API} - {api:BankingPaymentsAPI:v1.0.0} Destroying API: BankingPaymentsAPI:v1.0.0
+TID: [] [] [2024-06-21 08:21:12,160]  INFO {org.apache.synapse.api.API} - {api:_OpenService_} Destroying API: _OpenService_
+TID: [] [] [2024-06-21 08:21:12,160]  INFO {org.apache.synapse.api.API} - {api:_JwksEndpoint_} Destroying API: _JwksEndpoint_
+TID: [] [] [2024-06-21 08:21:12,160]  INFO {org.apache.synapse.task.SynapseTaskManager} - Shutting down the task manager
+TID: [] [] [2024-06-21 08:21:12,166]  INFO {org.wso2.carbon.metrics.impl.reporter.AbstractReporter} - Stopped JMX reporter for Metrics
+TID: [] [] [2024-06-21 08:21:12,191]  INFO {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent} - Stopping the carbon web-app registered under : /
+TID: [] [] [2024-06-21 08:21:13,254]  INFO {org.wso2.carbon.apimgt.eventing.hub.internal.ServiceComponent} - Eventing Hub ServiceComponent is deactivated
+TID: [] [] [2024-06-21 08:21:13,254]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : EmailPublisher.xml
+TID: [] [] [2024-06-21 08:21:13,257]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state : EmailPublisher.xml, waiting for Output Event Adapter dependency : email
+TID: [] [] [2024-06-21 08:21:13,257]  INFO {org.wso2.carbon.event.publisher.core.internal.CarbonEventPublisherService} - Event publisher : EmailPublisher  is in inactive state because dependency could not be found : email
+TID: [] [] [2024-06-21 08:21:13,257]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : jmsEventPublisher_1.10.0_2.xml
+TID: [] [] [2024-06-21 08:21:13,258]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state : jmsEventPublisher_1.10.0_2.xml, waiting for Output Event Adapter dependency : jms
+TID: [] [] [2024-06-21 08:21:13,258]  INFO {org.wso2.carbon.event.publisher.core.internal.CarbonEventPublisherService} - Event publisher : jmsEventPublisher-1.0.0-2  is in inactive state because dependency could not be found : jms
+TID: [] [] [2024-06-21 08:21:13,258]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : keymgtEventJMSEventPublisher.xml
+TID: [] [] [2024-06-21 08:21:13,258]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state : keymgtEventJMSEventPublisher.xml, waiting for Output Event Adapter dependency : jms
+TID: [] [] [2024-06-21 08:21:13,258]  INFO {org.wso2.carbon.event.publisher.core.internal.CarbonEventPublisherService} - Event publisher : keymgtEventJMSEventPublisher  is in inactive state because dependency could not be found : jms
+TID: [] [] [2024-06-21 08:21:13,258]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : globalCacheInvalidationJMSPublisher.xml
+TID: [] [] [2024-06-21 08:21:13,259]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state : globalCacheInvalidationJMSPublisher.xml, waiting for Output Event Adapter dependency : jms
+TID: [] [] [2024-06-21 08:21:13,259]  INFO {org.wso2.carbon.event.publisher.core.internal.CarbonEventPublisherService} - Event publisher : globalCacheInvalidationJMSPublisher  is in inactive state because dependency could not be found : jms
+TID: [] [] [2024-06-21 08:21:13,259]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : asyncWebhooksEventPublisher_1.0.0.xml
+TID: [] [] [2024-06-21 08:21:13,259]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state : asyncWebhooksEventPublisher_1.0.0.xml, waiting for Output Event Adapter dependency : jms
+TID: [] [] [2024-06-21 08:21:13,259]  INFO {org.wso2.carbon.event.publisher.core.internal.CarbonEventPublisherService} - Event publisher : asyncWebhooksEventPublisher-1.0.0  is in inactive state because dependency could not be found : jms
+TID: [] [] [2024-06-21 08:21:13,259]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : jmsEventPublisher2.xml
+TID: [] [] [2024-06-21 08:21:13,259]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state : jmsEventPublisher2.xml, waiting for Output Event Adapter dependency : jms
+TID: [] [] [2024-06-21 08:21:13,259]  INFO {org.wso2.carbon.event.publisher.core.internal.CarbonEventPublisherService} - Event publisher : jmsEventPublisher2  is in inactive state because dependency could not be found : jms
+TID: [] [] [2024-06-21 08:21:13,259]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : asyncWebhooksEventPublisher.xml
+TID: [] [] [2024-06-21 08:21:13,260]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state : asyncWebhooksEventPublisher.xml, waiting for Output Event Adapter dependency : jms
+TID: [] [] [2024-06-21 08:21:13,260]  INFO {org.wso2.carbon.event.publisher.core.internal.CarbonEventPublisherService} - Event publisher : asyncWebhooksEventPublisher  is in inactive state because dependency could not be found : jms
+TID: [] [] [2024-06-21 08:21:13,260]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : asyncWebhooksEventPublisher_1.0.0_2.xml
+TID: [] [] [2024-06-21 08:21:13,260]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state : asyncWebhooksEventPublisher_1.0.0_2.xml, waiting for Output Event Adapter dependency : jms
+TID: [] [] [2024-06-21 08:21:13,260]  INFO {org.wso2.carbon.event.publisher.core.internal.CarbonEventPublisherService} - Event publisher : asyncWebhooksEventPublisher-1.0.0-2  is in inactive state because dependency could not be found : jms
+TID: [] [] [2024-06-21 08:21:13,260]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : cacheInvalidationEventJMSPublisher.xml
+TID: [] [] [2024-06-21 08:21:13,260]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state : cacheInvalidationEventJMSPublisher.xml, waiting for Output Event Adapter dependency : jms
+TID: [] [] [2024-06-21 08:21:13,260]  INFO {org.wso2.carbon.event.publisher.core.internal.CarbonEventPublisherService} - Event publisher : cacheInvalidationJMSPublisher  is in inactive state because dependency could not be found : jms
+TID: [] [] [2024-06-21 08:21:13,260]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : asyncWebhooksEventPublisher2.xml
+TID: [] [] [2024-06-21 08:21:13,261]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state : asyncWebhooksEventPublisher2.xml, waiting for Output Event Adapter dependency : jms
+TID: [] [] [2024-06-21 08:21:13,261]  INFO {org.wso2.carbon.event.publisher.core.internal.CarbonEventPublisherService} - Event publisher : asyncWebhooksEventPublisher2  is in inactive state because dependency could not be found : jms
+TID: [] [] [2024-06-21 08:21:13,261]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : blockingEventJMSPublisher.xml
+TID: [] [] [2024-06-21 08:21:13,261]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state : blockingEventJMSPublisher.xml, waiting for Output Event Adapter dependency : jms
+TID: [] [] [2024-06-21 08:21:13,261]  INFO {org.wso2.carbon.event.publisher.core.internal.CarbonEventPublisherService} - Event publisher : blockingEventJMSPublisher  is in inactive state because dependency could not be found : jms
+TID: [] [] [2024-06-21 08:21:13,261]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : tokenRevokeEventJMSPublisher_2.xml
+TID: [] [] [2024-06-21 08:21:13,261]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state : tokenRevokeEventJMSPublisher_2.xml, waiting for Output Event Adapter dependency : jms
+TID: [] [] [2024-06-21 08:21:13,261]  INFO {org.wso2.carbon.event.publisher.core.internal.CarbonEventPublisherService} - Event publisher : tokenRevocationJMSPublisher2  is in inactive state because dependency could not be found : jms
+TID: [] [] [2024-06-21 08:21:13,261]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : jmsEventPublisher_1.10.0.xml
+TID: [] [] [2024-06-21 08:21:13,262]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state : jmsEventPublisher_1.10.0.xml, waiting for Output Event Adapter dependency : jms
+TID: [] [] [2024-06-21 08:21:13,262]  INFO {org.wso2.carbon.event.publisher.core.internal.CarbonEventPublisherService} - Event publisher : jmsEventPublisher-1.0.0  is in inactive state because dependency could not be found : jms
+TID: [] [] [2024-06-21 08:21:13,262]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : notificationEventJMSPublisher.xml
+TID: [] [] [2024-06-21 08:21:13,262]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state : notificationEventJMSPublisher.xml, waiting for Output Event Adapter dependency : jms
+TID: [] [] [2024-06-21 08:21:13,262]  INFO {org.wso2.carbon.event.publisher.core.internal.CarbonEventPublisherService} - Event publisher : notificationJMSPublisher  is in inactive state because dependency could not be found : jms
+TID: [] [] [2024-06-21 08:21:13,262]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : jmsEventPublisher.xml
+TID: [] [] [2024-06-21 08:21:13,263]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state : jmsEventPublisher.xml, waiting for Output Event Adapter dependency : jms
+TID: [] [] [2024-06-21 08:21:13,263]  INFO {org.wso2.carbon.event.publisher.core.internal.CarbonEventPublisherService} - Event publisher : jmsEventPublisher  is in inactive state because dependency could not be found : jms
+TID: [] [] [2024-06-21 08:21:13,263]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : tokenRevokeEventJMSPublisher.xml
+TID: [] [] [2024-06-21 08:21:13,263]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state : tokenRevokeEventJMSPublisher.xml, waiting for Output Event Adapter dependency : jms
+TID: [] [] [2024-06-21 08:21:13,263]  INFO {org.wso2.carbon.event.publisher.core.internal.CarbonEventPublisherService} - Event publisher : tokenRevocationJMSPublisher  is in inactive state because dependency could not be found : jms
+TID: [] [] [2024-06-21 08:21:13,263]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : HTTP-recommendationEventPublisher.xml
+TID: [] [] [2024-06-21 08:21:13,263]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state : HTTP-recommendationEventPublisher.xml, waiting for Output Event Adapter dependency : http-extended
+TID: [] [] [2024-06-21 08:21:13,263]  INFO {org.wso2.carbon.event.publisher.core.internal.CarbonEventPublisherService} - Event publisher : HTTP-recommendationEventPublisher  is in inactive state because dependency could not be found : http-extended
+TID: [] [] [2024-06-21 08:21:13,270]  INFO {org.wso2.carbon.databridge.receiver.binary.internal.BinaryDataReceiverServiceComponent} - Binary Data Receiver server shutting down...
+TID: [] [] [2024-06-21 08:21:13,270]  INFO {org.wso2.carbon.databridge.receiver.binary.internal.BinaryDataReceiver} - Stopping Binary Server..
+TID: [-1234] [] [2024-06-21 8:21:13,437]  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutdown complete 
+TID: [-1234] [] [2024-06-21 8:21:13,438]  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Halting JVM 

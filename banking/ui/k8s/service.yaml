@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: null
+  labels:
+    app: payment-ui-deployment
+  name: payment-ui-service
+spec:
+  ports:
+  - port: 3000
+    protocol: TCP
+    nodePort: 30010
+    targetPort: 3000
+  selector:
+    app: payment-ui-deployment
+  type: NodePort
+status:
+  loadBalancer: {}

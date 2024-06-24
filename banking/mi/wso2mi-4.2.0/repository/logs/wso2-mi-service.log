@@ -1,0 +1,2 @@
+[2024-06-17 13:56:04,387]  INFO {SERVICE_LOGGER.__SynapseService} - main sequence executed for call to non-existent = /pay/allrecords
+[2024-06-17 13:56:06,044]  INFO {SERVICE_LOGGER.__SynapseService} - main sequence executed for call to non-existent = /pay/allrecords
