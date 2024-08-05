@@ -10,6 +10,11 @@ spec:
   - port: 8290
     protocol: TCP
     targetPort: 8290
+    name: server
+  - port: 9164
+    protocol: TCP
+    targetPort: 9164
+    name: management
   selector:
     app: wso2mi-deployment
   type: NodePort
