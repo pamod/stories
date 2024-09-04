@@ -10,7 +10,7 @@ cd ./mi-dashboard && zip -r wso2mi-dashboard-4.2.0.zip wso2mi-dashboard-4.2.0 &&
 cd ./am && sh ./exec.sh && cd ..
 cd ./iam && sh ./exec.sh && cd ..
 cd ./mi && sh ./exec.sh && cd ..
-cd ./mi-dashboard && sh ./exec.sh && cd..
+cd ./mi-dashboard && sh ./exec.sh && cd ..
 cd ./service/bank-project && sh ./exec.sh && cd ../..
 cd ./ui/bank-app && sh ./exec.sh && cd ../..
 
