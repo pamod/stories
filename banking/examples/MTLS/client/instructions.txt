@@ -1,0 +1,12 @@
+##commands
+
+#Generate keystore and CSRs
+ 
+keytool -v -export -file wso2demoCA.cer -keystore clientstore.jks -alias wso2demoCA
+openssl x509 -inform DER -in wso2demoCA.cer -out wso2demo.crt
+
+#Generate self-sign certificate
+
+openssl genrsa 2048 > client-private.key
+chmod 400 client-private.key
+openssl req -new -x509 -nodes -sha256 -days 365 -key client-private.key -out wso2demo.cert

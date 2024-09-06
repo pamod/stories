@@ -1,0 +1,396 @@
+{
+	"info": {
+		"_postman_id": "7a741617-ef49-476c-a22e-dad361672dee",
+		"name": "K8s_Banking_Demo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7678178"
+	},
+	"item": [
+		{
+			"name": "Default",
+			"item": [
+				{
+					"name": "APIM_Default_APIs",
+					"item": [
+						{
+							"name": "Get All Payments",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJ4NXQiOiJNREpsTmpJeE4yRTFPR1psT0dWbU1HUXhPVEZsTXpCbU5tRmpaalEwWTJZd09HWTBOMkkwWXpFNFl6WmpOalJoWW1SbU1tUTBPRGRpTkRoak1HRXdNQSIsImtpZCI6Ik1ESmxOakl4TjJFMU9HWmxPR1ZtTUdReE9URmxNekJtTm1GalpqUTBZMll3T0dZME4ySTBZekU0WXpaak5qUmhZbVJtTW1RME9EZGlORGhqTUdFd01BX1JTMjU2IiwidHlwIjoiYXQrand0IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiIwNzQ0M2ZjNS03NmU2LTRjNjItOTQwYy02YTJiNGJhY2ZhNWMiLCJhdXQiOiJBUFBMSUNBVElPTiIsImF1ZCI6Ilh6dkVqUkczS2RzcE9VUUlLQUFpU25lYlk3OGEiLCJuYmYiOjE3MDg0ODUxMDcsImF6cCI6Ilh6dkVqUkczS2RzcE9VUUlLQUFpU25lYlk3OGEiLCJpc3MiOiJodHRwczpcL1wvbG9jYWxob3N0Ojk0NDNcL29hdXRoMlwvdG9rZW4iLCJleHAiOjE3MDg0ODg3MDcsImlhdCI6MTcwODQ4NTEwNywianRpIjoiOGQ0MTgwNTMtYWE5YS00MmI4LWE5MGYtNTIyNDA1OWJkYjhmIiwiY2xpZW50X2lkIjoiWHp2RWpSRzNLZHNwT1VRSUtBQWlTbmViWTc4YSJ9.i3IsUJ8HcWcALH2TvdIoT_AXaSAnwoVhvD_ZNBBEfniY-yUiJyTMYp0ObYoZQpdiC-o5yi0ZITjI3_mv5uCNP5cNy08StZDW0fkTSC9nqC--DAUFh6ecylfDTHhavGhgsdzLmca1roBGqHI3sXxBxhBl6uYvwR_Eeeioh0WikiTms0Q7BtOpzvYwK1ieXFpDnbpubbfz-U0LZ7o_G8Sq_gKfzRaMSoAkYcTIt7jmlhlT6Mun6VnMzQLKbPopVE2XoNDjyCfyeK0qGr5Ra4-776nWoU_jNMfRy0H1R9eIZt3XqErrdShqu6FuxkLxmTYZnKNhCaaAafQVKDlodnzpww",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "x-forwarded-for",
+										"value": "192.168.1.11",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "https://localhost:30005/pay/1.0.0/allrecords",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "30005",
+									"path": [
+										"pay",
+										"1.0.0",
+										"allrecords"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Make Payment",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJ4NXQiOiJNREpsTmpJeE4yRTFPR1psT0dWbU1HUXhPVEZsTXpCbU5tRmpaalEwWTJZd09HWTBOMkkwWXpFNFl6WmpOalJoWW1SbU1tUTBPRGRpTkRoak1HRXdNQSIsImtpZCI6Ik1ESmxOakl4TjJFMU9HWmxPR1ZtTUdReE9URmxNekJtTm1GalpqUTBZMll3T0dZME4ySTBZekU0WXpaak5qUmhZbVJtTW1RME9EZGlORGhqTUdFd01BX1JTMjU2IiwidHlwIjoiYXQrand0IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiIwNzQ0M2ZjNS03NmU2LTRjNjItOTQwYy02YTJiNGJhY2ZhNWMiLCJhdXQiOiJBUFBMSUNBVElPTiIsImF1ZCI6Ilh6dkVqUkczS2RzcE9VUUlLQUFpU25lYlk3OGEiLCJuYmYiOjE3MDg0ODUxMDcsImF6cCI6Ilh6dkVqUkczS2RzcE9VUUlLQUFpU25lYlk3OGEiLCJpc3MiOiJodHRwczpcL1wvbG9jYWxob3N0Ojk0NDNcL29hdXRoMlwvdG9rZW4iLCJleHAiOjE3MDg0ODg3MDcsImlhdCI6MTcwODQ4NTEwNywianRpIjoiOGQ0MTgwNTMtYWE5YS00MmI4LWE5MGYtNTIyNDA1OWJkYjhmIiwiY2xpZW50X2lkIjoiWHp2RWpSRzNLZHNwT1VRSUtBQWlTbmViWTc4YSJ9.i3IsUJ8HcWcALH2TvdIoT_AXaSAnwoVhvD_ZNBBEfniY-yUiJyTMYp0ObYoZQpdiC-o5yi0ZITjI3_mv5uCNP5cNy08StZDW0fkTSC9nqC--DAUFh6ecylfDTHhavGhgsdzLmca1roBGqHI3sXxBxhBl6uYvwR_Eeeioh0WikiTms0Q7BtOpzvYwK1ieXFpDnbpubbfz-U0LZ7o_G8Sq_gKfzRaMSoAkYcTIt7jmlhlT6Mun6VnMzQLKbPopVE2XoNDjyCfyeK0qGr5Ra4-776nWoU_jNMfRy0H1R9eIZt3XqErrdShqu6FuxkLxmTYZnKNhCaaAafQVKDlodnzpww",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"app\": \"MMobile\",\n    \"branch\": 2930,\n    \"country\": \"Mauritius\",\n    \"id\": \"pamod\",\n    \"amount\": 4000\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:30005/pay/1.0.0",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "30005",
+									"path": [
+										"pay",
+										"1.0.0"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Micro_Integrator_APIs",
+					"item": [
+						{
+							"name": "Add Payment",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"app\": \"MMobile\",\n    \"branch\": 2930,\n    \"country\": \"Mauritius\",\n    \"id\": \"pamod\",\n    \"amount\": 2000\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8290/pay",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8290",
+									"path": [
+										"pay"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get All Records",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8290/pay/allrecords",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8290",
+									"path": [
+										"pay",
+										"allrecords"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "OIDC Authorization Flow",
+			"item": [
+				{
+					"name": "Discover Endpoints",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:30003/oauth2/token/.well-known/openid-configuration",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "30003",
+							"path": [
+								"oauth2",
+								"token",
+								".well-known",
+								"openid-configuration"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetToken and Call APIM",
+					"request": {
+						"auth": {
+							"type": "oauth2",
+							"oauth2": [
+								{
+									"key": "addTokenTo",
+									"value": "header",
+									"type": "string"
+								},
+								{
+									"key": "client_authentication",
+									"value": "header",
+									"type": "string"
+								},
+								{
+									"key": "useBrowser",
+									"value": false,
+									"type": "boolean"
+								},
+								{
+									"key": "grant_type",
+									"value": "authorization_code",
+									"type": "string"
+								},
+								{
+									"key": "scope",
+									"value": "openid groups profile",
+									"type": "string"
+								},
+								{
+									"key": "clientSecret",
+									"value": "qCnrVu6dP7uu8wehfEgGrtK4RTMLDY8mOqefGxdAhU8a",
+									"type": "string"
+								},
+								{
+									"key": "clientId",
+									"value": "d0IeyPUIMQ6NvVUJJx1H9wPVsNEa",
+									"type": "string"
+								},
+								{
+									"key": "accessTokenUrl",
+									"value": "https://localhost:30003/oauth2/token",
+									"type": "string"
+								},
+								{
+									"key": "authUrl",
+									"value": "https://localhost:30003/oauth2/authorize",
+									"type": "string"
+								},
+								{
+									"key": "redirect_uri",
+									"value": "http://localhost:30010",
+									"type": "string"
+								},
+								{
+									"key": "tokenName",
+									"value": "WSO2_IAM_Token",
+									"type": "string"
+								},
+								{
+									"key": "refreshRequestParams",
+									"value": [],
+									"type": "any"
+								},
+								{
+									"key": "tokenRequestParams",
+									"value": [],
+									"type": "any"
+								},
+								{
+									"key": "authRequestParams",
+									"value": [],
+									"type": "any"
+								},
+								{
+									"key": "challengeAlgorithm",
+									"value": "S256",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:30005/pay/1.0.0/allrecords",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "30005",
+							"path": [
+								"pay",
+								"1.0.0",
+								"allrecords"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetToken and Call APIM IPWhiteList",
+					"request": {
+						"auth": {
+							"type": "oauth2",
+							"oauth2": [
+								{
+									"key": "addTokenTo",
+									"value": "header",
+									"type": "string"
+								},
+								{
+									"key": "client_authentication",
+									"value": "header",
+									"type": "string"
+								},
+								{
+									"key": "useBrowser",
+									"value": false,
+									"type": "boolean"
+								},
+								{
+									"key": "grant_type",
+									"value": "authorization_code",
+									"type": "string"
+								},
+								{
+									"key": "scope",
+									"value": "openid groups profile",
+									"type": "string"
+								},
+								{
+									"key": "clientSecret",
+									"value": "qCnrVu6dP7uu8wehfEgGrtK4RTMLDY8mOqefGxdAhU8a",
+									"type": "string"
+								},
+								{
+									"key": "clientId",
+									"value": "d0IeyPUIMQ6NvVUJJx1H9wPVsNEa",
+									"type": "string"
+								},
+								{
+									"key": "accessTokenUrl",
+									"value": "https://localhost:30003/oauth2/token",
+									"type": "string"
+								},
+								{
+									"key": "authUrl",
+									"value": "https://localhost:30003/oauth2/authorize",
+									"type": "string"
+								},
+								{
+									"key": "redirect_uri",
+									"value": "http://localhost:30010",
+									"type": "string"
+								},
+								{
+									"key": "tokenName",
+									"value": "WSO2_IAM_Token",
+									"type": "string"
+								},
+								{
+									"key": "refreshRequestParams",
+									"value": [],
+									"type": "any"
+								},
+								{
+									"key": "tokenRequestParams",
+									"value": [],
+									"type": "any"
+								},
+								{
+									"key": "authRequestParams",
+									"value": [],
+									"type": "any"
+								},
+								{
+									"key": "challengeAlgorithm",
+									"value": "S256",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-forwarded-for",
+								"value": "192.168.2.10",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:30005/pay/1.0.0/allrecords",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "30005",
+							"path": [
+								"pay",
+								"1.0.0",
+								"allrecords"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

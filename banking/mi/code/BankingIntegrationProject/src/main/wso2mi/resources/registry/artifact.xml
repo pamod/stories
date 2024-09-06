@@ -1,34 +1,59 @@
-<?xml version="1.0" encoding="UTF-8"?><artifacts>
-    <artifact name="paymentconfig" groupId="com.example.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
-        <item>
-            <file>paymentconfig.dmc</file>
-            <path>/_system/governance/datamapper</path>
-            <mediaType>text/plain</mediaType>
-            <properties/>
-        </item>
-    </artifact>
-    <artifact name="paymentconfig_inputSchema" groupId="com.example.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
-        <item>
-            <file>paymentconfig_inputSchema.json</file>
-            <path>/_system/governance/datamapper</path>
-            <mediaType>text/plain</mediaType>
-            <properties/>
-        </item>
-    </artifact>
-    <artifact name="paymentconfig_outputSchema" groupId="com.example.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
-        <item>
-            <file>paymentconfig_outputSchema.json</file>
-            <path>/_system/governance/datamapper</path>
-            <mediaType>text/plain</mediaType>
-            <properties/>
-        </item>
-    </artifact>
-    <artifact name="paymentconfig_xsltStyleSheet" groupId="com.example.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
-        <item>
-            <file>paymentconfig_xsltStyleSheet.xml</file>
-            <path>/_system/governance/datamapper</path>
-            <mediaType>text/plain</mediaType>
-            <properties/>
-        </item>
-    </artifact>
+<?xml version="1.0" encoding="UTF-8"?>
+<artifacts>
+  <artifact name="paymentconfig" groupId="com.example.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+    <item>
+      <file>paymentconfig.dmc</file>
+      <path>/_system/governance/datamapper</path>
+      <mediaType>text/plain</mediaType>
+      <properties></properties>
+    </item>
+  </artifact>
+  <artifact name="paymentconfig_inputSchema" groupId="com.example.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+    <item>
+      <file>paymentconfig_inputSchema.json</file>
+      <path>/_system/governance/datamapper</path>
+      <mediaType>text/plain</mediaType>
+      <properties></properties>
+    </item>
+  </artifact>
+  <artifact name="paymentconfig_outputSchema" groupId="com.example.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+    <item>
+      <file>paymentconfig_outputSchema.json</file>
+      <path>/_system/governance/datamapper</path>
+      <mediaType>text/plain</mediaType>
+      <properties></properties>
+    </item>
+  </artifact>
+  <artifact name="paymentconfig_xsltStyleSheet" groupId="com.example.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+    <item>
+      <file>paymentconfig_xsltStyleSheet.xml</file>
+      <path>/_system/governance/datamapper</path>
+      <mediaType>text/plain</mediaType>
+      <properties></properties>
+    </item>
+  </artifact>
+  <artifact name="paymentconfig" groupId="com.example" version="1.0.0-SNAPSHOT" type="registry/resource" serverRole="EnterpriseIntegrator">
+    <item>
+      <file>paymentconfig.dmc</file>
+      <path>/_system/governance/datamapper/paymentconfig</path>
+      <mediaType>text/plain</mediaType>
+      <properties></properties>
+    </item>
+  </artifact>
+  <artifact name="paymentconfig_inputSchema" groupId="com.example" version="1.0.0-SNAPSHOT" type="registry/resource" serverRole="EnterpriseIntegrator">
+    <item>
+      <file>paymentconfig_inputSchema.json</file>
+      <path>/_system/governance/datamapper/paymentconfig</path>
+      <mediaType>text/plain</mediaType>
+      <properties></properties>
+    </item>
+  </artifact>
+  <artifact name="paymentconfig_outputSchema" groupId="com.example" version="1.0.0-SNAPSHOT" type="registry/resource" serverRole="EnterpriseIntegrator">
+    <item>
+      <file>paymentconfig_outputSchema.json</file>
+      <path>/_system/governance/datamapper/paymentconfig</path>
+      <mediaType>text/plain</mediaType>
+      <properties/>
+    </item>
+  </artifact>
 </artifacts>
