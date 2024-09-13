@@ -24,7 +24,7 @@ Use code with caution.
 
 This launches the FAPI-viewer at http://localhost:3000/.
 
-![fapi-step1](https://github.com/pamod/stories/tree/main/banking/examples/images/FAPI_Step_1.png)
+![fapi-step1](https://github.com/pamod/stories/blob/main/banking/examples/images/FAPI_Step_1.png)
 
 ### Key Features
 
@@ -34,11 +34,11 @@ Register your application with WSO2 IAM using the provided message structure.
 Click "Send" to create the client.
 Ensure you have the client certificate for future steps.
 
-![fapi-client-reg](https://github.com/pamod/stories/tree/main/banking/examples/images/FAPI_client_reg.png)
+![fapi-client-reg](https://github.com/pamod/stories/blob/main/banking/examples/images/FAPI_client_reg.png)
 
-![verify-client](https://github.com/pamod/stories/tree/main/banking/examples/images/FAPI_verify_client.png)
+![verify-client](https://github.com/pamod/stories/blob/main/banking/examples/images/FAPI_verify_client.png)
 
-![verify-client](https://github.com/pamod/stories/tree/main/banking/examples/images/FAPI_upload_cert.png)
+![verify-client](https://github.com/pamod/stories/blob/main/banking/examples/images/FAPI_upload_cert.png)
 
 #### Certificate Management (Optional)
 
@@ -79,8 +79,9 @@ Click "Send" to generate the request code.
 Click "Get ID Token" to retrieve the ID token.
 Obtaining an Access Token
 
-![get-id-token](https://github.com/pamod/stories/tree/main/banking/examples/images/FAPI_Push_Auth_Request.png)
-![get-id-token](https://github.com/pamod/stories/tree/main/banking/examples/images/FAPI_Auth_Error.png)
+![get-id-token](https://github.com/pamod/stories/blob/main/banking/examples/images/FAPI_Auth_Error.png)
+![get-id-token](https://github.com/pamod/stories/blob/main/banking/examples/images/FAPI_Push_Auth_Request.png)
+
 
 Once you have the ID token, proceed to the access token page and:
 
@@ -89,7 +90,7 @@ Sign the assertion.
 Send the request.
 Upon successful authorization, you'll receive the access token.
 
-![get-id-token](https://github.com/pamod/stories/tree/main/banking/examples/images/FAPI_Auth_Error.png)
+![get-id-token](https://github.com/pamod/stories/blob/main/banking/examples/images/FAPI_Token_Genration_Request.png)
 
 Note: This covers obtaining the access token. FAPI flows often involve establishing a Mutual TLS (MTLS) connection between the client and resource server using the obtained credentials.
 
