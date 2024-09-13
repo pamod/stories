@@ -1,11 +1,11 @@
-import { Container, Row, Col, Form, Button, InputGroup } from "react-bootstrap";
+import { Container, Row, Col, Form, Button, InputGroup, Alert } from "react-bootstrap";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import * as jose from 'jose';
 
 const PAR = () => {
     let pushAuthURL = "https://localhost:30003/oauth2/par";
-    let redirectionURLVal = "http://localhost:3000"
+    let redirectionURLVal = "http://localhost:3000/token"
     let scopeValue = "profile openid"
     let clientAssertionTypeValue = "urn:ietf:params:oauth:client-assertion-type:jwt-bearer";
     let responseTypeValue = "code id_token";
@@ -19,6 +19,8 @@ const PAR = () => {
     const [responseType, setResponseType] = useState(responseTypeValue);
     const [request, setRequest] = useState('{}');
     const [clientAssertion, setClientAssertion] = useState('{}');
+    const [showError, setShowError] = useState(false);
+    const [errorMessage, setErrorMessage] = useState('');
 
     useEffect(() => {
         let requestValue = {
@@ -166,11 +168,12 @@ const PAR = () => {
                 "Content-Type": "application/x-www-form-urlencoded"
             }
         };
-        const result = await axios.post(url, form, headers);
         try {
+            const result = await axios.post(url, form, headers);
             setResponse(JSON.stringify(result.data, null, 2));
         } catch (e) {
-            //add log here 
+            setErrorMessage(e.request.responseText);
+            setShowError(true);
         }
     }
 
@@ -186,8 +189,22 @@ const PAR = () => {
         <Container>
             <Row className="mb-3">
                 <Col md={12} style={{ display: 'flex', justifyContent: 'left' }} >
-                    Push Authorization Request
+                    <h1>Push Authorization Request</h1>
                 </Col>
+            </Row>
+            <Row>
+                <Alert show={showError} variant="danger">
+                    <Alert.Heading>Error</Alert.Heading>
+                    <p>
+                        {errorMessage}
+                    </p>
+                    <hr />
+                    <div className="d-flex justify-content-end">
+                        <Button onClick={() => setShowError(false)} variant="outline-error">
+                            Close me
+                        </Button>
+                    </div>
+                </Alert>
             </Row>
             <Row className="mb-3">
                 <Col md={6} >

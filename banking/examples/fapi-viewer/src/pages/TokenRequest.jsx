@@ -1,4 +1,4 @@
-import { Container, Row, Col, Form, Button, InputGroup } from "react-bootstrap";
+import { Container, Row, Col, Form, Button, InputGroup, Alert } from "react-bootstrap";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import * as jose from 'jose';
@@ -7,7 +7,7 @@ const TokenRequest = () => {
     let tokenURL = "https://localhost:30003/oauth2/token";
     let clientAssertionTypeValue = "urn:ietf:params:oauth:client-assertion-type:jwt-bearer";
     let grantTypeValue = "authorization_code";
-    let redirectionUriValue = "http://localhost:3000";
+    let redirectionUriValue = "http://localhost:3000/token";
     let codeVerifierValue = "dBjftJeZ4CVP-mB92K27uhbUJU1p1r_wW1gFWFOEjXk";
 
     const [tokenUrl, setTokeUrl] = useState(tokenURL);
@@ -20,6 +20,8 @@ const TokenRequest = () => {
     const [response, setResponse] = useState('{}');
     const [clientId, setClientId] = useState('');
     const [idToken, setIdToken] = useState(null);
+    const [showError, setShowError] = useState(false);
+    const [errorMessage, setErrorMessage] = useState('');
 
     useEffect(() => {
         const match = window.location.href.match(/id_token=([^&]+)&code=([^&]+)/);
@@ -100,11 +102,12 @@ const TokenRequest = () => {
                 "Content-Type": "application/x-www-form-urlencoded"
             }
         };
-        const result = await axios.post(tokenUrl, form, headers);
         try {
+            const result = await axios.post(tokenUrl, form, headers);
             setResponse(JSON.stringify(result.data, null, 2));
         } catch (e) {
-            //add log here 
+            setErrorMessage(e.request.responseText);
+            setShowError(true);
         }
     }
 
@@ -112,8 +115,22 @@ const TokenRequest = () => {
         <Container>
             <Row className="mb-3">
                 <Col md={12} style={{ display: 'flex', justifyContent: 'left' }} >
-                    Token Generation Request
+                    <h1>Token Generation Request</h1>
                 </Col>
+            </Row>
+            <Row>
+                <Alert show={showError} variant="danger">
+                    <Alert.Heading>Error</Alert.Heading>
+                    <p>
+                        {errorMessage}
+                    </p>
+                    <hr />
+                    <div className="d-flex justify-content-end">
+                        <Button onClick={() => setShowError(false)} variant="outline-error">
+                            Close me
+                        </Button>
+                    </div>
+                </Alert>
             </Row>
             <Row className="mb-3">
                 <Col md={12}>

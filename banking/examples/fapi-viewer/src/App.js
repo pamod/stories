@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import DCR from './pages/DCR';
 import PAR from './pages/PushAuthRequest';
 import TokenRequest from './pages/TokenRequest';
+import Home from './pages/Home';
 
 function App() {
   return (
@@ -15,9 +16,9 @@ function App() {
       />
       <BrowserRouter>
         <Routes>
+          <Route exact path="*" element={<Home />}></Route>
           <Route exact path="/dcr" element={<DCR />} ></Route>
           <Route exact path="/par" element={<PAR />}></Route>
-          <Route path="*" element={<TokenRequest />}></Route>
           <Route exact path="/token" element={<TokenRequest />}></Route>
         </Routes>
       </BrowserRouter>

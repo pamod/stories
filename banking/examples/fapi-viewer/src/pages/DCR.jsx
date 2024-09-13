@@ -1,4 +1,4 @@
-import { Container, Row, Col, Form, Button, InputGroup } from "react-bootstrap";
+import { Container, Row, Col, Form, Button, InputGroup, Alert } from "react-bootstrap";
 import { useState } from "react";
 import axios from "axios";
 
@@ -38,27 +38,49 @@ const DCR = () => {
     const [url, setUrl] = useState(dcrURL);
     const [body, setBody] = useState(JSON.stringify(data, null, 2));
     const [response, setResponse] = useState('{}');
+    const [showError, setShowError] = useState(false);
+    const [errorMessage, setErrorMessage] = useState('');
 
     async function submitRegistrationRequest(event) {
         const encodedCredentials = btoa(`${username}:${password}`);
         const authorizationHeader = {
             headers: { Authorization: `Basic ${encodedCredentials}`, "Content-Type": "application/json" }
         };
-        const result = await axios.post(url, body, authorizationHeader);
-
         try {
+            const result = await axios.post(url, body, authorizationHeader);
             setResponse(JSON.stringify(result.data, null, 2));
         } catch (e) {
-            //add log here 
+            setErrorMessage(e.request.responseText);
+            setShowError(true);
         }
+    }
+
+    async function rediectToPAR(event) {
+        const authurl = `http://localhost:3000/par`;
+        // Redirect to the authorization URL
+        window.location.href = authurl;
     }
 
     return (
         <Container>
             <Row className="mb-3" >
                 <Col style={{ display: 'flex', justifyContent: 'left' }} >
-                    Client Registration
+                    <h1>Client Registration</h1>
                 </Col>
+            </Row>
+            <Row>
+                <Alert show={showError} variant="danger">
+                    <Alert.Heading>Error</Alert.Heading>
+                    <p>
+                        {errorMessage}
+                    </p>
+                    <hr />
+                    <div className="d-flex justify-content-end">
+                        <Button onClick={() => setShowError(false)} variant="outline-error">
+                            Close me
+                        </Button>
+                    </div>
+                </Alert>
             </Row>
             <Row className="mb-3">
                 <Col>
@@ -87,6 +109,11 @@ const DCR = () => {
                         <InputGroup.Text>Response:</InputGroup.Text>
                         <Form.Control as="textarea" aria-label="With textarea" rows={10} value={response} readOnly="true" />
                     </InputGroup>
+                </Col>
+            </Row>
+            <Row className="mb-3">
+                <Col style={{ display: 'flex', justifyContent: 'right' }} >
+                    <Button as="input" type="button" value="PAR Request" onClick={rediectToPAR} />
                 </Col>
             </Row>
         </Container>
