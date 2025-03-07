@@ -3,7 +3,7 @@ endpoints:
     - name: camel-userinformation-api-5c6
       displayName: Camel UserInformation API
       service:
-        basePath: /
+        basePath: /api
         port: 8080
       type: REST
       networkVisibilities:
