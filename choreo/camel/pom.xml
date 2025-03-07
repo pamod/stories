@@ -99,6 +99,8 @@
     </modules>
 
 	<properties>
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
 		<camel-version>4.11.0-SNAPSHOT</camel-version>
 		<skip.starting.camel.context>false</skip.starting.camel.context>
 		<jkube-maven-plugin-version>1.17.0</jkube-maven-plugin-version>
