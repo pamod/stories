@@ -1,4 +1,4 @@
-FROM eclipse-temurin:11 as build
+FROM eclipse-temurin:17 as build
 ARG USERNAME=loyaltyuser
 ARG USER_UID=10014
 ARG USER_GID=$USER_UID
@@ -18,7 +18,7 @@ COPY rest-openapi rest-openapi
 RUN ./mvnw install -DskipTests
 RUN mkdir -p target/dependency && (cd target/dependency; jar -xf ../../rest-openapi/target/*.jar)
 
-FROM eclipse-temurin:11
+FROM eclipse-temurin:17
 VOLUME /tmp
 ARG DEPENDENCY=/workspace/app/target/dependency
 USER 10014
